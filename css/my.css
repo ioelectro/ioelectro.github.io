@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'NasimBlod';
+    src:    url('../fonts/NasimBold.eot') format('eot'),
+            url('../fonts/NasimBold.woff') format('woff'),
+            url('../fonts/NasimBold.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: 'Yekan';
+    src:    url('../fonts/Yekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+body {
+    font-family:Tahoma;
+}
+h1,h2{
+    font-family: 'Yekan';
+}
+.persian {
+    direction: rtl;
+}
+.product-description{
+    min-height: 120px;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: rgb(224, 50, 50);
+}
+.logo{
+    height: 180px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.85);
+    background-color: rgb(253, 209, 11);
+}
+.menu{
+    background-color:rgb(44, 44, 44);
+    color: rgba(255, 255, 255, 0.733);
+}
+.menu-links{
+    padding-left: 8px;
+    padding-right: 4px;
+    font-size: 20;
+    font-family:'Yekan';
+    /*font-weight: bold;*/
+}
+.menu-box{
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu-dir-box{
+    float: left;
+    padding-top: 6px;
+}
+.menu-selected{
+    color: white;
+}
+.logo-span{
+    font-size: 70px;
+    font-weight: bold;
+}
+.some-height{
+    min-height: 500px;
+}
+.footer{
+    color: rgba(255, 255, 255, 0.856);
+    background-color: rgb(44, 44, 44);
+}
+.fimg{
+    max-height: 60px;
+    padding-left: 5px;
+}
+.flink-box{
+    width: 100%;
+    padding-top: 20px;
+}
+.one-page-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+}
+.link{
+    color: blue;
+}
+.left-button{
+    float: left;
+}
+.max-width{
+    width: 100%;
+}
