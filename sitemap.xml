@@ -1,28 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://ioelectro.ir/</loc>
-	<lastmod>2021-05-27T16:42:46+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://ioelectro.ir/shop/</loc>
-	<lastmod>2021-05-27T16:42:46+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://ioelectro.ir/blog/</loc>
-	<lastmod>2021-05-27T16:42:49+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://ioelectro.ir/contacts/</loc>
-	<lastmod>2021-05-27T16:42:49+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://ioelectro.ir/about/</loc>
-	<lastmod>2021-05-27T16:42:49+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-</urlset>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+		<url>
+			<loc>https://ioelectro.ir/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>1.00</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/shop/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.80</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/shop/%D8%AA%D8%A7%DB%8C%D9%85%D8%B1%D8%A2%D8%A8%DB%8C%D8%A7%D8%B1%DB%8C/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.64</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/blog/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.80</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/contacts/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.80</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/about/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.80</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/blog/%DA%A9%D8%A7%D9%85%D9%BE%D8%A7%DB%8C%D9%84-%D9%BE%D8%B1%D9%88%DA%98%D9%87-C/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.64</priority>
+		</url>
+
+		<url>
+			<loc>https://ioelectro.ir/blog/%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%86%D9%85%D8%A7%DB%8C-3D-%D9%82%D8%B7%D8%B9%D9%87-%D8%AF%D8%B1-SolidWorks-%D8%A8%D8%B1%D8%A7%DB%8C-Altium/</loc>
+			<lastmod>2021-06-05T06:04:06+00:00</lastmod>
+			<priority>0.64</priority>
+		</url>
+
+	</urlset>
