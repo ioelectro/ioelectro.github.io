@@ -97,12 +97,14 @@ a:hover{
     margin-bottom: 10px;
 }
 .donate-btn{
-    margin-left: 10px;
-    margin-top: 10px;
     height: 40px;
-    filter: grayscale(80%);
+    filter: grayscale(70%);
+    margin-top: 10px;
 }
 .donate-btn:hover{
     transition: 0.8s;
     filter: grayscale(0%);
+}
+.donate-link{
+    margin-left: 10px;
 }
