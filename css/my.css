@@ -98,11 +98,10 @@ a:hover{
 }
 .donate-btn{
     height: 35px;
-    filter: grayscale(70%);
+    filter: grayscale(20%);
     margin-top: 10px;
 }
 .donate-btn:hover{
-    transition: 0.8s;
     filter: grayscale(0%);
 }
 .donate-link{
