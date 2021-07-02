@@ -96,3 +96,13 @@ a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.donate-btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 40px;
+    opacity: 0.8;
+}
+.donate-btn:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
