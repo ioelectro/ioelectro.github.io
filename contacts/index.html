@@ -50,11 +50,6 @@
             <h4>آدرس</h4>
 			<p>بوشهر - بوشهر - سبزآباد</p>
             <br>
-            <div style="visibility: hidden;">
-                <h4>شماره کارت </h4>
-                <label>بانک ملت : </label>
-                <input type="text" value="6104337862452719" id="card-number" onclick="copyST()" class="w3-center" readonly>
-            </div>
         </div>
     </div>
 
@@ -71,13 +66,5 @@
         <p>تمام حقوق مادی و معنوی متعلق است به IOElectro</p>
     </div>
 
-	<script>
-		function copyST() {
-		  var copyText = document.getElementById("card-number");
-		  copyText.select();
-		  copyText.setSelectionRange(0, 99999)
-		  document.execCommand("copy");
-		}
-	</script>
 </body>
 </html>
