@@ -21,6 +21,9 @@ h1,h2{
 .persian {
     direction: rtl;
 }
+.en {
+    direction: ltr;
+}
 .product-description{
     min-height: 120px;
 }
