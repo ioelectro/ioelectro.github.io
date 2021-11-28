@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/Esmaeill/Desktop/ioelectro.github.io/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -o CMakeFiles\\test.dir\\run.c.obj -c C:\\Users\\Esmaeill\\Desktop\\ioelectro.github.io\\run.c",
-  "file": "C:/Users/Esmaeill/Desktop/ioelectro.github.io/run.c"
-}
-]

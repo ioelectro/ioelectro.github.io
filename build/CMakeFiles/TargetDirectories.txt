@@ -1,3 +1,0 @@
-C:/Users/Esmaeill/Desktop/ioelectro.github.io/build/CMakeFiles/rebuild_cache.dir
-C:/Users/Esmaeill/Desktop/ioelectro.github.io/build/CMakeFiles/test.dir
-C:/Users/Esmaeill/Desktop/ioelectro.github.io/build/CMakeFiles/edit_cache.dir
