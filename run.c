@@ -30,41 +30,49 @@ void print_var_list()
     }
 }
 
-int main(int argc,char* argv[])
+void catch_var_list(char * fileName)
 {
     FILE *fp;
     char buff[SIZE_OF_BUFFER];
     size_t s,i,k;
+
+    fp=fopen(fileName,"r");
+    s=fread(buff,1,SIZE_OF_BUFFER,fp);
+    for(i=0;i<s;i++)
+    {
+        if(buff[i]=='{'&& buff[i+1]=='{')
+        {
+            i+=2;
+            for(k=0;buff[i]!='\n'&&buff[i]!='\r'&&buff[i]!=' '&&buff[i]!='}';k++,i++)
+            {
+                var_list[var_c].name[k]=buff[i];
+            }
+            if(buff[i]!='}')i++;
+            if(buff[i]=='\r'||buff[i]=='\n')i++;
+            var_list[var_c].name[k]='\0';
+            var_list[var_c].size=i;
+            var_list[var_c].loc=&buff[i];
+
+        }
+        if(buff[i]=='}'&&(buff[i+1]=='}'))
+        {
+            var_list[var_c].size=i-var_list[var_c].size;
+            var_list[var_c].loc=malloc(var_list[var_c].size);
+            memcpy(var_list[var_c].loc,&buff[i-var_list[var_c].size],var_list[var_c].size);
+            var_c++;
+        }
+    }
+    fclose(fp);
+}
+
+int main(int argc,char* argv[])
+{
     int j;
 
     for(j=1;j<argc;j++)
     {
-        fp=fopen(argv[j],"r");
-        s=fread(buff,1,SIZE_OF_BUFFER,fp);
-        for(i=0;i<s;i++)
-        {
-            if(buff[i]=='{'&& buff[i+1]=='{')
-            {
-                i+=2;
-                for(k=0;buff[i]!='\n'&&buff[i]!='\r'&&buff[i]!=' '&&buff[i]!='}';k++,i++)
-                {
-                    var_list[var_c].name[k]=buff[i];
-                }
-                if(buff[i]!='}')i++;
-                if(buff[i]=='\r'||buff[i]=='\n')i++;
-                var_list[var_c].name[k]='\0';
-                var_list[var_c].size=i;
-                var_list[var_c].loc=&buff[i];
-
-            }
-            if(buff[i]=='}'&&(buff[i+1]=='}'))
-            {
-                var_list[var_c].size=i-var_list[var_c].size;
-                var_c++;
-            }
-        }
-        fclose(fp);
-        print_var_list();
+        catch_var_list(argv[j]);
     }
+    print_var_list();
     return 0;
 }
