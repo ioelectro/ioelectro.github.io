@@ -30,6 +30,16 @@ void print_var_list()
     }
 }
 
+int search_var_list(char* Name)
+{
+    int i,j;
+    for(i=0;i<var_c;i++)
+    {
+        if(strcmp(Name,var_list[i].name)==0)return i;
+    }
+    return -1;
+}
+
 void catch_var_list(char * fileName)
 {
     FILE *fp;
@@ -65,14 +75,58 @@ void catch_var_list(char * fileName)
     fclose(fp);
 }
 
+void replace_var_list(char * fileName)
+{
+    FILE *fp,*fpt;
+    char buff[SIZE_OF_BUFFER];
+    size_t s,i,k;
+
+    char var_name[SIZE_OF_NAME];
+    int ss=-1;
+
+    fp=fopen(fileName,"r");
+    fpt=fopen("Temp.html","w");
+
+    s=fread(buff,1,SIZE_OF_BUFFER,fp);
+    for(i=0;i<s;i++)
+    {
+        if(buff[i]=='{'&& buff[i+1]=='{')
+        {
+            i+=2;
+            for(k=0;buff[i]!='}';k++,i++)
+            {
+                var_name[k]=buff[i];
+            }
+            var_name[k]='\0';
+            i++;
+
+            ss=search_var_list(var_name);
+            if(ss!=-1)
+            {
+                fwrite(var_list[ss].loc,var_list[ss].size,1,fpt);
+            }
+        }
+        else
+        {
+            fwrite(&buff[i],1,1,fpt);
+        }
+    }
+    fclose(fp);
+    fclose(fpt);
+}
+
 int main(int argc,char* argv[])
 {
     int j;
 
-    for(j=1;j<argc;j++)
+    for(j=argc-1;j>0;j--)
     {
-        catch_var_list(argv[j]);
+        if(j==1)
+        {
+            print_var_list();
+            replace_var_list(argv[j]);
+        }
+        else catch_var_list(argv[j]);
     }
-    print_var_list();
     return 0;
 }
