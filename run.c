@@ -115,6 +115,15 @@ void replace_var_list(char * fileName)
     fclose(fpt);
 }
 
+void clear_var_list()
+{
+    int i;
+    for(i=0;i<var_c;i++)
+    {
+        free(var_list[i].loc);
+    }
+}
+
 int main(int argc,char* argv[])
 {
     int j;
@@ -128,5 +137,6 @@ int main(int argc,char* argv[])
         }
         else catch_var_list(argv[j]);
     }
+    clear_var_list();
     return 0;
 }
