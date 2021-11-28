@@ -110,3 +110,12 @@ a:hover{
 .donate-link{
     margin-left: 10px;
 }
+.time-small-icon{
+    height: 16px;
+}
+.edit-page-text,.time-text,.time-text:hover{
+    color:#757575!important;
+}
+.edit-page-text:hover{
+    color: #0000a0 !important;
+}
