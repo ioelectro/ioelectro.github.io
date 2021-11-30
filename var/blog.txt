@@ -81,7 +81,7 @@
 طراحی نمای 3D قطعات Altium در SolidWorks
 }}
 {{BLOG-POST-LINK-3-1    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks}}
-{{BLOG-POST-IMG-3-1     {{UPLOAD-DIR}}/altium-3d.jpg}}
+{{BLOG-POST-IMG-3-1     {{UPLOAD-DIR}}/altium-3d.JPG}}
 {{BLOG-POST-BTN-3-1     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-3-1
 در این ویدیو ببینید چطور از SolidWorks برای طراحی نمای 3D قطعات Altium کمک میگیرم.
