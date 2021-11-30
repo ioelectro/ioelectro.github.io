@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/17}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK #}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/disable-driver-signature-enforcement.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

@@ -8,7 +8,7 @@
 {{POST-DATE 1400/8/25}}
 ----------------------------------------
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK #}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/st-vscode.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

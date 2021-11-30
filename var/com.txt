@@ -19,3 +19,5 @@
     <!-- End Google Analytics -->
 }}
 ----------------------------------------
+{{SITE-DEPLOY-LOC https://github.com/ioelectro/ioelectro.github.io/blob/main}}
+----------------------------------------
