@@ -1,3 +1,9 @@
+/*
+ HTMixer
+ By Liyanboy74
+ https://github.com/liyanboy74/htmixer
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
