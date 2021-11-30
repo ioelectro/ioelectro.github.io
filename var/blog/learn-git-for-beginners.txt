@@ -1,0 +1,24 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE آموزش git برای افراد مبتدی}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/8/6}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+                در این قسمت با نرم افزار ورژن کنترل git و نحوه استفاده از اون آشنا بشید.
+            </p>
+
+            <h4>ویدیو:</h4>
+            <div id="65377547577"><script type="text/JavaScript" src="https://www.aparat.com/embed/QgRA3?data[rnddiv]=65377547577&data[responsive]=yes"></script></div>
+            <h4>سایر اسناد:</h4>
+            <p> GIT for Beginners اثری از Anthony Baire </p>
+            <a class="link" href="{{UPLOAD-DIR}}/git/git-for-beginners-handout.pdf">دانلود مستقیم مقاله</a>
+
+}}
+----------------------------------------

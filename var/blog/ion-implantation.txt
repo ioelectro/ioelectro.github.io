@@ -1,0 +1,31 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE کاشت ین}}
+{{PAGE-DESCRIPTION در این قسمت با کاشت ین ،روش های کاشت ین، ابزار مورد نیاز، منابع و ... آشنا بشید}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/4/26}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+                در این قسمت با کاشت ین ،روش های کاشت ین، ابزار مورد نیاز، منابع و ... آشنا بشید.
+            </p>
+
+            <div class="w3-center">
+                <a href="{{UPLOAD-DIR}}/ion/Ion_implanter_schematic.jpg"><img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ion/Ion_implanter_schematic - small.jpg"></a>
+            </div>
+
+            <h4>ویدیو:</h4>
+            <p>ویدیو رایگان مهندس <a class="link" href="https://faradars.org/instructors/amir-hossein-mehrfar"> امیرحسین مهرفر</a> رو در این زمینه از لینک زیر میتونید دانلود کنید:</p>
+            <p><a class="link" href="https://faradars.org/courses/fvee115s08-ion-implantation-in-theory-and-technology-of-making-semi-heavy-equipments">دانلود رایگان از فرادرس</a></p>
+            <h4>سایر اسناد:</h4>
+            <p> Ion Implantation اثری از AJAL.A.J</p>
+            <a class="link" href="{{UPLOAD-DIR}}/ion/s82-140811130116-phpapp02.pdf">دانلود مستقیم مقاله</a>
+            <h4>معرفی کتاب:</h4>
+            <p>مبانی نیمه هادی Pierret, Robert F.<br>
+            تئوری و فناوری ساخت افزاره های نیم رسانا Plummer, James D.</p>
+}}
+----------------------------------------

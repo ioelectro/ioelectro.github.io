@@ -1,0 +1,52 @@
+
+    <!-- Menu -->
+    <div class="w3-container persian menu" >
+        <div class="menu-box">
+            <a class="menu-links" href="{{HOME-DIR}}/">{{TXT-HOME}}</a>
+            <a class="menu-links menu-selected" href="{{HOME-DIR}}/shop/">{{TXT-SHOP}}</a>
+            <a class="menu-links" href="{{HOME-DIR}}/blog">{{TXT-BLOG}}</a>
+            <a class="menu-links" href="{{HOME-DIR}}/contacts/">{{TXT-CONTACTS}}</a>
+            <a class="menu-links" href="{{HOME-DIR}}/about">{{TXT-ABOUT}}</a>
+        </div>
+        <div class="menu-dir-box w3-hide-small">
+            <a href="#">{{PAGE-TITLE}}</a> /
+            <a href="{{HOME-DIR}}/shop">{{TXT-SHOP}}</a> /
+            <a href="{{HOME-DIR}}/">{{TXT-HOME}}</a>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="w3-container w3-white persian">
+        <div class="w3-panel one-page-text w3-animate-opacity">
+            <h1>{{PRODUCT-TITLE}}</h1>
+            <hr>
+            <div class="w3-row ">
+                <div class="w3-container w3-third" style="float: right;">
+                    <div class="w3-hover-opacity">
+                        <a href="{{PRODUCT-IMG-BIG}}">
+                            <img class="w3-image max-width w3-round" src="{{PRODUCT-IMG-MEDIUM}}" alt="{{PRODUCT-IMG-ALT}}">
+                        </a>
+                    </div>
+                </div>
+                <div class="w3-container w3-twothird">
+                    <h3>{{PRODUCT-PRICE-TXT}}: {{PRODUCT-PRICE}} {{PRODUCT-PRICE-UNIT}}</h3>
+                    <p>{{PRODUCT-TINY-INFO}}</p>
+                    <h3>{{PRODUCT-OPTIONS-TXT}}</h3>
+                    <ul>
+                        {{PRODUCT-OPTIONS}}
+                    </ul>
+                    <p>{{PRODUCT-STATUS-TXT}}: {{PRODUCT-STATUS}}</p>
+                    <h3>{{PRODUCT-INFO-TXT}}</h3>
+                    <a href="{{HOME-DIR}}/contacts/"><button class="w3-button w3-small w3-white w3-border w3-round">{{PRODUCT-CALL-BTN-TXT}}</button></a>
+                    {{PRODUCT-BTN-INFO}}
+                </div>
+            </div>
+            <hr>
+            <div class="w3-container">
+                <h4>{{PRODUCT-MORE-INFO-TXT}}</h4>
+                {{PRODUCT-MORE-INFO}}
+            </div>
+            <br>
+        </div>
+
+    </div>

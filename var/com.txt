@@ -1,0 +1,23 @@
+{{SITE-NAME IOElectro}}
+{{SITE-LANG fa}}
+----------------------------------------
+{{TXT-SHOP  فروشگاه}}
+{{TXT-BLOG  بلاگ}}
+{{TXT-HOME  خانه}}
+{{TXT-ABOUT درباره}}
+{{TXT-CONTACTS  تماس با ما}}
+----------------------------------------
+{{HEADER-ADD-1
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR461M9WRC"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WR461M9WRC');
+    </script>
+    <!-- End Google Analytics -->
+}}
+----------------------------------------
+{{SITE-CC تمام حقوق مادی و معنوی متعلق است به IOElectro}}
+----------------------------------------

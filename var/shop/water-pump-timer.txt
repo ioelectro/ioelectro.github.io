@@ -1,0 +1,56 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/shop/upload/water-pump-timer}}
+----------------------------------------
+{{PRODUCT-PRICE-UNIT تومان}}
+{{PRODUCT-PRICE-TXT قیمت}}
+{{PRODUCT-OPTIONS-TXT قابلیت ها}}
+{{PRODUCT-STATUS-TXT وضعیت}}
+{{PRODUCT-INFO-TXT اطلاعات}}
+{{PRODUCT-MORE-INFO-TXT اطلاعات بیشتر}}
+{{PRODUCT-CALL-BTN-TXT اطلاعات تماس}}
+----------------------------------------
+{{PAGE-TITLE تایمر آبیاری}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/big.jpg}}
+{{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/medium.jpg}}
+{{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
+----------------------------------------
+{{PRODUCT-TITLE {{PAGE-TITLE}}}}
+{{PRODUCT-PRICE 2,000,000}}
+{{PRODUCT-STATUS سفارشی}}
+
+{{PRODUCT-TINY-INFO
+ تایمر آبیاری هوشمند IOE با قابلیت کنترل پمپ و شیر برقی بر اساس برنامه زمانی متناسب با ماه های شمسی و ایام هفته و ساعات روز که میتوان با اتصال به رایانه به سادگی آن را برنامه ریزی کرد تا برای سالها در ساعات و دفعات و روزهای مختلف برای هر یک ماه پمپ و شیر برقی را کنترل کند.
+}}
+
+{{PRODUCT-OPTIONS
+<li>قابلیت برنامه ریزی مجزا برای هر ماه</li>
+<li>آبیاری 5 بار در ساعات مختلف یک روز</li>
+<li>قابلیت تعریف مدت آبیاری به صورت مجزا برای هر بار آبیاری</li>
+<li>قابلیت فعال و غیر فعال کردن آبیاری در روز های خاصی از هفته</li>
+<li>سیستم محافظت از شیر برقی </li>
+<li>امکان کنترل دستی</li>
+<li>قابلیت نصب روی ریل تابلو برق</li>
+}}
+
+{{PRODUCT-BTN-INFO
+<a href="{{UPLOAD-DIR}}/files/SmartTimer.pdf"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود کاتالوگ محصول</button></a>
+<a href="{{UPLOAD-DIR}}/files/SmartTimer.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود نرم افزار ویندوز</button></a>
+<a href="{{UPLOAD-DIR}}/files/PL2303_Prolific_DriverInstaller_v1200.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود درایور</button></a>
+}}
+
+{{PRODUCT-MORE-INFO
+<p>
+    به ازای هر یک ماه سال میتوان برنامه زمانبندی متفاوتی داشت که با انتخاب سربرگ های 1 تا 12 ماه های شمسی قابل ویرایش است.
+    <br>
+    برای کنترل پمپ و شیر برقی از رله 30 آمپری استفاده شده است که در صورت استفاده از تیغه NO حد اکثر جریان 30 آمپر، و برای تیغه NC حد اکثر جریان 20 آمپر مورد قبول میباشد.
+    <br>
+    به عنوان شیر برقی میتوان از شیر سلونوئید NO و NC  استفاده کرد ، ولی به دلیل کوتاه بودن زمان روشن بودن نسبت به زمان خاموش بودن توصیه میشود که از شیری استفاده شود که در حالت عادی بسته (NC) باشد.
+</p>
+<h3>نمای نرم افزار</h3>
+<div class="w3-center">
+    <a href="{{UPLOAD-DIR}}/files/SmartTimerApp.jpg"><img src="{{UPLOAD-DIR}}/files/SmartTimerApp.jpg" class="w3-image" alt="نمای نرم افزار"></a>
+</div>
+}}
+----------------------------------------

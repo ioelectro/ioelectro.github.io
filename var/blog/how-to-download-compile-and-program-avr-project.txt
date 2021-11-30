@@ -1,0 +1,18 @@
+{{HOME-DIR ../..}}
+----------------------------------------
+{{PAGE-TITLE روش های دانلود کامپایل و پروگرام پروژه AVR}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/4/26}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+                در این ویدیو با نحوه دانلود، کامپایل و پروگرام پروژهای AVR آشنا بشید:
+            </p>
+            <h3>ویدیو:</h3>
+            <div id="84230373000"><script type="text/JavaScript" src="https://www.aparat.com/embed/nu4pI?data[rnddiv]=84230373000&data[responsive]=yes"></script></div>
+}}
+----------------------------------------

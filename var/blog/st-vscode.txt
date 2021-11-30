@@ -1,0 +1,20 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE برنامه نویسی و دیباگ STM32 در VSCode}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/8/25}}
+----------------------------------------
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+                در این ویدیو با استفاده از ویرایشگر قدرتمند VSCode به کدنویسی و دیباگ میکروکنترلرهای STM32 میپردازیم :
+            </p>
+            <h3>ویدیو:</h3>
+            <div id="82030000445"><script type="text/JavaScript" src="https://www.aparat.com/embed/aCE4M?data[rnddiv]=82030000445&data[responsive]=yes"></script></div>
+}}
+----------------------------------------

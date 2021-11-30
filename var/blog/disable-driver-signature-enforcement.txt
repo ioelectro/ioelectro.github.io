@@ -1,0 +1,25 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE غیرفعال کردن Driver signature enforcement}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/3/17}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+در بسیاری از موارد در نصب درایور های مخصوص سخت افزار های خاص نیاز به غیر فعال کردن Driver signature enforcement است که در اسلاید های زیر به آن پرداخته ایم.
+</p>
+<br>
+<div class="w3-center">
+<img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-2.jpg"><br>
+<img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-3.jpg"><br>
+<img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-4.jpg"><br>
+<img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-5.jpg"><br>
+</div>
+<p>اکنون میتوانید هر درایوری را نصب کنید.</p>
+}}
+----------------------------------------

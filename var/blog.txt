@@ -1,0 +1,109 @@
+{{HOME-DIR ..}}
+{{UPLOAD-DIR  {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE بلاگ}}
+{{PAGE-DESCRIPTION بلاگ}}
+----------------------------------------
+{{DESCRIPTION گاهی مینویسم ...}}
+{{READ-MORE ادامه مطلب}}
+----------------------------------------
+{{BLOG-POST-TITLE-0-0
+    برنامه نویسی و دیباگ STM32 در VSCode
+}}
+{{BLOG-POST-LINK-0-0    {{HOME-DIR}}/blog/st-vscode}}
+{{BLOG-POST-IMG-0-0     {{UPLOAD-DIR}}/st-vscode.png}}
+{{BLOG-POST-BTN-0-0     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-0-0
+در این بخش با استفاده از ویرایشگر قدرتمند VSCode به کدنویسی و دیباگ میکروکنترلرهای STM32 میپردازیم.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-0-1
+پورت سریال در C#
+}}
+{{BLOG-POST-LINK-0-1    {{UPLOAD-DIR}}/SerialLearning.pdf}}
+{{BLOG-POST-IMG-0-1     {{UPLOAD-DIR}}/Serial-Cable.jpg}}
+{{BLOG-POST-BTN-0-1     مستقیم PDF (8MB)}}
+{{BLOG-POST-DESCRIPTION-0-1
+در این مقاله به ساده ترین روش، کار با پورت سریال در C# را یاد بگیرید. برای درک بهتر موضوع، آموزش پروژه محور همراه با تصاویر گام به گام ارائه گردیده است.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-1-0
+دانلود مستندات ساخت پروگرامر AVR
+}}
+{{BLOG-POST-LINK-1-0    https://www.fischl.de/usbasp/}}
+{{BLOG-POST-IMG-1-0     {{UPLOAD-DIR}}/usbasp_programmer.jpg}}
+{{BLOG-POST-BTN-1-0     پرش به منبع}}
+{{BLOG-POST-DESCRIPTION-1-0
+در این قسمت میتونید تمام نسخه های ساخته شده از پروگرامر USB متن باز AVR با نام USB-ASP رو مشاهده و دانلود کنید.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-1-1
+کاشت ین
+}}
+{{BLOG-POST-LINK-1-1    {{HOME-DIR}}/blog/ion-implantation}}
+{{BLOG-POST-IMG-1-1     {{UPLOAD-DIR}}/ion-implantation.jpg}}
+{{BLOG-POST-BTN-1-1     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-1-1
+در این قسمت با کاشت ین ،روش های کاشت ین، ابزار مورد نیاز، منابع و ... آشنا بشید.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-2-0
+نحوه دانلود پروژهای AVR
+}}
+{{BLOG-POST-LINK-2-0    {{HOME-DIR}}/blog/how-to-download-compile-and-program-avr-project}}
+{{BLOG-POST-IMG-2-0     {{UPLOAD-DIR}}/compile-c-project.jpg}}
+{{BLOG-POST-BTN-2-0     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-2-0
+در این ویدیو با نحوه دانلود، کامپایل و پروگرام پروژهای AVR آشنا بشید.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-2-1
+رفع مشکل نصب نشدن درایور
+}}
+{{BLOG-POST-LINK-2-1    {{HOME-DIR}}/blog/disable-driver-signature-enforcement}}
+{{BLOG-POST-IMG-2-1     {{UPLOAD-DIR}}/ddsef/ddsef-1.jpg}}
+{{BLOG-POST-BTN-2-1     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-2-1
+در بسیاری از موارد در نصب درایور های مخصوص سخت افزار های خاص نیاز به غیر فعال کردن Driver signature enforcement است که در این پست به آن پرداخته ایم.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-3-0
+روش های کامپایل پروژه C
+}}
+{{BLOG-POST-LINK-3-0    {{HOME-DIR}}/blog/compile-c-project}}
+{{BLOG-POST-IMG-3-0     {{UPLOAD-DIR}}/cmake.jpg}}
+{{BLOG-POST-BTN-3-0     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-3-0
+در این ویدیو با روش های مختلف کامپایل پروژه C آشنا بشید.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-3-1
+طراحی نمای 3D قطعات Altium در SolidWorks
+}}
+{{BLOG-POST-LINK-3-1    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks}}
+{{BLOG-POST-IMG-3-1     {{UPLOAD-DIR}}/altium-3d.jpg}}
+{{BLOG-POST-BTN-3-1     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-3-1
+در این ویدیو ببینید چطور از SolidWorks برای طراحی نمای 3D قطعات Altium کمک میگیرم.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-4-0
+تحلیل مدار مولد ولتاژ منفی
+}}
+{{BLOG-POST-LINK-4-0    {{HOME-DIR}}/blog/negative-voltage-generator-circuit}}
+{{BLOG-POST-IMG-4-0     {{UPLOAD-DIR}}/neg-v.jpg}}
+{{BLOG-POST-BTN-4-0     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-4-0
+در این ویدیو به تحلیل مدار مولد ولتاژ منفی با استفاده از سلف به روش کلید زنی (سویچینگ) میپردازیم.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-4-1
+آموزش git برای افراد مبتدی
+}}
+{{BLOG-POST-LINK-4-1    {{HOME-DIR}}/blog/learn-git-for-beginners}}
+{{BLOG-POST-IMG-4-1     {{UPLOAD-DIR}}/learn-git.jpg}}
+{{BLOG-POST-BTN-4-1     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-4-1
+در این قسمت با نرم افزار ورژن کنترل git و نحوه استفاده از اون آشنا بشید.
+}}
+----------------------------------------

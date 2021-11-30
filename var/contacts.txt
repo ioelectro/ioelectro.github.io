@@ -1,0 +1,31 @@
+{{HOME-DIR ..}}
+----------------------------------------
+{{PAGE-TITLE تماس با ما}}
+{{PAGE-DESCRIPTION اطلاعات تماس با IOElectro}}
+----------------------------------------
+{{CONTACTS-BODY
+    <h1>تماس با ما</h1>
+    <p>ساعات کاری از 9 تا 18</p>
+    <br>
+    <h4>اطلاعات تماس</h4>
+
+    <table>
+        <tr>
+            <td>شماره تماس : </td>
+            <td class="en"><a href="tel:+989034729843" class="link">09034729843</a></td>
+        </tr>
+        <tr>
+            <td>ارسال پیام با : </td>
+            <td class="en"><a href="https://wa.me/989034729843" class="link">WhatsApp</a></td>
+        </tr>
+        <tr>
+            <td>ایمیل : </td>
+            <td class="en"><a href="mailto:info@ioelectro.ir" class="link">info@ioelectro.ir</a></td>
+        </tr>
+    </table>
+
+    <h4>آدرس</h4>
+    <p>بوشهر - سبزآباد</p>
+    <br>
+}}
+----------------------------------------

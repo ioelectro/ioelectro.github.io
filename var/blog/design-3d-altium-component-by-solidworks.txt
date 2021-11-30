@@ -1,0 +1,18 @@
+{{HOME-DIR ../..}}
+----------------------------------------
+{{PAGE-TITLE طراحی نمای 3D قطعات Altium در SolidWorks}}
+{{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/3/4}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK #}}
+----------------------------------------
+{{POST-BODY
+<p>
+               در این ویدیو ببینید چطور از SolidWorks برای طراحی نمای 3D قطعات Altium کمک میگیرم.
+            </p>
+            <h3>ویدیو:</h3>
+            <div id="78258582485"><script type="text/JavaScript" src="https://www.aparat.com/embed/QUgOw?data[rnddiv]=78258582485&data[responsive]=yes"></script></div>
+}}
+----------------------------------------
