@@ -12,9 +12,9 @@
 ----------------------------------------
 {{POST-BODY
 <p>
-                در این ویدیو با استفاده از ویرایشگر قدرتمند VSCode به کدنویسی و دیباگ میکروکنترلرهای STM32 میپردازیم :
-            </p>
-            <h3>ویدیو:</h3>
-            <div id="82030000445"><script type="text/JavaScript" src="https://www.aparat.com/embed/aCE4M?data[rnddiv]=82030000445&data[responsive]=yes"></script></div>
+در این ویدیو با استفاده از ویرایشگر قدرتمند VSCode به کدنویسی و دیباگ میکروکنترلرهای STM32 میپردازیم :
+</p>
+<h3>ویدیو:</h3>
+<div id="82030000445"><script type="text/JavaScript" src="https://www.aparat.com/embed/aCE4M?data[rnddiv]=82030000445&data[responsive]=yes"></script></div>
 }}
 ----------------------------------------

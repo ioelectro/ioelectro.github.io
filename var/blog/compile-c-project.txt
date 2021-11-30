@@ -12,7 +12,7 @@
 ----------------------------------------
 {{POST-BODY
 <p>
-    در این ویدیو با روش های مختلف کامپایل پروژه C آشنا بشید.
+در این ویدیو با روش های مختلف کامپایل پروژه C آشنا بشید.
 </p>
 <h3>ویدیو:</h3>
 <div id="55396696110"><script type="text/JavaScript" src="https://www.aparat.com/embed/qzO9j?data[rnddiv]=55396696110&data[responsive]=yes"></script></div>
