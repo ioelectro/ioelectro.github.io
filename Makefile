@@ -18,7 +18,7 @@ clean :
 # more on : https://pypi.org/project/ghp-import/
 # Add CNAME by '-c SITENAME' command
 deploy:
-	ghp-import -p $(generate-dir)
+	ghp-import -c ioelectro.ir -p $(generate-dir)
 
 ##################################### GENARATE ########################################
 # Use 'build/htmixer' for mix 'Doc' and 'Var' files.
