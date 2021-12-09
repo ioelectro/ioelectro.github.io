@@ -1,27 +1,12 @@
-# Generate Dir
-generate-dir 		= gh-pages
+# Makefile Template for HTMixer
+# by liyanboy74
 
-default : compile
+htmixer		="C:/Program Files (x86)/htmixer/bin/htmixer.exe"
+generate-dir=gh-pages
 
-# Compice C prog using GCC
-compile :
-	rm -rf build
-	mkdir build
-	gcc htmixer.c -o ./build/htmixer
-
-# Remove Compiled app and Generated files
-clean :
-	rm -rf $(generate-dir)
-	rm -rf build
-
-# Deploy on Github Pages, branch [gh-pages]
-# more on : https://pypi.org/project/ghp-import/
-# Add CNAME by '-c SITENAME' command
-deploy:
-	ghp-import -c ioelectro.ir -p $(generate-dir)
-
+default : generate
 ##################################### GENARATE ########################################
-# Use 'build/htmixer' for mix 'Doc' and 'Var' files.
+# Use 'htmixer' for mix 'Doc' and 'Var' files.
 # for Example: htmixer OUTPUT_FILR -d DOC1 DOC2 -v VAR1 VAR2 VAR3
 # The Var replace by same name in Doc file
 
@@ -56,40 +41,49 @@ generate :
 	CP -r doc/shop/upload $(generate-dir)/shop/upload
 
 # Home
-	./build/htmixer ./$(generate-dir)/index.html \
+	$(htmixer) ./$(generate-dir)/index.html \
 	-d ./doc/header.html ./doc/home.html ./doc/footer.html \
 	-v ./var/home.txt ./var/com.txt ./var/footer.txt
 
 # About
-	./build/htmixer ./$(generate-dir)/about/index.html \
+	$(htmixer) ./$(generate-dir)/about/index.html \
 	-d ./doc/header.html ./doc/about.html ./doc/footer.html \
 	-v ./var/about.txt ./var/com.txt ./var/footer.txt
 
 # Contacts
-	./build/htmixer ./$(generate-dir)/contacts/index.html \
+	$(htmixer) ./$(generate-dir)/contacts/index.html \
 	-d ./doc/header.html ./doc/contacts.html ./doc/footer.html \
 	-v ./var/contacts.txt ./var/com.txt ./var/footer.txt
 
 # Blog
-	./build/htmixer ./$(generate-dir)/blog/index.html \
+	$(htmixer) ./$(generate-dir)/blog/index.html \
 	-d ./doc/header.html ./doc/blog.html ./doc/footer.html \
 	-v ./var/blog.txt ./var/com.txt ./var/footer.txt
 
 # Blog post
 	for post in $(blog-post-name);do \
-	./build/htmixer ./$(generate-dir)/blog/$$post/index.html \
+	$(htmixer) ./$(generate-dir)/blog/$$post/index.html \
 	-d ./doc/header.html ./doc/post.html ./doc/footer.html \
 	-v ./var/blog/$$post.txt ./var/com.txt ./var/footer.txt;done
 
 # Shop
-	./build/htmixer ./$(generate-dir)/shop/index.html \
+	$(htmixer) ./$(generate-dir)/shop/index.html \
 	-d ./doc/header.html ./doc/shop.html ./doc/footer.html \
 	-v ./var/shop.txt ./var/com.txt ./var/footer.txt
 
 # Shop post
 	for post in $(shop-post-name);do \
-	./build/htmixer ./$(generate-dir)/shop/$$post/index.html \
+	$(htmixer) ./$(generate-dir)/shop/$$post/index.html \
 	-d ./doc/header.html ./doc/product.html ./doc/footer.html \
 	-v ./var/shop/$$post.txt ./var/com.txt ./var/footer.txt;done
 
 
+##################################### DEPLOY ##########################################
+# Deploy on Github Pages, branch [gh-pages]
+# more on : https://pypi.org/project/ghp-import/
+# Add CNAME by '-c SITENAME' command
+deploy:
+	ghp-import -c ioelectro.ir -p $(generate-dir)
+
+
+#######################################################################################
