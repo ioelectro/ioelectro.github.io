@@ -8,3 +8,5 @@
 {{FOOTER-LINK-3 https://www.aparat.com/ioelectro}}
 {{FOOTER-LINK-4 https://www.instagram.com/ioelectro}}
 ----------------------------------------
+{{FOOTER-CC تمام حقوق مادی و معنوی متعلق است به IOElectro}}
+----------------------------------------
