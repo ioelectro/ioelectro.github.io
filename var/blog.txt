@@ -41,7 +41,7 @@
 کاشت ین
 }}
 {{BLOG-POST-LINK-1-1    {{HOME-DIR}}/blog/ion-implantation}}
-{{BLOG-POST-IMG-1-1     {{UPLOAD-DIR}}/ion-implantation.jpg}}
+{{BLOG-POST-IMG-1-1     {{UPLOAD-DIR}}/ion/ion-implantation.jpg}}
 {{BLOG-POST-BTN-1-1     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-1-1
 در این قسمت با کاشت ین ،روش های کاشت ین، ابزار مورد نیاز، منابع و ... آشنا بشید.
