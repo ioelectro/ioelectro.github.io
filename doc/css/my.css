@@ -38,7 +38,7 @@ a:hover{
 }
 .menu{
     background-color:rgb(44, 44, 44);
-    color: white;
+    color: rgba(255, 255, 255, 0.733);
 }
 .menu-links{
     font-size: 20;
