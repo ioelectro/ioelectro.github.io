@@ -1,10 +1,9 @@
     <!-- Footer -->
     <div class="w3-container w3-center footer persian">
 		<div class="w3-center flink-box">
-			<a href="{{FOOTER-LINK-1}}"><img src="{{HOME-DIR}}/{{FOOTER-IMG-1}}" class="fimg"></a>
-			<a href="{{FOOTER-LINK-2}}"><img src="{{HOME-DIR}}/{{FOOTER-IMG-2}}" class="fimg"></a>
-			<a href="{{FOOTER-LINK-3}}"><img src="{{HOME-DIR}}/{{FOOTER-IMG-3}}" class="fimg"></a>
-			<a href="{{FOOTER-LINK-4}}"><img src="{{HOME-DIR}}/{{FOOTER-IMG-4}}" class="fimg"></a>
+			{{FOR(1,5)
+				<a href="{{FOOTER-LINK}}"><img data-src="{{FOOTER-IMG}}" class="fimg lozad"></a>
+			}}
 		</div>
 		<hr>
 		<p>{{FOOTER-CC}}</p>
@@ -18,7 +17,6 @@
 	<script>
 		function toggleShowNav() {
 			var Nav = document.getElementById("Nav");
-			var NavBTN=document.getElementById("NavBTN");
 			if (Nav.className.indexOf("w3-show") == -1) {
 			Nav.className += " w3-show";
 			} else {

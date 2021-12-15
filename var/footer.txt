@@ -1,7 +1,7 @@
-{{FOOTER-IMG-1 img/github.png}}
-{{FOOTER-IMG-2 img/youtube.png}}
-{{FOOTER-IMG-3 img/aparat.png}}
-{{FOOTER-IMG-4 img/inestagram.png}}
+{{FOOTER-IMG-1 {{HOME-DIR}}/img/github.png}}
+{{FOOTER-IMG-2 {{HOME-DIR}}/img/youtube.png}}
+{{FOOTER-IMG-3 {{HOME-DIR}}/img/aparat.png}}
+{{FOOTER-IMG-4 {{HOME-DIR}}/img/inestagram.png}}
 ----------------------------------------
 {{FOOTER-LINK-1 https://github.com/ioelectro}}
 {{FOOTER-LINK-2 https://www.youtube.com/channel/UCpCUSG_ILFt0p39DzhhV3JA}}
