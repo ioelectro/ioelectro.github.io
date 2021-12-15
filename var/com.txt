@@ -4,7 +4,7 @@
 {{TXT-SHOP  فروشگاه}}
 {{TXT-BLOG  بلاگ}}
 {{TXT-HOME  خانه}}
-{{TXT-ABOUT درباره}}
+{{TXT-ABOUT درباره ما}}
 {{TXT-CONTACTS  تماس با ما}}
 ----------------------------------------
 {{HEADER-ADD-1

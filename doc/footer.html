@@ -10,11 +10,21 @@
 		<p>{{FOOTER-CC}}</p>
     </div>
 
-	<!--
-	<div class="footer w3-hide-small" style="padding-left: 20px;padding-bottom: 10px;">
-		 Powered by <a href="https://liyanboy74.github.io/htmixer/">HTMixer</a>
-	</div>
-	-->
-
+	<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+	<script>
+		const observer = lozad();
+		observer.observe();
+	</script>
+	<script>
+		function toggleShowNav() {
+			var Nav = document.getElementById("Nav");
+			var NavBTN=document.getElementById("NavBTN");
+			if (Nav.className.indexOf("w3-show") == -1) {
+			Nav.className += " w3-show";
+			} else {
+			Nav.className = Nav.className.replace(" w3-show", "");
+			}
+		}
+	</script>
 </body>
 </html>

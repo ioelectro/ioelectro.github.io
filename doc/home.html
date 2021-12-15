@@ -1,18 +1,3 @@
-
-    <!-- Menu -->
-    <div class="w3-container persian menu" >
-        <div class="menu-box">
-            <a class="menu-links menu-selected" href="#">{{TXT-HOME}}</a>
-            <a class="menu-links" href="{{HOME-DIR}}/shop/">{{TXT-SHOP}}</a>
-            <a class="menu-links" href="{{HOME-DIR}}/blog/">{{TXT-BLOG}}</a>
-            <a class="menu-links" href="{{HOME-DIR}}/contacts/">{{TXT-CONTACTS}}</a>
-            <a class="menu-links" href="{{HOME-DIR}}/about/">{{TXT-ABOUT}}</a>
-        </div>
-        <div class="menu-dir-box w3-hide-small">
-            <a href="#">{{TXT-HOME}}</a>
-        </div>
-    </div>
-
     <!-- description -->
     <div class="w3-container w3-white persian">
         <div class="w3-panel one-page-text w3-animate-opacity">
@@ -20,7 +5,7 @@
                 {{FOR(0,5)
                     <div class="w3-container w3-panel">
                         <div class="w3-third w3-center">
-                            <img src="{{HOME-POST-IMG-URL}}" class="w3-image w3-circle" style="width: 100%;max-width: 300px;">
+                            <img class="w3-image w3-circle lozad" data-src="{{HOME-POST-IMG-URL}}" style="width: 100%;max-width: 300px;">
                         </div>
                         <div class="w3-container w3-twothird">
                             {{HOME-POST-TXT}}
@@ -31,4 +16,3 @@
             </div>
         </div>
     </div>
-
