@@ -22,7 +22,7 @@
 }}
 {{BLOG-POST-LINK-1    {{UPLOAD-DIR}}/serial/SerialLearning.pdf}}
 {{BLOG-POST-IMG-1     {{UPLOAD-DIR}}/serial/Serial-Cable.jpg}}
-{{BLOG-POST-BTN-1     مستقیم PDF (8MB)}}
+{{BLOG-POST-BTN-1     دانلود مستقیم PDF (8MB)}}
 {{BLOG-POST-DESCRIPTION-1
 در این مقاله به ساده ترین روش، کار با پورت سریال در C# را یاد بگیرید. برای درک بهتر موضوع، آموزش پروژه محور همراه با تصاویر گام به گام ارائه گردیده است.
 }}
