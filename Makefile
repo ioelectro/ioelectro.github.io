@@ -37,8 +37,8 @@ generate :
 	cp -r doc/css $(generate-dir)
 	cp -r doc/fonts $(generate-dir)
 	cp -r doc/img $(generate-dir)
-	CP -r doc/blog/upload $(generate-dir)/blog/upload
-	CP -r doc/shop/upload $(generate-dir)/shop/upload
+	cp -r doc/blog/upload $(generate-dir)/blog/upload
+	cp -r doc/shop/upload $(generate-dir)/shop/upload
 
 # Home
 	$(htmixer) ./$(generate-dir)/index.html \
