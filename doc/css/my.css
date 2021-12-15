@@ -24,9 +24,6 @@ h1,h2{
 .en {
     direction: ltr;
 }
-.product-description{
-    min-height: 120px;
-}
 a{
     text-decoration:none;
 }
@@ -91,9 +88,15 @@ a:hover{
 }
 .left-button{
     float: left;
+    padding-bottom: 10px;
 }
-.max-width{
+.blog-img{
+    height: 250px;
     width: 100%;
+    object-fit: cover;
+}
+.blog-description{
+    min-height: 80px;
 }
 .img-space{
     margin-top: 10px;

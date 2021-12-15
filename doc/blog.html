@@ -23,38 +23,39 @@
 
     <!-- Main -->
     <div class="persian w3-animate-opacity">
-
-        {{FOR(0,5)
+        {{FOR(0,10)
             <div class="w3-row">
-                {{FOR(0,2)
-                    <div class="w3-half w3-panel">
-                        <div class="w3-container w3-white w3-card-2 w3-round">
-                            <h2>
-                                {{BLOG-POST-TITLE}}
-                            </h2>
-                            <hr>
-                            <div class="w3-row ">
-                                <div class="w3-container w3-third" style="float: right;">
-                                    <div class="w3-hover-opacity">
-                                        <a href="{{BLOG-POST-LINK}}">
-                                            <img class="w3-image max-width w3-circle" src="{{BLOG-POST-IMG}}">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="w3-container w3-twothird">
-                                    <p class="product-description">
-                                        {{BLOG-POST-DESCRIPTION}}
-                                    </p>
-                                    <a class="left-button" href="{{BLOG-POST-LINK}}">
-                                        <button class="w3-button w3-small w3-white w3-border w3-round">{{BLOG-POST-BTN}}</button>
+                <div class="w3-panel">
+                    <div class=" w3-white w3-card-4 w3-round">
+                        <div class="w3-row ">
+                            <div class="w3-quarter" style="float: right;">
+                                <div class="w3-hover-grayscale">
+                                    <a href="{{BLOG-POST-LINK}}">
+                                        <img class="blog-img lozad" data-src="{{BLOG-POST-IMG}}">
                                     </a>
                                 </div>
                             </div>
-                            <br>
+                            <div class="w3-container w3-threequarter">
+                                <h3>
+                                    {{BLOG-POST-TITLE}}
+                                </h3>
+                                <hr>
+                                <p class="blog-description">
+                                    {{BLOG-POST-DESCRIPTION}}
+                                </p>
+                                <a class="left-button" href="{{BLOG-POST-LINK}}">
+                                    <button class="w3-button w3-small w3-white w3-border w3-round">{{BLOG-POST-BTN}}</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                }}
+                </div>
             </div>
         }}
-
     </div>
+
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<script>
+    const observer = lozad();
+    observer.observe();
+</script>
