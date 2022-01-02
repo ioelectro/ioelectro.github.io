@@ -108,7 +108,7 @@
 }}
 ----------------------------------------
 {{BLOG-POST-TITLE-10
-کوره قوس الکتریی
+کوره قوس الکتریکی
 }}
 {{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/electric-arc-furnace}}
 {{BLOG-POST-IMG-10     {{UPLOAD-DIR}}/eaf/electric-arc-furnace-s.jpg}}

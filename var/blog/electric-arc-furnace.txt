@@ -1,7 +1,7 @@
 {{HOME-DIR ../..}}
 {{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
 ----------------------------------------
-{{PAGE-TITLE کوره قوس الکتریی}}
+{{PAGE-TITLE کوره قوس الکتریکی}}
 {{PAGE-DESCRIPTION کوره قوس الکتریکی (به انگلیسی: Electric Arc Furnace) که به صورت مخفف EAF نامیده می‌شود، کوره‌ای است که مواد فلزی با استفاده از یک قوس الکتریکی ذوب می‌شود}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
@@ -16,8 +16,8 @@
 </p>
 <br>
 <div class="w3-center">
-<img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.jpg">
-<img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace-dor.jpg">
+<img class="w3-image w3-round w3-half" src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.jpg">
+<img class="w3-image w3-round w3-half" src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace-dor.jpg">
 <p class="img-text">کوره قوس الکتریکی مستقیم</p>
 </div>
 
