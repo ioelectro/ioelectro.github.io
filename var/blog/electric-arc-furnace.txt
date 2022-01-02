@@ -18,7 +18,7 @@
 <div class="w3-center">
 <img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.jpg">
 <img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace-dor.jpg">
-<p>کوره قوس الکتریکی مستقیم</p>
+<p class="img-text">کوره قوس الکتریکی مستقیم</p>
 </div>
 
 <h4>
@@ -27,7 +27,7 @@
 <p>
     <ul>
         <li><a href="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.pdf" class="link">دانلود مقاله کامل کوره های قوس الکتریکی (حجم 2MB)</a></li>
-        <li><a href="https://aparat.com/v/XdA5G" class="link">ویدیو کوره قوس الکتریکی</a></li>
+        <li><a href="https://aparat.com/v/XdA5G" class="link">ویدیو کوره قوس الکتریکی مستقیم</a></li>
         <li><a href="https://aparat.com/v/3mVHy" class="link">ویدیو کوره قوس الکتریکی غیر مستقیم</a></li>
         <li><a href="https://upload.wikimedia.org/wikipedia/commons/d/d6/Arc_Furnace_transformer_bus.jpg" class="link">تصویر یک نمونه ترانسفورماتور کوره قوس الکتریکی</a></li>
     </ul>
@@ -42,7 +42,7 @@
     <li>اجر آلومینیومی</li>
     <li>آجر کروم منیزیتی </li>
     <li>آجر شاموتی </li>
-    <li>بتن های nc21-18</li>
+    <li>بتن nc21-18</li>
     <li>کوراکست جی</li>
     <li>جرم نسوز</li>
     <li>ورق های فولاد خنک شونده با آب</li>
