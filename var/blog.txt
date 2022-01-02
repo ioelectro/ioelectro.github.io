@@ -107,3 +107,13 @@
 در این قسمت با نرم افزار ورژن کنترل git و نحوه استفاده از اون آشنا بشید.
 }}
 ----------------------------------------
+{{BLOG-POST-TITLE-10
+کوره قوس الکتریی
+}}
+{{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/electric-arc-furnace}}
+{{BLOG-POST-IMG-10     {{UPLOAD-DIR}}/eaf/electric-arc-furnace-s.jpg}}
+{{BLOG-POST-BTN-10     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-10
+کوره قوس الکتریکی (به انگلیسی: Electric Arc Furnace) که به صورت مخفف EAF نامیده می‌شود، کوره‌ای است که مواد فلزی با استفاده از یک قوس الکتریکی ذوب می‌شود. 
+}}
+----------------------------------------

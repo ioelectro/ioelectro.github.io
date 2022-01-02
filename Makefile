@@ -14,7 +14,7 @@ default : generate
 # The 'blog-post-name' must same the .txt file in 'var/blog/post' folder
 blog-post-name = compile-c-project design-3d-altium-component-by-solidworks learn-git-for-beginners \
 disable-driver-signature-enforcement how-to-download-compile-and-program-avr-project \
-ion-implantation  negative-voltage-generator-circuit st-vscode
+ion-implantation  negative-voltage-generator-circuit st-vscode electric-arc-furnace
 
 # Shop Posts
 # The 'blog-post-name' must same the .txt file in 'var/blog/post' folder

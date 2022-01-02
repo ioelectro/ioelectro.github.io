@@ -1,0 +1,69 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE کوره قوس الکتریی}}
+{{PAGE-DESCRIPTION کوره قوس الکتریکی (به انگلیسی: Electric Arc Furnace) که به صورت مخفف EAF نامیده می‌شود، کوره‌ای است که مواد فلزی با استفاده از یک قوس الکتریکی ذوب می‌شود}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1400/10/12}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/electric-arc-furnace.txt}}
+----------------------------------------
+{{POST-BODY
+<p>
+کوره قوس الکتریکی (به انگلیسی: Electric Arc Furnace) که به صورت مخفف EAF نامیده می‌شود، کوره‌ای است که مواد فلزی با استفاده از یک قوس الکتریکی ذوب می‌شود.
+دمای ذوب و تخلیه در این کوره‌ها در حدود ۱۶۰۰ درجه و در بعضی از کوره‌های آزمایشگاهی گاهی دما به ۳۰۰۰ درجه سانتی‌گراد می‌رسد.
+</p>
+<br>
+<div class="w3-center">
+<img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.jpg">
+<img class="w3-image w3-round lozad w3-half" data-src="{{UPLOAD-DIR}}/eaf/electric-arc-furnace-dor.jpg">
+<p>کوره قوس الکتریکی مستقیم</p>
+</div>
+
+<h4>
+فایل ها
+</h4>
+<p>
+    <ul>
+        <li><a href="{{UPLOAD-DIR}}/eaf/electric-arc-furnace.pdf" class="link">دانلود مقاله کامل کوره های قوس الکتریکی (حجم 2MB)</a></li>
+        <li><a href="https://aparat.com/v/XdA5G" class="link">ویدیو کوره قوس الکتریکی</a></li>
+        <li><a href="https://aparat.com/v/3mVHy" class="link">ویدیو کوره قوس الکتریکی غیر مستقیم</a></li>
+        <li><a href="https://upload.wikimedia.org/wikipedia/commons/d/d6/Arc_Furnace_transformer_bus.jpg" class="link">تصویر یک نمونه ترانسفورماتور کوره قوس الکتریکی</a></li>
+    </ul>
+</p>
+
+<h4>
+دیواره کوره
+</h4>
+<p>
+موادی که برای دیواره کوره میتوان استفاده کرد عبارت اند از:<br>
+<ul>
+    <li>اجر آلومینیومی</li>
+    <li>آجر کروم منیزیتی </li>
+    <li>آجر شاموتی </li>
+    <li>بتن های nc21-18</li>
+    <li>کوراکست جی</li>
+    <li>جرم نسوز</li>
+    <li>ورق های فولاد خنک شونده با آب</li>
+</ul>
+به عنوان مثال، 
+<a href="https://www.irefco.ir/wp-content/uploads/2020/07/ALMA-85-SP.pdf" class="link">ALMA 85SP</a>
+ و یا 
+<a href="https://www.irefco.ir/wp-content/uploads/2020/10/KORACAST-G.pdf" class="link">KORACAST G</a>
+ میتوانند گزینه های مناسبی باشند.<br>
+البته میبایست منطقه های دمایی کوره را در نظر گرفت و از مواد متناسب با آن استفاده کرد.
+</p>
+
+<h4>
+معرفی
+</h4>
+<p>
+    <ul>
+        <li><a href="http://www.pourian-chemical.com" class="link">موسسه شیمیایی پوریان</a></li>
+        <li><a href="https://www.irefco.ir" class="link">شرکت فرآورده های نسوز ایران (ایرفکو)</a></li>
+    </ul>
+</p>
+
+}}
+----------------------------------------
