@@ -22,7 +22,7 @@
 }}
 {{BLOG-POST-LINK-1    {{UPLOAD-DIR}}/serial/SerialLearning.pdf}}
 {{BLOG-POST-IMG-1     {{UPLOAD-DIR}}/serial/Serial-Cable.jpg}}
-{{BLOG-POST-BTN-1     دانلود مستقیم PDF (8MB)}}
+{{BLOG-POST-BTN-1     دانلود مستقیم PDF 8MB}}
 {{BLOG-POST-DESCRIPTION-1
 در این مقاله به ساده ترین روش، کار با پورت سریال در C# را یاد بگیرید. برای درک بهتر موضوع، آموزش پروژه محور همراه با تصاویر گام به گام ارائه گردیده است.
 }}
@@ -121,7 +121,7 @@
 SMT Notes}}
 {{BLOG-POST-LINK-11    {{UPLOAD-DIR}}/smt/smt_notes.pdf}}
 {{BLOG-POST-IMG-11     {{UPLOAD-DIR}}/smt/smt_notes.jpg}}
-{{BLOG-POST-BTN-11     دانلود مستقیم PDF (3MB)}}
+{{BLOG-POST-BTN-11     دانلود مستقیم PDF 3MB}}
 {{BLOG-POST-DESCRIPTION-11
 در این مقاله به برسی انواع روش های لحیم کاری و نصب قطعات SMD روی PCB
  و نکاتی که در طراحی و ساخت باید رعایت کرد، پرداخته شده است.
