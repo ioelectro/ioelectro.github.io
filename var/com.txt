@@ -6,6 +6,7 @@
 {{TXT-HOME  خانه}}
 {{TXT-ABOUT درباره ما}}
 {{TXT-CONTACTS  تماس با ما}}
+{{TXT-COURSE دوره های آموزشی}}
 ----------------------------------------
 {{HEADER-ADD-1
     <!-- Global site tag (gtag.js) - Google Analytics -->

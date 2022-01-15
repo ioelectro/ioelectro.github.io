@@ -17,8 +17,12 @@ disable-driver-signature-enforcement how-to-download-compile-and-program-avr-pro
 ion-implantation  negative-voltage-generator-circuit st-vscode electric-arc-furnace
 
 # Shop Posts
-# The 'blog-post-name' must same the .txt file in 'var/blog/post' folder
+# The 'shop-post-name' must same the .txt file in 'var/shop/post' folder
 shop-post-name = water-pump-timer
+
+# Course Posts
+# The 'course-post-name' must same the .txt file in 'var/course/post' folder
+course-post-name = learn-c
 
 # Start Generate Static Web Pages
 generate :
@@ -30,8 +34,10 @@ generate :
 	mkdir $(generate-dir)/shop
 	mkdir $(generate-dir)/about
 	mkdir $(generate-dir)/contacts
+	mkdir $(generate-dir)/course
 	mkdir $(foreach dir,$(blog-post-name),./$(generate-dir)/blog/$(dir))
 	mkdir $(foreach dir,$(shop-post-name),./$(generate-dir)/shop/$(dir))
+	mkdir $(foreach dir,$(course-post-name),./$(generate-dir)/course/$(dir))
 
 # Copy Doc css and other files
 	cp -r doc/css $(generate-dir)
@@ -39,6 +45,7 @@ generate :
 	cp -r doc/img $(generate-dir)
 	cp -r doc/blog/upload $(generate-dir)/blog/upload
 	cp -r doc/shop/upload $(generate-dir)/shop/upload
+	cp -r doc/course/upload $(generate-dir)/course/upload
 
 # Home
 	$(htmixer) ./$(generate-dir)/index.html \
@@ -76,6 +83,17 @@ generate :
 	$(htmixer) ./$(generate-dir)/shop/$$post/index.html \
 	-d ./doc/header.html ./doc/product.html ./doc/footer.html \
 	-v ./var/shop/$$post.txt ./var/com.txt ./var/footer.txt;done
+
+# Course
+	$(htmixer) ./$(generate-dir)/course/index.html \
+	-d ./doc/header.html ./doc/course.html ./doc/footer.html \
+	-v ./var/course.txt ./var/com.txt ./var/footer.txt
+
+# Course post
+	for post in $(course-post-name);do \
+	$(htmixer) ./$(generate-dir)/course/$$post/index.html \
+	-d ./doc/header.html ./doc/course-post.html ./doc/footer.html \
+	-v ./var/course/$$post.txt ./var/com.txt ./var/footer.txt;done
 
 
 ##################################### DEPLOY ##########################################

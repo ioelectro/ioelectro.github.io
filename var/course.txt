@@ -1,0 +1,24 @@
+{{HOME-DIR ..}}
+{{UPLOAD-DIR  {{HOME-DIR}}/course/upload}}
+----------------------------------------
+{{PAGE-TITLE {{TXT-COURSE}}}}
+{{PAGE-DESCRIPTION دوره های آموزشی}}
+----------------------------------------
+{{DESCRIPTION در این قسمت میتوانید به ویدیو های آموزشی
+ IOElectro
+به صورت رایگان دسترسی داشته باشید. 
+}}
+{{READ-MORE یادگیری رو شروع کن!}}
+----------------------------------------
+{{COURSE-POST-TITLE-0
+    دوره مقدماتی یادگیری زبان برنامه نویسی C
+}}
+{{COURSE-POST-LINK-0    {{HOME-DIR}}/course/learn-c}}
+{{COURSE-POST-IMG-0     {{UPLOAD-DIR}}/learn-c.jpg}}
+{{COURSE-POST-BTN-0     {{READ-MORE}}}}
+{{COURSE-POST-DESCRIPTION-0
+در این دوره به معرفی اصول ابتدایی ، قابلیت ها و نحوه شروع برنامه نویسی
+ C
+ برای کامپیوتر میپردازیم.
+}}
+----------------------------------------

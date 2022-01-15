@@ -1,7 +1,7 @@
 {{HOME-DIR ..}}
 {{UPLOAD-DIR  {{HOME-DIR}}/blog/upload}}
 ----------------------------------------
-{{PAGE-TITLE بلاگ}}
+{{PAGE-TITLE {{TXT-BLOG}}}}
 {{PAGE-DESCRIPTION بلاگ}}
 ----------------------------------------
 {{DESCRIPTION وبلاگ}}

@@ -1,6 +1,6 @@
 {{HOME-DIR ..}}
 ----------------------------------------
-{{PAGE-TITLE تماس با ما}}
+{{PAGE-TITLE {{TXT-CONTACTS}}}}
 {{PAGE-DESCRIPTION اطلاعات تماس با IOElectro}}
 ----------------------------------------
 {{CONTACTS-BODY
