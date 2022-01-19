@@ -19,7 +19,7 @@
 }}
 ----------------------------------------
 {{POST-NUM--1 1-}}
-{{POST-TITLE--1 نصب کامپایلر C}}
+{{POST-TITLE--1 C نصب کامپایلر}}
 {{POST-FILE-LINK--1 https://gcc.gnu.org/}}
 {{POST-VIDEO-LINK--1 https://aparat.com/v/xsJk6}}
 ----------------------------------------
