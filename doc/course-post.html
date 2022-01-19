@@ -4,5 +4,18 @@
             <h1>{{POST-TITLE}}</h1>
             <hr>
             {{POST-BODY}}
+            {{FOR(-1,0)
+            <div class="w3-border w3-border-black w3-sand course-content-box">
+                <div style="width: 100%;">
+                    <b class="w3-padding w3-xlarge w3-center w3-text-red" style="float: right;">{{POST-NUM}}</b>
+                    <h3 class="course-content-header w3-center en">{{POST-TITLE}}</h3>
+                </div>
+                <div class="w3-row">
+                    <a href="{{POST-FILE-LINK}}"><button class="w3-button w3-third w3-blue"><img class="course-btn" src="../../img/attach.png"></button></a>
+                    <a href="{{POST-VIDEO-LINK}}"><button class="w3-button w3-twothird w3-green"><img class="course-btn" src="../../img/play.png"></button></a>
+                </div>
+            </div>
+            }}
+            </div>
         </div>
     </div>

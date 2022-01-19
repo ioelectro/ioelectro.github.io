@@ -113,3 +113,15 @@ a:hover{
 .edit-page-text:hover{
     color: #0000a0 !important;
 }
+.course-btn{
+    height: 30px;
+}
+.course-content-header{
+    padding-left: 40px;
+    padding-top: 8px;
+    width: 100%;
+}
+.course-content-box{
+    margin-bottom: 20px;
+    width: 100%;
+}

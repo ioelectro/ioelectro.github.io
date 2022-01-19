@@ -5,7 +5,7 @@
 {{PAGE-DESCRIPTION
  ر این دوره به معرفی اصول ابتدایی ، قابلیت ها و نحوه شروع برنامه نویسی
  C
- برای کامپیوتر میپردازیم.
+ میپردازیم.
 }}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
@@ -14,7 +14,62 @@
 <p>
 در این دوره به معرفی اصول ابتدایی ، قابلیت ها و نحوه شروع برنامه نویسی
  C
- برای کامپیوتر میپردازیم.
+ میپردازیم.
 </p>
 }}
+----------------------------------------
+{{POST-NUM--1 1-}}
+{{POST-TITLE--1 GCC}}
+{{POST-FILE-LINK--1 https://gcc.gnu.org/}}
+{{POST-VIDEO-LINK--1 #}}
+----------------------------------------
+{{POST-NUM-0 0}}
+{{POST-TITLE-0 Hello, World!}}
+{{POST-FILE-LINK-0 #}}
+{{POST-VIDEO-LINK-0 #}}
+----------------------------------------
+{{POST-NUM-1 1}}
+{{POST-TITLE-1 Variables and Types}}
+{{POST-FILE-LINK-1 #}}
+{{POST-VIDEO-LINK-1 #}}
+----------------------------------------
+{{POST-NUM-2 2}}
+{{POST-TITLE-2 Arrays}}
+{{POST-FILE-LINK-2 #}}
+{{POST-VIDEO-LINK-2 #}}
+----------------------------------------
+{{POST-NUM-3 3}}
+{{POST-TITLE-3 Multidimensional Arrays}}
+{{POST-FILE-LINK-3 #}}
+{{POST-VIDEO-LINK-3 #}}
+----------------------------------------
+{{POST-NUM-4 4}}
+{{POST-TITLE-4 Conditions}}
+{{POST-FILE-LINK-4 #}}
+{{POST-VIDEO-LINK-4 #}}
+----------------------------------------
+{{POST-NUM-5 5}}
+{{POST-TITLE-5 Strings}}
+{{POST-FILE-LINK-5 #}}
+{{POST-VIDEO-LINK-5 #}}
+----------------------------------------
+{{POST-NUM-6 6}}
+{{POST-TITLE-6 For loops}}
+{{POST-FILE-LINK-6 #}}
+{{POST-VIDEO-LINK-6 #}}
+----------------------------------------
+{{POST-NUM-7 7}}
+{{POST-TITLE-7 While loops}}
+{{POST-FILE-LINK-7 #}}
+{{POST-VIDEO-LINK-7 #}}
+----------------------------------------
+{{POST-NUM-8 8}}
+{{POST-TITLE-8 Functions}}
+{{POST-FILE-LINK-8 #}}
+{{POST-VIDEO-LINK-8 #}}
+----------------------------------------
+{{POST-NUM-9 9}}
+{{POST-TITLE-9 Static}}
+{{POST-FILE-LINK-9 #}}
+{{POST-VIDEO-LINK-9 #}}
 ----------------------------------------
