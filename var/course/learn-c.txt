@@ -1,5 +1,5 @@
 {{HOME-DIR ../..}}
-{{UPLOAD-DIR {{HOME-DIR}}/course/upload}}
+{{UPLOAD-DIR {{HOME-DIR}}/course/upload/learn-c}}
 ----------------------------------------
 {{PAGE-TITLE دوره مقدماتی یادگیری زبان برنامه نویسی C}}
 {{PAGE-DESCRIPTION
@@ -26,8 +26,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-0 0}}
 {{POST-TITLE-0 Hello, World!}}
-{{POST-FILE-LINK-0 #}}
-{{POST-VIDEO-LINK-0 #}}
+{{POST-FILE-LINK-0 {{UPLOAD-DIR}}/0.zip}}
+{{POST-VIDEO-LINK-0 https://aparat.com/v/SIH7G}}
 ----------------------------------------
 {{POST-NUM-1 1}}
 {{POST-TITLE-1 Variables and Types}}
