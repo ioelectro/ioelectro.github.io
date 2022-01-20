@@ -31,8 +31,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-1 1}}
 {{POST-TITLE-1 Variables and Types}}
-{{POST-FILE-LINK-1 #}}
-{{POST-VIDEO-LINK-1 #}}
+{{POST-FILE-LINK-1 {{UPLOAD-DIR}}/1.zip}}
+{{POST-VIDEO-LINK-1 https://aparat.com/v/ac9KX}}
 ----------------------------------------
 {{POST-NUM-2 2}}
 {{POST-TITLE-2 Arrays}}

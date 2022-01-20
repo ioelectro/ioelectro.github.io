@@ -89,10 +89,10 @@ generate :
 	-d ./doc/header.html ./doc/course.html ./doc/footer.html \
 	-v ./var/course.txt ./var/com.txt ./var/footer.txt
 
-# Course post
+# Course learn-c post
 	for post in $(course-post-name);do \
 	$(htmixer) ./$(generate-dir)/course/$$post/index.html \
-	-d ./doc/header.html ./doc/course-post.html ./doc/footer.html \
+	-d ./doc/header.html ./doc/course-learn-c.html ./doc/footer.html \
 	-v ./var/course/$$post.txt ./var/com.txt ./var/footer.txt;done
 
 
