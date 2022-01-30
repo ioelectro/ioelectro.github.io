@@ -46,8 +46,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-4 4}}
 {{POST-TITLE-4 Conditions}}
-{{POST-FILE-LINK-4 #}}
-{{POST-VIDEO-LINK-4 #}}
+{{POST-FILE-LINK-4 {{UPLOAD-DIR}}/4.zip}}
+{{POST-VIDEO-LINK-4 https://aparat.com/v/AEhaw}}
 ----------------------------------------
 {{POST-NUM-5 5}}
 {{POST-TITLE-5 Strings}}
