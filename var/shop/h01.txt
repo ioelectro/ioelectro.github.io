@@ -17,7 +17,7 @@
 {{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
-{{PRODUCT-PRICE 549,000}}
+{{PRODUCT-PRICE 569,000}}
 {{PRODUCT-STATUS سفارشی}}
 
 {{PRODUCT-TINY-INFO
