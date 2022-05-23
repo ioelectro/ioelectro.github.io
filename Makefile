@@ -18,7 +18,7 @@ ion-implantation  negative-voltage-generator-circuit st-vscode electric-arc-furn
 
 # Shop Posts
 # The 'shop-post-name' must same the .txt file in 'var/shop/post' folder
-shop-post-name = water-pump-timer
+shop-post-name = water-pump-timer h01
 
 # Course Posts
 # The 'course-post-name' must same the .txt file in 'var/course/post' folder
