@@ -2,9 +2,11 @@
 # by liyanboy74
 
 htmixer		="C:/Program Files (x86)/htmixer/bin/htmixer.exe"
+smg         ="C:/Program Files (x86)/smg/bin/smg.exe"
+
 generate-dir=gh-pages
 
-default : generate
+default : generate map
 ##################################### GENARATE ########################################
 # Use 'htmixer' for mix 'Doc' and 'Var' files.
 # for Example: htmixer OUTPUT_FILR -d DOC1 DOC2 -v VAR1 VAR2 VAR3
@@ -97,6 +99,13 @@ generate :
 	-d ./doc/header.html ./doc/course-$$post.html ./doc/footer.html \
 	-v ./var/course/$$post.txt ./var/com.txt ./var/footer.txt;done
 
+#################################### SITEMAP $#########################################
+map:
+	$(smg) -s https://ioelectro.ir -n $(generate-dir)/sitemap.xml \
+	-d contacts -d about \
+	-d course $(addprefix -p,$(course-post-name)) \
+	-d shop $(addprefix -p,$(shop-post-name)) \
+	-d blog $(addprefix -p,$(blog-post-name))
 
 ##################################### DEPLOY ##########################################
 # Deploy on Github Pages, branch [gh-pages]
