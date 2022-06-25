@@ -19,6 +19,7 @@
 <img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-3.jpg"><br>
 <img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-4.jpg"><br>
 <img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-5.jpg"><br>
+<img class="w3-image w3-round img-space" src="{{UPLOAD-DIR}}/ddsef/ddsef-6.jpg"><br>
 </div>
 <p>اکنون میتوانید هر درایوری را نصب کنید.</p>
 }}
