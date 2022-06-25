@@ -25,7 +25,7 @@ shop-post-name = water-pump-timer h01
 
 # Course Posts
 # The 'course-post-name' must same the .txt file in 'var/course/post' folder
-# Ech course must have pody html file in doc folder named :course-NMAE.html
+# Ech course must have body html file in doc folder named :course-NMAE.html
 course-post-name = learn-c
 
 # Start Generate Static Web Pages
