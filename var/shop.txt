@@ -10,7 +10,7 @@
 {{SHOP-POST-TITLE-0
 تایمر آبیاری
 }}
-{{SHOP-POST-LINK-0    {{HOME-DIR}}/shop/water-pump-timer}}
+{{SHOP-POST-LINK-0    {{HOME-DIR}}/shop/water-pump-timer/}}
 {{SHOP-POST-IMG-0     {{UPLOAD-DIR}}/water-pump-timer/img/medium.jpg}}
 {{SHOP-POST-BTN-0     {{READ-MORE}}}}
 {{SHOP-POST-DESCRIPTION-0
@@ -20,7 +20,7 @@
 {{SHOP-POST-TITLE-1
 هویه قلمی H01
 }}
-{{SHOP-POST-LINK-1    {{HOME-DIR}}/shop/h01}}
+{{SHOP-POST-LINK-1    {{HOME-DIR}}/shop/h01/}}
 {{SHOP-POST-IMG-1     {{UPLOAD-DIR}}/h01/img/medium.jpg}}
 {{SHOP-POST-BTN-1     {{READ-MORE}}}}
 {{SHOP-POST-DESCRIPTION-1

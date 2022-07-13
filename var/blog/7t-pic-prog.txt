@@ -1,0 +1,90 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE ساخت پروگرامر PIC با 7 ترانزیستور}}
+{{PAGE-DESCRIPTION ساخت یک پروگرامر ساده و ارزان برای پروگرام میکروکنترل های سری PIC با استفاده از 7 ترانزیستور و درگاه موازی (پرینتری).}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1401/4/22}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/7t-pic-prog.txt}}
+----------------------------------------
+{{POST-BODY
+
+<p>
+ساخت یک پروگرامر ساده و ارزان برای پروگرام میکروکنترل های سری PIC با استفاده از 7 ترانزیستور و درگاه موازی (پرینتری).
+</p>
+
+<div class="w3-center">
+<img class="w3-image w3-round" src="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.jpg">
+<p class="img-text">پروگرامر</p>
+</div>
+
+<p>
+این پروگرامر در واقع بر مبنای پروگرامر 
+<a href="http://picpgm.picprojects.net/hardware.html#TAIT_PROGRAMMER" class="link">Tait Classic PIC Programmer - (c) David Tait</a> 
+ساخته شده است و تنها تفاوتی که در قسمت اتصال به رایانه دارد، در معکوس بودن پالس های سوکت
+<a href="https://en.wikipedia.org/wiki/Parallel_port" class="link">درگاه موازی</a>
+است که به سادگی در قسمت نرم افزار امکان این تغیر فراهم شده است.
+</p>
+
+<div class="w3-center">
+<img class="w3-image w3-round" src="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer-schematic.jpg">
+<p class="img-text">شماتیک</p>
+</div>
+
+<p>
+از نرم افزار ساده و رایگان
+<a href="http://picpgm.picprojects.net/" class="link">PICPgm</a>
+برای اتصال به پروگرامر استفاده شده است که برای تمامی سیستم عامل ها از
+<a href="http://picpgm.picprojects.net/download.html" class="link">اینجا</a>
+قابل دریافت است.
+</p>
+
+<p>
+این پروگرامر قابلیت پروگرام تمام میکروهایی که در 
+<a href="http://picpgm.picprojects.net/devices.html" class="link">این</a>
+لیست به عنوان
+High-Voltage
+شناخته میشوند را دارا میباشد. 
+<br>
+ البته با کمی تغیر در قسمت ولتاژ ورودی میتواند برای سری
+Low-Voltage
+هم مورد استفاده قرار بگیرد. (تست نشده است!)
+</p>
+
+<p>
+در قسمت تنظیمات پروگرامر مطابق تصویر زیر در قسمت
+Pin Configuration
+چک باکس های
+Invert
+را تغیر دهید.
+<br>
+برای تست مدار میتوانید از قسمت
+Hardware Test
+استفاده کنید.
+<br>
+اگر در عملیات پروگرام با خطا مواجه شدید، سرعت پروگرام را با استفاده از قسمت
+Timing Delay Factor
+پله پله کم کنید و دوباره امتحان کنید.
+</p>
+
+<div class="w3-center">
+<img class="w3-image w3-round" src="{{UPLOAD-DIR}}/7t-pic-prog/config.jpg">
+<p class="img-text">تنظیمات</p>
+</div>
+
+<p>هشدار: هرگونه اتصال تغذیه و اعمال ولتاژ بیش از 5 ولت و یا جریان بیش از 100 میلی آمپر به درگاه موازی رایانه موجب آسیب دیدن رایانه میشود!</p>
+
+<p><a href="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.pdf" class="link">
+دریافت شماتیک به صورت فایل PDF
+</a></p>
+
+<p class="en">
+Reference:<br>
+<a href="https://www.instructables.com/5-transistor-PIC-programmer-*Schematic-added-to-st/" class="link">5 Transistor PIC Programmer</a><br>
+<a href="http://picpgm.picprojects.net/hardware.html#TAIT_PROGRAMMER" class="link">Tait Classic PIC Programmer - (c) David Tait</a>
+</p>
+
+}}
+----------------------------------------

@@ -10,7 +10,7 @@
 {{BLOG-POST-TITLE-0
     برنامه نویسی و دیباگ STM32 در VSCode
 }}
-{{BLOG-POST-LINK-0    {{HOME-DIR}}/blog/st-vscode}}
+{{BLOG-POST-LINK-0    {{HOME-DIR}}/blog/st-vscode/}}
 {{BLOG-POST-IMG-0     {{UPLOAD-DIR}}/st-vscode.png}}
 {{BLOG-POST-BTN-0     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-0
@@ -40,7 +40,7 @@
 {{BLOG-POST-TITLE-3
 کاشت ین
 }}
-{{BLOG-POST-LINK-3    {{HOME-DIR}}/blog/ion-implantation}}
+{{BLOG-POST-LINK-3    {{HOME-DIR}}/blog/ion-implantation/}}
 {{BLOG-POST-IMG-3     {{UPLOAD-DIR}}/ion/ion-implantation.jpg}}
 {{BLOG-POST-BTN-3     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-3
@@ -50,7 +50,7 @@
 {{BLOG-POST-TITLE-4
 نحوه دانلود پروژهای AVR
 }}
-{{BLOG-POST-LINK-4    {{HOME-DIR}}/blog/how-to-download-compile-and-program-avr-project}}
+{{BLOG-POST-LINK-4    {{HOME-DIR}}/blog/how-to-download-compile-and-program-avr-project/}}
 {{BLOG-POST-IMG-4     {{UPLOAD-DIR}}/compile-c-project.jpg}}
 {{BLOG-POST-BTN-4     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-4
@@ -60,7 +60,7 @@
 {{BLOG-POST-TITLE-5
 رفع مشکل نصب نشدن درایور
 }}
-{{BLOG-POST-LINK-5    {{HOME-DIR}}/blog/disable-driver-signature-enforcement}}
+{{BLOG-POST-LINK-5    {{HOME-DIR}}/blog/disable-driver-signature-enforcement/}}
 {{BLOG-POST-IMG-5     {{UPLOAD-DIR}}/ddsef/ddsef-1.jpg}}
 {{BLOG-POST-BTN-5     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-5
@@ -70,7 +70,7 @@
 {{BLOG-POST-TITLE-6
 روش های کامپایل پروژه C
 }}
-{{BLOG-POST-LINK-6    {{HOME-DIR}}/blog/compile-c-project}}
+{{BLOG-POST-LINK-6    {{HOME-DIR}}/blog/compile-c-project/}}
 {{BLOG-POST-IMG-6     {{UPLOAD-DIR}}/cmake.jpg}}
 {{BLOG-POST-BTN-6     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-6
@@ -80,7 +80,7 @@
 {{BLOG-POST-TITLE-7
 طراحی نمای 3D قطعات Altium در SolidWorks
 }}
-{{BLOG-POST-LINK-7    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks}}
+{{BLOG-POST-LINK-7    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks/}}
 {{BLOG-POST-IMG-7     {{UPLOAD-DIR}}/altium-3d.JPG}}
 {{BLOG-POST-BTN-7     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-7
@@ -90,7 +90,7 @@
 {{BLOG-POST-TITLE-8
 تحلیل مدار مولد ولتاژ منفی
 }}
-{{BLOG-POST-LINK-8    {{HOME-DIR}}/blog/negative-voltage-generator-circuit}}
+{{BLOG-POST-LINK-8    {{HOME-DIR}}/blog/negative-voltage-generator-circuit/}}
 {{BLOG-POST-IMG-8     {{UPLOAD-DIR}}/neg-v.jpg}}
 {{BLOG-POST-BTN-8     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-8
@@ -110,7 +110,7 @@
 {{BLOG-POST-TITLE-10
 کوره قوس الکتریکی
 }}
-{{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/electric-arc-furnace}}
+{{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/electric-arc-furnace/}}
 {{BLOG-POST-IMG-10     {{UPLOAD-DIR}}/eaf/electric-arc-furnace-s.jpg}}
 {{BLOG-POST-BTN-10     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-10
@@ -130,10 +130,20 @@ SMT Notes}}
 {{BLOG-POST-TITLE-12
 دیکد سیگنال ریموت SMC918-4
 }}
-{{BLOG-POST-LINK-12    {{HOME-DIR}}/blog/smc918-4}}
+{{BLOG-POST-LINK-12    {{HOME-DIR}}/blog/smc918-4/}}
 {{BLOG-POST-IMG-12     {{UPLOAD-DIR}}/smc918-4/smc918-4.jpg}}
 {{BLOG-POST-BTN-12     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-12
 برسی و دیکد سیگنال ریموت کنترلر رادیویی که از آیسی SMC918-4 در آن استفاده شده است.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-13
+ساخت پروگرامر PIC با 7 ترانزیستور
+}}
+{{BLOG-POST-LINK-13    {{HOME-DIR}}/blog/7t-pic-prog/}}
+{{BLOG-POST-IMG-13     {{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.jpg}}
+{{BLOG-POST-BTN-13     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-13
+ساخت یک پروگرامر ساده و ارزان برای پروگرام میکروکنترل های سری PIC با استفاده از 7 ترانزیستور و درگاه موازی (پرینتری).
 }}
 ----------------------------------------
