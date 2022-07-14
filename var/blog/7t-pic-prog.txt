@@ -23,7 +23,7 @@
 <p>
 این پروگرامر در واقع بر مبنای پروگرامر 
 <a href="http://picpgm.picprojects.net/hardware.html#TAIT_PROGRAMMER" class="link">Tait Classic PIC Programmer - (c) David Tait</a> 
-ساخته شده است و تنها تفاوتی که در قسمت اتصال به رایانه دارد، در معکوس بودن پالس های سوکت
+ساخته شده است و تنها تفاوتی که در قسمت اتصال به رایانه دارد، در معکوس بودن سیگنال های
 <a href="https://en.wikipedia.org/wiki/Parallel_port" class="link">درگاه موازی</a>
 است که به سادگی در قسمت نرم افزار امکان این تغیر فراهم شده است.
 </p>
@@ -74,16 +74,18 @@ Timing Delay Factor
 <p class="img-text">تنظیمات</p>
 </div>
 
-<p>هشدار: هرگونه اتصال تغذیه و اعمال ولتاژ بیش از 5 ولت و یا جریان بیش از 100 میلی آمپر به درگاه موازی رایانه موجب آسیب دیدن رایانه میشود!</p>
+<p>هشدار: هرگونه اتصال تغذیه و اعمال ولتاژ بیش از 5 ولت و یا جریان بیش از 100 میلی آمپر به درگاه موازی موجب آسیب دیدن رایانه میشود!</p>
 
 <p><a href="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.pdf" class="link">
 دریافت شماتیک به صورت فایل PDF
 </a></p>
 
-<p class="en">
-Reference:<br>
-<a href="https://www.instructables.com/5-transistor-PIC-programmer-*Schematic-added-to-st/" class="link">5 Transistor PIC Programmer</a><br>
-<a href="http://picpgm.picprojects.net/hardware.html#TAIT_PROGRAMMER" class="link">Tait Classic PIC Programmer - (c) David Tait</a>
+<p>
+منابع:<br>
+<ul class="en">
+<li><a href="https://www.instructables.com/5-transistor-PIC-programmer-*Schematic-added-to-st/" class="link">5 Transistor PIC Programmer</a></li>
+<li><a href="http://picpgm.picprojects.net/hardware.html#TAIT_PROGRAMMER" class="link">Tait Classic PIC Programmer - (c) David Tait</a></li>
+</ul>
 </p>
 
 }}
