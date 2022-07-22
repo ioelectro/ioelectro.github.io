@@ -99,7 +99,7 @@ generate :
 	-d ./doc/header.html ./doc/course-$$post.html ./doc/footer.html \
 	-v ./var/course/$$post.txt ./var/com.txt ./var/footer.txt;done
 
-#################################### SITEMAP $#########################################
+#################################### SITEMAP ##########################################
 map:
 	$(smg) -s https://ioelectro.ir -n $(generate-dir)/sitemap.xml \
 	-d contacts -d about \
