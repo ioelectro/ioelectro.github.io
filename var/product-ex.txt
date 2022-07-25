@@ -15,7 +15,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "priceCurrency": "{{PRODUCT-PRICE-UNIT}},
+        "priceCurrency": "{{PRODUCT-PRICE-UNIT}}",
         "price": "{{PRODUCT-PRICE}}"
       }
     }
