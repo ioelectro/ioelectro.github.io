@@ -17,7 +17,7 @@
 {{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
-{{PRODUCT-PRICE 2,000,000}}
+{{PRODUCT-PRICE 2000000}}
 {{PRODUCT-STATUS ناموجود}}
 
 {{PRODUCT-TINY-INFO
