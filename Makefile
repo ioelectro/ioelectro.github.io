@@ -82,11 +82,11 @@ generate :
 	-d ./doc/header.html ./doc/shop.html ./doc/footer.html \
 	-v ./var/shop.txt ./var/com.txt ./var/footer.txt
 
-# Shop post
+# Shop post (product)
 	for post in $(shop-post-name);do \
 	$(htmixer) ./$(generate-dir)/shop/$$post/index.html \
 	-d ./doc/header.html ./doc/product.html ./doc/footer.html \
-	-v ./var/shop/$$post.txt ./var/com.txt ./var/footer.txt;done
+	-v ./var/shop/$$post.txt ./var/product-ex.txt ./var/com.txt ./var/footer.txt;done
 
 # Course
 	$(htmixer) ./$(generate-dir)/course/index.html \

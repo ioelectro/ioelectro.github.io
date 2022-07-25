@@ -1,0 +1,23 @@
+{{PRODUCT-EX-JSON-LD
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "{{PAGE-TITLE}}",
+      "image": [
+        "{{PRODUCT-IMG-BIG}}",
+        "{{PRODUCT-IMG-MEDIUM}}"
+       ],
+      "description": "{{PRODUCT-TINY-INFO}}",
+      "brand": {
+        "@type": "Brand",
+        "name": "IOElectro"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "{{PRODUCT-PRICE-UNIT}},
+        "price": "{{PRODUCT-PRICE}}"
+      }
+    }
+    </script>
+}}
