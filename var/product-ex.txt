@@ -6,7 +6,8 @@
       "name": "{{PAGE-TITLE}}",
       "image": [
         "{{PRODUCT-IMG-BIG}}",
-        "{{PRODUCT-IMG-MEDIUM}}"
+        "{{PRODUCT-IMG-MEDIUM}}",
+        "{{PRODUCT-IMG-SMALL}}"
        ],
       "description": "{{PRODUCT-TINY-INFO}}",
       "brand": {

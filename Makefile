@@ -14,19 +14,17 @@ default : generate map
 
 # Blog Posts
 # The 'blog-post-name' must same the .txt file in 'var/blog/post' folder
-blog-post-name = compile-c-project design-3d-altium-component-by-solidworks learn-git-for-beginners \
-disable-driver-signature-enforcement how-to-download-compile-and-program-avr-project \
-ion-implantation  negative-voltage-generator-circuit st-vscode electric-arc-furnace \
-smc918-4 7t-pic-prog
+blog-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/blog/*)))
+
 
 # Shop Posts
 # The 'shop-post-name' must same the .txt file in 'var/shop/post' folder
-shop-post-name = water-pump-timer h01
+shop-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/shop/*)))
 
 # Course Posts
 # The 'course-post-name' must same the .txt file in 'var/course/post' folder
 # Ech course must have body html file in doc folder named :course-NMAE.html
-course-post-name = learn-c
+course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/course/*)))
 
 # Start Generate Static Web Pages
 generate :

@@ -14,6 +14,7 @@
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/big.jpg}}
 {{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/medium.jpg}}
+{{PRODUCT-IMG-SMALL {{UPLOAD-DIR}}/img/small.jpg}}
 {{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
