@@ -7,153 +7,155 @@
 {{DESCRIPTION وبلاگ}}
 {{READ-MORE ادامه مطلب}}
 ----------------------------------------
-{{BLOG-POST-TITLE-0
+{{BLOG-POST-NUM 15}}
+----------------------------------------
+{{BLOG-POST-TITLE-1
     برنامه نویسی و دیباگ STM32 در VSCode
 }}
-{{BLOG-POST-LINK-0    {{HOME-DIR}}/blog/st-vscode/}}
-{{BLOG-POST-IMG-0     {{UPLOAD-DIR}}/st-vscode.png}}
-{{BLOG-POST-BTN-0     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-0
+{{BLOG-POST-LINK-1    {{HOME-DIR}}/blog/st-vscode/}}
+{{BLOG-POST-IMG-1     {{UPLOAD-DIR}}/st-vscode.png}}
+{{BLOG-POST-BTN-1     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-1
 در این بخش با استفاده از ویرایشگر قدرتمند VSCode به کدنویسی و دیباگ میکروکنترلرهای STM32 میپردازیم.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-1
+{{BLOG-POST-TITLE-2
 پورت سریال در C#
 }}
-{{BLOG-POST-LINK-1    {{UPLOAD-DIR}}/serial/SerialLearning.pdf}}
-{{BLOG-POST-IMG-1     {{UPLOAD-DIR}}/serial/Serial-Cable.jpg}}
-{{BLOG-POST-BTN-1     دانلود مستقیم PDF 8MB}}
-{{BLOG-POST-DESCRIPTION-1
+{{BLOG-POST-LINK-2    {{UPLOAD-DIR}}/serial/SerialLearning.pdf}}
+{{BLOG-POST-IMG-2     {{UPLOAD-DIR}}/serial/Serial-Cable.jpg}}
+{{BLOG-POST-BTN-2     دانلود مستقیم PDF 8MB}}
+{{BLOG-POST-DESCRIPTION-2
 در این مقاله به ساده ترین روش، کار با پورت سریال در C# را یاد بگیرید. برای درک بهتر موضوع، آموزش پروژه محور همراه با تصاویر گام به گام ارائه گردیده است.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-2
+{{BLOG-POST-TITLE-3
 دانلود مستندات ساخت پروگرامر AVR
 }}
-{{BLOG-POST-LINK-2    https://www.fischl.de/usbasp/}}
-{{BLOG-POST-IMG-2     {{UPLOAD-DIR}}/usbasp_programmer.jpg}}
-{{BLOG-POST-BTN-2     پرش به منبع}}
-{{BLOG-POST-DESCRIPTION-2
+{{BLOG-POST-LINK-3    https://www.fischl.de/usbasp/}}
+{{BLOG-POST-IMG-3     {{UPLOAD-DIR}}/usbasp_programmer.jpg}}
+{{BLOG-POST-BTN-3     پرش به منبع}}
+{{BLOG-POST-DESCRIPTION-3
 در این قسمت میتونید تمام نسخه های ساخته شده از پروگرامر USB متن باز AVR با نام USB-ASP رو مشاهده و دانلود کنید.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-3
+{{BLOG-POST-TITLE-4
 کاشت ین
 }}
-{{BLOG-POST-LINK-3    {{HOME-DIR}}/blog/ion-implantation/}}
-{{BLOG-POST-IMG-3     {{UPLOAD-DIR}}/ion/ion-implantation.jpg}}
-{{BLOG-POST-BTN-3     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-3
+{{BLOG-POST-LINK-4    {{HOME-DIR}}/blog/ion-implantation/}}
+{{BLOG-POST-IMG-4     {{UPLOAD-DIR}}/ion/ion-implantation.jpg}}
+{{BLOG-POST-BTN-4     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-4
 در این قسمت با کاشت ین ،روش های کاشت ین، ابزار مورد نیاز، منابع و ... آشنا بشید.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-4
+{{BLOG-POST-TITLE-5
 نحوه دانلود پروژهای AVR
 }}
-{{BLOG-POST-LINK-4    {{HOME-DIR}}/blog/how-to-download-compile-and-program-avr-project/}}
-{{BLOG-POST-IMG-4     {{UPLOAD-DIR}}/compile-c-project.jpg}}
-{{BLOG-POST-BTN-4     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-4
+{{BLOG-POST-LINK-5    {{HOME-DIR}}/blog/how-to-download-compile-and-program-avr-project/}}
+{{BLOG-POST-IMG-5     {{UPLOAD-DIR}}/compile-c-project.jpg}}
+{{BLOG-POST-BTN-5     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-5
 در این ویدیو با نحوه دانلود، کامپایل و پروگرام پروژهای AVR آشنا بشید.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-5
+{{BLOG-POST-TITLE-6
 رفع مشکل نصب نشدن درایور
 }}
-{{BLOG-POST-LINK-5    {{HOME-DIR}}/blog/disable-driver-signature-enforcement/}}
-{{BLOG-POST-IMG-5     {{UPLOAD-DIR}}/ddsef/ddsef-1.jpg}}
-{{BLOG-POST-BTN-5     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-5
+{{BLOG-POST-LINK-6    {{HOME-DIR}}/blog/disable-driver-signature-enforcement/}}
+{{BLOG-POST-IMG-6     {{UPLOAD-DIR}}/ddsef/ddsef-1.jpg}}
+{{BLOG-POST-BTN-6     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-6
 در بسیاری از موارد در نصب درایور های مخصوص سخت افزار های خاص نیاز به غیر فعال کردن Driver signature enforcement است که در این پست به آن پرداخته ایم.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-6
+{{BLOG-POST-TITLE-7
 روش های کامپایل پروژه C
 }}
-{{BLOG-POST-LINK-6    {{HOME-DIR}}/blog/compile-c-project/}}
-{{BLOG-POST-IMG-6     {{UPLOAD-DIR}}/cmake.jpg}}
-{{BLOG-POST-BTN-6     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-6
+{{BLOG-POST-LINK-7    {{HOME-DIR}}/blog/compile-c-project/}}
+{{BLOG-POST-IMG-7     {{UPLOAD-DIR}}/cmake.jpg}}
+{{BLOG-POST-BTN-7     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-7
 در این ویدیو با روش های مختلف کامپایل پروژه C آشنا بشید.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-7
+{{BLOG-POST-TITLE-8
 طراحی نمای 3D قطعات Altium در SolidWorks
 }}
-{{BLOG-POST-LINK-7    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks/}}
-{{BLOG-POST-IMG-7     {{UPLOAD-DIR}}/altium-3d.JPG}}
-{{BLOG-POST-BTN-7     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-7
+{{BLOG-POST-LINK-8    {{HOME-DIR}}/blog/design-3d-altium-component-by-solidworks/}}
+{{BLOG-POST-IMG-8     {{UPLOAD-DIR}}/altium-3d.JPG}}
+{{BLOG-POST-BTN-8     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-8
 در این ویدیو ببینید چطور از SolidWorks برای طراحی نمای 3D قطعات Altium کمک میگیرم.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-8
+{{BLOG-POST-TITLE-9
 تحلیل مدار مولد ولتاژ منفی
 }}
-{{BLOG-POST-LINK-8    {{HOME-DIR}}/blog/negative-voltage-generator-circuit/}}
-{{BLOG-POST-IMG-8     {{UPLOAD-DIR}}/neg-v.jpg}}
-{{BLOG-POST-BTN-8     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-8
+{{BLOG-POST-LINK-9    {{HOME-DIR}}/blog/negative-voltage-generator-circuit/}}
+{{BLOG-POST-IMG-9     {{UPLOAD-DIR}}/neg-v.jpg}}
+{{BLOG-POST-BTN-9     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-9
 در این ویدیو به تحلیل مدار مولد ولتاژ منفی با استفاده از سلف به روش کلید زنی (سویچینگ) میپردازیم.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-9
+{{BLOG-POST-TITLE-10
 آموزش git برای افراد مبتدی
 }}
-{{BLOG-POST-LINK-9    {{HOME-DIR}}/blog/learn-git-for-beginners}}
-{{BLOG-POST-IMG-9     {{UPLOAD-DIR}}/learn-git.jpg}}
-{{BLOG-POST-BTN-9     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-9
+{{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/learn-git-for-beginners}}
+{{BLOG-POST-IMG-10     {{UPLOAD-DIR}}/learn-git.jpg}}
+{{BLOG-POST-BTN-10     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-10
 در این قسمت با نرم افزار ورژن کنترل git و نحوه استفاده از اون آشنا بشید.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-10
+{{BLOG-POST-TITLE-11
 کوره قوس الکتریکی
 }}
-{{BLOG-POST-LINK-10    {{HOME-DIR}}/blog/electric-arc-furnace/}}
-{{BLOG-POST-IMG-10     {{UPLOAD-DIR}}/eaf/electric-arc-furnace-s.jpg}}
-{{BLOG-POST-BTN-10     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-10
+{{BLOG-POST-LINK-11    {{HOME-DIR}}/blog/electric-arc-furnace/}}
+{{BLOG-POST-IMG-11     {{UPLOAD-DIR}}/eaf/electric-arc-furnace-s.jpg}}
+{{BLOG-POST-BTN-11     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-11
 کوره قوس الکتریکی (به انگلیسی: Electric Arc Furnace) که به صورت مخفف EAF نامیده می‌شود، کوره‌ای است که مواد فلزی با استفاده از یک قوس الکتریکی ذوب می‌شود. 
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-11
+{{BLOG-POST-TITLE-12
 SMT Notes}}
-{{BLOG-POST-LINK-11    {{UPLOAD-DIR}}/smt/smt_notes.pdf}}
-{{BLOG-POST-IMG-11     {{UPLOAD-DIR}}/smt/smt_notes.jpg}}
-{{BLOG-POST-BTN-11     دانلود مستقیم PDF 3MB}}
-{{BLOG-POST-DESCRIPTION-11
+{{BLOG-POST-LINK-12    {{UPLOAD-DIR}}/smt/smt_notes.pdf}}
+{{BLOG-POST-IMG-12     {{UPLOAD-DIR}}/smt/smt_notes.jpg}}
+{{BLOG-POST-BTN-12     دانلود مستقیم PDF 3MB}}
+{{BLOG-POST-DESCRIPTION-12
 در این مقاله به برسی انواع روش های لحیم کاری و نصب قطعات SMD روی PCB
  و نکاتی که در طراحی و ساخت باید رعایت کرد، پرداخته شده است.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-12
+{{BLOG-POST-TITLE-13
 دیکد سیگنال ریموت SMC918-4
 }}
-{{BLOG-POST-LINK-12    {{HOME-DIR}}/blog/smc918-4/}}
-{{BLOG-POST-IMG-12     {{UPLOAD-DIR}}/smc918-4/smc918-4.jpg}}
-{{BLOG-POST-BTN-12     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-12
+{{BLOG-POST-LINK-13    {{HOME-DIR}}/blog/smc918-4/}}
+{{BLOG-POST-IMG-13     {{UPLOAD-DIR}}/smc918-4/smc918-4.jpg}}
+{{BLOG-POST-BTN-13     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-13
 برسی و دیکد سیگنال ریموت کنترلر رادیویی که از آیسی SMC918-4 در آن استفاده شده است.
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-13
+{{BLOG-POST-TITLE-14
 ساخت پروگرامر PIC با 7 ترانزیستور
 }}
-{{BLOG-POST-LINK-13    {{HOME-DIR}}/blog/7t-pic-prog/}}
-{{BLOG-POST-IMG-13     {{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.jpg}}
-{{BLOG-POST-BTN-13     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-13
+{{BLOG-POST-LINK-14    {{HOME-DIR}}/blog/7t-pic-prog/}}
+{{BLOG-POST-IMG-14     {{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.jpg}}
+{{BLOG-POST-BTN-14     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-14
 ساخت یک پروگرامر ساده و ارزان برای پروگرام میکروکنترل های سری PIC با استفاده از 7 ترانزیستور و درگاه موازی (پرینتری).
 }}
 ----------------------------------------
-{{BLOG-POST-TITLE-14
+{{BLOG-POST-TITLE-15
 کالیبراسیون باسکول محک
 }}
-{{BLOG-POST-LINK-14    {{HOME-DIR}}/blog/bkmc/}}
-{{BLOG-POST-IMG-14     {{UPLOAD-DIR}}/bkmc/cblogo.jpg}}
-{{BLOG-POST-BTN-14     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-14
+{{BLOG-POST-LINK-15    {{HOME-DIR}}/blog/bkmc/}}
+{{BLOG-POST-IMG-15     {{UPLOAD-DIR}}/bkmc/cblogo.jpg}}
+{{BLOG-POST-BTN-15     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-15
 آموزش کالیبراسیون ترازو و باسکول هایی که نمایشگر محک در آنها استفاده شده است.
 }}
 ----------------------------------------
