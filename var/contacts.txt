@@ -15,10 +15,6 @@
             <td class="en"><a href="tel:+989034729843" class="link">09034729843</a></td>
         </tr>
         <tr>
-            <td>ارسال پیام با : </td>
-            <td class="en"><a href="https://wa.me/989034729843" class="link">WhatsApp</a></td>
-        </tr>
-        <tr>
             <td>ایمیل : </td>
             <td class="en"><a href="mailto:info@ioelectro.ir" class="link">info@ioelectro.ir</a></td>
         </tr>
