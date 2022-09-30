@@ -4,7 +4,8 @@
 htmixer		="C:/Program Files (x86)/htmixer/bin/htmixer.exe"
 smg         ="C:/Program Files (x86)/smg/bin/smg.exe"
 
-generate-dir=gh-pages
+generate-dir = gh-pages
+theme        = default-theme
 
 default : generate map
 ##################################### GENARATE ########################################
@@ -13,18 +14,18 @@ default : generate map
 # The Var replace by same name in Doc file
 
 # Blog Posts
-# The 'blog-post-name' must same the .txt file in 'var/blog/post' folder
-blog-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/blog/*)))
+# The 'blog-post-name' must same the .txt file in 'doc/blog/post' folder
+blog-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/blog/*)))
 
 
 # Shop Posts
-# The 'shop-post-name' must same the .txt file in 'var/shop/post' folder
-shop-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/shop/*)))
+# The 'shop-post-name' must same the .txt file in 'doc/shop/post' folder
+shop-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/shop/*)))
 
 # Course Posts
-# The 'course-post-name' must same the .txt file in 'var/course/post' folder
-# Ech course must have body html file in doc folder named :course-NMAE.html
-course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./var/course/*)))
+# The 'course-post-name' must same the .txt file in 'doc/course/post' folder
+# Ech course must have body html file in $(theme) folder named :course-NMAE.html
+course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*)))
 
 # Start Generate Static Web Pages
 generate :
@@ -42,60 +43,60 @@ generate :
 	mkdir $(foreach dir,$(course-post-name),./$(generate-dir)/course/$(dir))
 
 # Copy Doc css and other files
-	cp -r doc/css $(generate-dir)
-	cp -r doc/fonts $(generate-dir)
-	cp -r doc/img $(generate-dir)
+	cp -r $(theme)/css $(generate-dir)
+	cp -r $(theme)/fonts $(generate-dir)
+	cp -r $(theme)/img $(generate-dir)
 	cp -r doc/blog/upload $(generate-dir)/blog
 	cp -r doc/shop/upload $(generate-dir)/shop
 	cp -r doc/course/upload $(generate-dir)/course
 
 # Home
 	$(htmixer) ./$(generate-dir)/index.html \
-	-d ./doc/header.html ./doc/home.html ./doc/footer.html \
-	-v ./var/home.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/home.html ./$(theme)/footer.html \
+	-v ./doc/home.txt ./doc/com.txt ./doc/footer.txt
 
 # About
 	$(htmixer) ./$(generate-dir)/about/index.html \
-	-d ./doc/header.html ./doc/about.html ./doc/footer.html \
-	-v ./var/about.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/about.html ./$(theme)/footer.html \
+	-v ./doc/about.txt ./doc/com.txt ./doc/footer.txt
 
 # Contacts
 	$(htmixer) ./$(generate-dir)/contacts/index.html \
-	-d ./doc/header.html ./doc/contacts.html ./doc/footer.html \
-	-v ./var/contacts.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/contacts.html ./$(theme)/footer.html \
+	-v ./doc/contacts.txt ./doc/com.txt ./doc/footer.txt
 
 # Blog
 	$(htmixer) ./$(generate-dir)/blog/index.html \
-	-d ./doc/header.html ./doc/blog.html ./doc/footer.html \
-	-v ./var/blog.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/blog.html ./$(theme)/footer.html \
+	-v ./doc/blog.txt ./doc/com.txt ./doc/footer.txt
 
 # Blog post
 	for post in $(blog-post-name);do \
 	$(htmixer) ./$(generate-dir)/blog/$$post/index.html \
-	-d ./doc/header.html ./doc/post.html ./doc/footer.html \
-	-v ./var/blog/$$post.txt ./var/com.txt ./var/footer.txt;done
+	-d ./$(theme)/header.html ./$(theme)/post.html ./$(theme)/footer.html \
+	-v ./doc/blog/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Shop
 	$(htmixer) ./$(generate-dir)/shop/index.html \
-	-d ./doc/header.html ./doc/shop.html ./doc/footer.html \
-	-v ./var/shop.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/shop.html ./$(theme)/footer.html \
+	-v ./doc/shop.txt ./doc/com.txt ./doc/footer.txt
 
 # Shop post (product)
 	for post in $(shop-post-name);do \
 	$(htmixer) ./$(generate-dir)/shop/$$post/index.html \
-	-d ./doc/header.html ./doc/product.html ./doc/footer.html \
-	-v ./var/shop/$$post.txt ./var/product-ex.txt ./var/com.txt ./var/footer.txt;done
+	-d ./$(theme)/header.html ./$(theme)/product.html ./$(theme)/footer.html \
+	-v ./doc/shop/$$post.txt ./doc/product-ex.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Course
 	$(htmixer) ./$(generate-dir)/course/index.html \
-	-d ./doc/header.html ./doc/course.html ./doc/footer.html \
-	-v ./var/course.txt ./var/com.txt ./var/footer.txt
+	-d ./$(theme)/header.html ./$(theme)/course.html ./$(theme)/footer.html \
+	-v ./doc/course.txt ./doc/com.txt ./doc/footer.txt
 
 # Course post
 	for post in $(course-post-name);do \
 	$(htmixer) ./$(generate-dir)/course/$$post/index.html \
-	-d ./doc/header.html ./doc/course-$$post.html ./doc/footer.html \
-	-v ./var/course/$$post.txt ./var/com.txt ./var/footer.txt;done
+	-d ./$(theme)/header.html ./$(theme)/course-$$post.html ./$(theme)/footer.html \
+	-v ./doc/course/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
 #################################### SITEMAP ##########################################
 map:
