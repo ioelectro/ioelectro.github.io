@@ -17,7 +17,7 @@ Just load in Home page
     <!-- End MailerLite Universal -->
 }}
 ----------------------------------------
-{{HOME-POST-IMG-URL-0 ./img/blog.jpg}}
+{{HOME-POST-IMG-URL-0 ./img/ioelectro.jpg}}
 {{HOME-POST-IMG-URL-1 ./img/git.jpg}}
 {{HOME-POST-IMG-URL-2 ./img/electronics.jpg}}
 {{HOME-POST-IMG-URL-3 ./img/design.jpg}}
