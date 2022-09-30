@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/10/12}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/electric-arc-furnace.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/electric-arc-furnace.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

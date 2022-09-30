@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/8/6}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/learn-git-for-beginners.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/learn-git-for-beginners.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

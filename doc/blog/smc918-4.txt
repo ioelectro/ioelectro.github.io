@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1401/3/15}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/smc918-4.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/smc918-4.txt}}
 ----------------------------------------
 {{POST-BODY
 

@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1401/4/22}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/7t-pic-prog.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/7t-pic-prog.txt}}
 ----------------------------------------
 {{POST-BODY
 

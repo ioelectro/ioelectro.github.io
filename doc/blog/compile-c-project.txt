@@ -8,7 +8,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/20}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/compile-c-project.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/compile-c-project.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

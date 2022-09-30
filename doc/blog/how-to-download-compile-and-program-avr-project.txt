@@ -6,7 +6,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/4/26}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/how-to-download-compile-and-program-avr-project.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/how-to-download-compile-and-program-avr-project.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

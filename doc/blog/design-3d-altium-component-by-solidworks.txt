@@ -6,7 +6,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/4}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/design-3d-altium-component-by-solidworks.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/design-3d-altium-component-by-solidworks.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

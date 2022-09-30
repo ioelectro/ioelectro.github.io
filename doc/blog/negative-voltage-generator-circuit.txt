@@ -7,7 +7,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/5/28}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/negative-voltage-generator-circuit.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/negative-voltage-generator-circuit.txt}}
 ----------------------------------------
 {{POST-BODY
 <p>

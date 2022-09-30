@@ -8,7 +8,7 @@
 {{TXT-CONTACTS  تماس با ما}}
 {{TXT-COURSE دوره های آموزشی}}
 ----------------------------------------
-{{SITE-DEPLOY-LOC https://github.com/ioelectro/ioelectro.github.io/blob/main}}
+{{SITE-DEPLOY-LOC https://github.com/ioelectro/ioelectro.github.io/blob/main/doc}}
 ----------------------------------------
 {{GOOGLE-TAG
     <!-- Google tag (gtag.js) -->

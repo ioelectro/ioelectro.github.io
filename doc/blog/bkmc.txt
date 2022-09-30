@@ -8,7 +8,7 @@
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1401/5/15}}
 {{EDIT-TXT [ویرایش]}}
-{{EDIT-LINK {{SITE-DEPLOY-LOC}}/var/blog/{{FILE-NAME}}.txt}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/{{FILE-NAME}}.txt}}
 ----------------------------------------
 {{POST-BODY
 
