@@ -15,17 +15,17 @@ default : generate map
 
 # Blog Posts
 # The 'blog-post-name' must same the .txt file in 'doc/blog/post' folder
-blog-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/blog/*)))
+blog-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/blog/*.txt)))
 
 
 # Shop Posts
 # The 'shop-post-name' must same the .txt file in 'doc/shop/post' folder
-shop-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/shop/*)))
+shop-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/shop/*.txt)))
 
 # Course Posts
 # The 'course-post-name' must same the .txt file in 'doc/course/post' folder
 # Ech course must have body html file in $(theme) folder named :course-NMAE.html
-course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*)))
+course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*.txt)))
 
 # Start Generate Static Web Pages
 generate :
