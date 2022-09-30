@@ -7,6 +7,8 @@ smg         ="C:/Program Files (x86)/smg/bin/smg.exe"
 generate-dir = gh-pages
 theme        = default-theme
 
+site         = ioelectro.ir
+
 default : generate map
 ##################################### GENARATE ########################################
 # Use 'htmixer' for mix 'Doc' and 'Var' files.
@@ -100,7 +102,7 @@ generate :
 
 #################################### SITEMAP ##########################################
 map:
-	$(smg) -s https://ioelectro.ir -n $(generate-dir)/sitemap.xml \
+	$(smg) -s https://$(site) -n $(generate-dir)/sitemap.xml \
 	-d contacts -d about \
 	-d course $(addprefix -p,$(course-post-name)) \
 	-d shop $(addprefix -p,$(shop-post-name)) \
@@ -111,7 +113,7 @@ map:
 # more on : https://pypi.org/project/ghp-import/
 # Add CNAME by '-c SITENAME' command
 deploy:
-	ghp-import -c ioelectro.ir -p $(generate-dir)
+	ghp-import -c $(site) -p $(generate-dir)
 
 
 #######################################################################################
