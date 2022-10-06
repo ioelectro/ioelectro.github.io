@@ -57,8 +57,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-5 5}}
 {{POST-TITLE-5 Strings}}
-{{POST-FILE-LINK-5 #}}
-{{POST-VIDEO-LINK-5 #}}
+{{POST-FILE-LINK-5 {{UPLOAD-DIR}}/5.zip}}
+{{POST-VIDEO-LINK-5 https://aparat.com/v/FMfi1}}
 ----------------------------------------
 {{POST-NUM-6 6}}
 {{POST-TITLE-6 For loops}}
