@@ -67,8 +67,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-7 7}}
 {{POST-TITLE-7 While loops}}
-{{POST-FILE-LINK-7 #}}
-{{POST-VIDEO-LINK-7 #}}
+{{POST-FILE-LINK-7 {{UPLOAD-DIR}}/7.zip}}
+{{POST-VIDEO-LINK-7 https://aparat.com/v/5lT8A}}
 ----------------------------------------
 {{POST-NUM-8 8}}
 {{POST-TITLE-8 Functions}}
