@@ -85,8 +85,8 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 {{POST-NUM-8 8}}
 {{POST-TITLE-8 Functions}}
 {{POST-FILE-LINK-8 {{UPLOAD-DIR}}/8.zip}}
-{{POST-VIDEO-LINK-APARAT-8 https://aparat.com/v/lAbOg}}
-{{POST-VIDEO-LINK-YOUTUBE-8 https://youtu.be/82V6bOX1z-s}}
+{{POST-VIDEO-LINK-APARAT-8 https://aparat.com/v/lLxuP}}
+{{POST-VIDEO-LINK-YOUTUBE-8 #}}
 ----------------------------------------
 {{POST-NUM-9 9}}
 {{POST-TITLE-9 Static}}
