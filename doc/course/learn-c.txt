@@ -31,55 +31,66 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 {{POST-NUM--1 1-}}
 {{POST-TITLE--1 C نصب کامپایلر}}
 {{POST-FILE-LINK--1 https://gcc.gnu.org/}}
-{{POST-VIDEO-LINK--1 https://aparat.com/v/xsJk6}}
+{{POST-VIDEO-LINK-APARAT--1 https://aparat.com/v/xsJk6}}
+{{POST-VIDEO-LINK-YOUTUBE--1 https://youtu.be/3lBQD94b5r4}}
 ----------------------------------------
 {{POST-NUM-0 0}}
 {{POST-TITLE-0 Hello, World!}}
 {{POST-FILE-LINK-0 {{UPLOAD-DIR}}/0.zip}}
-{{POST-VIDEO-LINK-0 https://aparat.com/v/SIH7G}}
+{{POST-VIDEO-LINK-APARAT-0 https://aparat.com/v/SIH7G}}
+{{POST-VIDEO-LINK-YOUTUBE-0 https://youtu.be/owH2av5TbX8}}
 ----------------------------------------
 {{POST-NUM-1 1}}
 {{POST-TITLE-1 Variables and Types}}
 {{POST-FILE-LINK-1 {{UPLOAD-DIR}}/1.zip}}
-{{POST-VIDEO-LINK-1 https://aparat.com/v/ac9KX}}
+{{POST-VIDEO-LINK-APARAT-1 https://aparat.com/v/ac9KX}}
+{{POST-VIDEO-LINK-YOUTUBE-1 https://youtu.be/akGr4ZMT2yc}}
 ----------------------------------------
 {{POST-NUM-2 2}}
 {{POST-TITLE-2 Arrays}}
 {{POST-FILE-LINK-2 {{UPLOAD-DIR}}/2.zip}}
-{{POST-VIDEO-LINK-2 https://aparat.com/v/HMSJ1}}
+{{POST-VIDEO-LINK-APARAT-2 https://aparat.com/v/HMSJ1}}
+{{POST-VIDEO-LINK-YOUTUBE-2 https://youtu.be/tpwtZOPic2U}}
 ----------------------------------------
 {{POST-NUM-3 3}}
 {{POST-TITLE-3 Multidimensional Arrays}}
 {{POST-FILE-LINK-3 {{UPLOAD-DIR}}/3.zip}}
-{{POST-VIDEO-LINK-3 https://aparat.com/v/cYLDb}}
+{{POST-VIDEO-LINK-APARAT-3 https://aparat.com/v/cYLDb}}
+{{POST-VIDEO-LINK-YOUTUBE-3 https://youtu.be/8a4uAW9mMWA}}
 ----------------------------------------
 {{POST-NUM-4 4}}
 {{POST-TITLE-4 Conditions}}
 {{POST-FILE-LINK-4 {{UPLOAD-DIR}}/4.zip}}
-{{POST-VIDEO-LINK-4 https://aparat.com/v/AEhaw}}
+{{POST-VIDEO-LINK-APARAT-4 https://aparat.com/v/AEhaw}}
+{{POST-VIDEO-LINK-YOUTUBE-4 https://youtu.be/yclbqNBGJUQ}}
 ----------------------------------------
 {{POST-NUM-5 5}}
 {{POST-TITLE-5 Strings}}
 {{POST-FILE-LINK-5 {{UPLOAD-DIR}}/5.zip}}
-{{POST-VIDEO-LINK-5 https://aparat.com/v/FMfi1}}
+{{POST-VIDEO-LINK-APARAT-5 https://aparat.com/v/FMfi1}}
+{{POST-VIDEO-LINK-YOUTUBE-5 https://youtu.be/j33cizWD4Fo}}
 ----------------------------------------
 {{POST-NUM-6 6}}
 {{POST-TITLE-6 For loops}}
 {{POST-FILE-LINK-6 {{UPLOAD-DIR}}/6.zip}}
-{{POST-VIDEO-LINK-6 https://aparat.com/v/7QjvW}}
+{{POST-VIDEO-LINK-APARAT-6 https://aparat.com/v/7QjvW}}
+{{POST-VIDEO-LINK-YOUTUBE-6 https://youtu.be/Xgq1ngP_S0I}}
 ----------------------------------------
 {{POST-NUM-7 7}}
 {{POST-TITLE-7 While loops}}
 {{POST-FILE-LINK-7 {{UPLOAD-DIR}}/7.zip}}
-{{POST-VIDEO-LINK-7 https://aparat.com/v/5lT8A}}
+{{POST-VIDEO-LINK-APARAT-7 https://aparat.com/v/5lT8A}}
+{{POST-VIDEO-LINK-YOUTUBE-7 https://youtu.be/BWclEImbOXA}}
 ----------------------------------------
 {{POST-NUM-8 8}}
 {{POST-TITLE-8 Functions}}
 {{POST-FILE-LINK-8 {{UPLOAD-DIR}}/8.zip}}
-{{POST-VIDEO-LINK-8 https://aparat.com/v/lAbOg}}
+{{POST-VIDEO-LINK-APARAT-8 https://aparat.com/v/lAbOg}}
+{{POST-VIDEO-LINK-YOUTUBE-8 https://youtu.be/82V6bOX1z-s}}
 ----------------------------------------
 {{POST-NUM-9 9}}
 {{POST-TITLE-9 Static}}
 {{POST-FILE-LINK-9 #}}
-{{POST-VIDEO-LINK-9 #}}
+{{POST-VIDEO-LINK-APARAT-9 #}}
+{{POST-VIDEO-LINK-YOUTUBE-9 #}}
 ----------------------------------------
