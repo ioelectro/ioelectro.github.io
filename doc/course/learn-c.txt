@@ -90,7 +90,7 @@ C یک زبان کامپایل شده است - به این معنی که برا�
 ----------------------------------------
 {{POST-NUM-9 9}}
 {{POST-TITLE-9 Static}}
-{{POST-FILE-LINK-9 #}}
-{{POST-VIDEO-LINK-APARAT-9 #}}
-{{POST-VIDEO-LINK-YOUTUBE-9 #}}
+{{POST-FILE-LINK-9 {{UPLOAD-DIR}}/9.zip}}
+{{POST-VIDEO-LINK-APARAT-9 https://aparat.com/v/A0lUs}}
+{{POST-VIDEO-LINK-YOUTUBE-9 https://youtu.be/01WSEbY41Jo}}
 ----------------------------------------
