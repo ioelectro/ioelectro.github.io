@@ -72,9 +72,11 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 برنامه ای بنویسید که در زمان اجرا منتظر دریافت یک کاراکتر بماند و پس از دریافت کاراکتر بدون فشردن کلید Enter، برنامه بسته شود.
 }}
 ----------------------------------------
-{{EXERCISE-NUM- }}
-{{EXERCISE-TITLE- }}
-{{EXERCISE-ANS- }}
+{{EXERCISE-NUM-3 3}}
+{{EXERCISE-TITLE-3 
+یک ماشین حساب ساده بنویسید که بتواند 4 عمل +-*/ را بین دو عدد ورودی انجام دهد و نتیجه را نمایش دهد. به عنوان مثال با وارد کردن 5/2 و فشردن کلید Enter 
+مقدار 2.500000 نشان داده شود.
+}}
 ----------------------------------------
 {{EXERCISE-NUM- }}
 {{EXERCISE-TITLE- }}
@@ -187,6 +189,25 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 </pre></div>
 }}
 ----------------------------------------
+{{EXERCISE-ANS-3 
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+{
+    <span style="color: #333399; font-weight: bold">float</span> n1,n2,ans<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #333399; font-weight: bold">char</span> f;
+    scanf(<span style="background-color: #fff0f0">&quot;%f%c%f&quot;</span>,<span style="color: #333333">&amp;</span>n1,<span style="color: #333333">&amp;</span>f,<span style="color: #333333">&amp;</span>n2);
+    <span style="color: #008800; font-weight: bold">switch</span> (f)
+    {
+        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;+&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">+</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
+        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;-&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">-</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
+        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;*&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">*</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
+        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;/&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">/</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
+    }
+    printf(<span style="background-color: #fff0f0">&quot;%f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\r\n</span><span style="background-color: #fff0f0">&quot;</span>,ans);
+    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></div>
+}}
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
