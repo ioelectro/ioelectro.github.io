@@ -83,6 +83,23 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 یک برنامه بنویسید که یک عدد را به عنوان ورودی بگیرد و به همان تعداد ستاره * چاپ کند.
 }}
 ----------------------------------------
+{{EXERCISE-NUM-5 5}}
+{{EXERCISE-TITLE-5 
+برنامه ای بنویسید که اعداد و کاراکترها را به عنوان ورودی بگیرد و از بین آنها حروف الفبای انگلیسی را که به صورت بزرگ وارد شده اند
+بشمارد و در حافظه ذخیره کند، در صورتی که تعداد حروف بزرگ وارد شده به 10 برسد، آنها را نمایش دهد و برنامه خاتمه یابد.
+}}
+----------------------------------------
+{{EXERCISE-NUM-6 6}}
+{{EXERCISE-TITLE-6 برنامه ای بنویسید که جدول ضرب را چاپ کند.}}
+----------------------------------------
+{{EXERCISE-NUM- }}
+{{EXERCISE-TITLE- }}
+{{EXERCISE-ANS- }}
+----------------------------------------
+{{EXERCISE-NUM- }}
+{{EXERCISE-TITLE- }}
+{{EXERCISE-ANS- }}
+----------------------------------------
 {{EXERCISE-NUM- }}
 {{EXERCISE-TITLE- }}
 {{EXERCISE-ANS- }}
@@ -223,6 +240,47 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }
 </pre></div>
 }}
+----------------------------------------
+{{EXERCISE-ANS-5 
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<span style="color: #557799">#include &lt;conio.h&gt;</span>
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+{
+    <span style="color: #333399; font-weight: bold">char</span> ch,buffer[<span style="color: #0000DD; font-weight: bold">11</span>];
+    <span style="color: #333399; font-weight: bold">int</span> index<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #008800; font-weight: bold">while</span>(index<span style="color: #333333">&lt;</span><span style="color: #0000DD; font-weight: bold">10</span>)
+    {
+        ch<span style="color: #333333">=</span>getch();
+        <span style="color: #008800; font-weight: bold">if</span>(ch<span style="color: #333333">&gt;=</span><span style="color: #0044DD">&#39;A&#39;</span><span style="color: #333333">&amp;&amp;</span>ch<span style="color: #333333">&lt;=</span><span style="color: #0044DD">&#39;Z&#39;</span>)
+            buffer[index<span style="color: #333333">++</span>]<span style="color: #333333">=</span>ch;
+    }
+    buffer[<span style="color: #0000DD; font-weight: bold">10</span>]<span style="color: #333333">=</span><span style="color: #0044DD">&#39;\0&#39;</span>;
+    puts(buffer);
+    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></div>
+}}
+----------------------------------------
+{{EXERCISE-ANS-6 
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+{
+    <span style="color: #333399; font-weight: bold">int</span> i,j;
+    <span style="color: #008800; font-weight: bold">for</span>(i<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">1</span>;i<span style="color: #333333">&lt;=</span><span style="color: #0000DD; font-weight: bold">10</span>;i<span style="color: #333333">++</span>)
+    {
+        <span style="color: #008800; font-weight: bold">for</span>(j<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">1</span>;j<span style="color: #333333">&lt;=</span><span style="color: #0000DD; font-weight: bold">10</span>;j<span style="color: #333333">++</span>)
+            printf(<span style="background-color: #fff0f0">&quot;%2dx%-2d=%-2d &quot;</span>,j,i,i<span style="color: #333333">*</span>j);
+        printf(<span style="background-color: #fff0f0">&quot;</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\r\n</span><span style="background-color: #fff0f0">&quot;</span>);
+    }
+    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+}
+</pre></div>
+}}
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
