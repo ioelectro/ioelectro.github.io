@@ -93,12 +93,18 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 {{EXERCISE-TITLE-6 برنامه ای بنویسید که جدول ضرب را چاپ کند.}}
 ----------------------------------------
 {{EXERCISE-NUM-7 7}}
-{{EXERCISE-TITLE-7 برنامه ای بنویسید که با فشردن کلیدها کد اسکی متناظر با کاراکترها را چاپ کند و با فشردن کلید Esc 
-برنامه خاتمه یابد (کد اسکی کلید Esc 27 است).}}
+{{EXERCISE-TITLE-7 
+برنامه ای بنویسید که با فشردن کلیدها، 
+<a class="link" href="https://en.wikipedia.org/wiki/ASCII">کد اسکی</a>
+ متناظر با کلیدها را چاپ کند و با فشردن کلید Esc 
+برنامه خاتمه یابد.}}
 ----------------------------------------
-{{EXERCISE-NUM- }}
-{{EXERCISE-TITLE- }}
-{{EXERCISE-ANS- }}
+{{EXERCISE-NUM-8 8}}
+{{EXERCISE-TITLE-8 
+برنامه ای بنویسید که با فشردن کلیدها،
+<a class="link" href="https://en.wikipedia.org/wiki/Morse_code">کد مورس</a>
+متناظر با حروف و اعداد را نمایش دهد.
+}}
 ----------------------------------------
 {{EXERCISE-NUM- }}
 {{EXERCISE-TITLE- }}
@@ -293,6 +299,28 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 </pre></div>
 }}
 ----------------------------------------
+{{EXERCISE-ANS-8 
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;ctype.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
+<span style="color: #008000; font-weight: bold">const</span> <span style="color: #B00040">char</span> morse[][<span style="color: #666666">5</span>]<span style="color: #666666">=</span>{<span style="color: #BA2121">&quot;.-&quot;</span>,<span style="color: #BA2121">&quot;-...&quot;</span>,<span style="color: #BA2121">&quot;-.-.&quot;</span>,<span style="color: #BA2121">&quot;-..&quot;</span>,<span style="color: #BA2121">&quot;.&quot;</span>,<span style="color: #BA2121">&quot;..-.&quot;</span>,<span style="color: #BA2121">&quot;--.&quot;</span>,<span style="color: #BA2121">&quot;....&quot;</span>,<span style="color: #BA2121">&quot;..&quot;</span>,<span style="color: #BA2121">&quot;.---&quot;</span>,<span style="color: #BA2121">&quot;-.-&quot;</span>,<span style="color: #BA2121">&quot;.-..&quot;</span>,<span style="color: #BA2121">&quot;--&quot;</span>,<span style="color: #BA2121">&quot;-.&quot;</span>,<span style="color: #BA2121">&quot;---&quot;</span>,<span style="color: #BA2121">&quot;.--.&quot;</span>,<span style="color: #BA2121">&quot;--.-&quot;</span>,<span style="color: #BA2121">&quot;.-.&quot;</span>,<span style="color: #BA2121">&quot;...&quot;</span>,<span style="color: #BA2121">&quot;-&quot;</span>,<span style="color: #BA2121">&quot;..-&quot;</span>,<span style="color: #BA2121">&quot;...-&quot;</span>,<span style="color: #BA2121">&quot;.--&quot;</span>,<span style="color: #BA2121">&quot;-..-&quot;</span>,<span style="color: #BA2121">&quot;-.--&quot;</span>,<span style="color: #BA2121">&quot;--..&quot;</span>};
+<span style="color: #008000; font-weight: bold">const</span> <span style="color: #B00040">char</span> morseNum[][<span style="color: #666666">6</span>]<span style="color: #666666">=</span>{<span style="color: #BA2121">&quot;-----&quot;</span>,<span style="color: #BA2121">&quot;.----&quot;</span>,<span style="color: #BA2121">&quot;..---&quot;</span>,<span style="color: #BA2121">&quot;...--&quot;</span>,<span style="color: #BA2121">&quot;....-&quot;</span>,<span style="color: #BA2121">&quot;.....&quot;</span>,<span style="color: #BA2121">&quot;-....&quot;</span>,<span style="color: #BA2121">&quot;--...&quot;</span>,<span style="color: #BA2121">&quot;---..&quot;</span>,<span style="color: #BA2121">&quot;----.&quot;</span>};
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
+{
+    <span style="color: #B00040">char</span> ch;
+    <span style="color: #008000; font-weight: bold">while</span>(ch<span style="color: #666666">!=27</span>)
+    {
+        ch<span style="color: #666666">=</span>getch();
+        ch<span style="color: #666666">=</span>toupper(ch);
+        <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">&gt;=</span><span style="color: #BA2121">&#39;0&#39;</span><span style="color: #666666">&amp;&amp;</span>ch<span style="color: #666666">&lt;=</span><span style="color: #BA2121">&#39;9&#39;</span>)printf(<span style="color: #BA2121">&quot;%s &quot;</span>,morseNum[ch<span style="color: #666666">-</span><span style="color: #BA2121">&#39;0&#39;</span>]);
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">&gt;=</span><span style="color: #BA2121">&#39;A&#39;</span><span style="color: #666666">&amp;&amp;</span>ch<span style="color: #666666">&lt;=</span><span style="color: #BA2121">&#39;Z&#39;</span>)printf(<span style="color: #BA2121">&quot;%s &quot;</span>,morse[ch<span style="color: #666666">-</span><span style="color: #BA2121">&#39;A&#39;</span>]);
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">==</span><span style="color: #BA2121">&#39;\r&#39;</span>)printf(<span style="color: #BA2121">&quot;</span><span style="color: #BB6622; font-weight: bold">\r\n</span><span style="color: #BA2121">&quot;</span>);
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">continue</span>;
+    }
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+</pre></div>
+}}
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
