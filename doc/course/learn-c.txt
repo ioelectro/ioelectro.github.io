@@ -92,9 +92,9 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 {{EXERCISE-NUM-6 6}}
 {{EXERCISE-TITLE-6 برنامه ای بنویسید که جدول ضرب را چاپ کند.}}
 ----------------------------------------
-{{EXERCISE-NUM- }}
-{{EXERCISE-TITLE- }}
-{{EXERCISE-ANS- }}
+{{EXERCISE-NUM-7 7}}
+{{EXERCISE-TITLE-7 برنامه ای بنویسید که با فشردن کلیدها کد اسکی متناظر با کاراکترها را چاپ کند و با فشردن کلید Esc 
+برنامه خاتمه یابد (کد اسکی کلید Esc 27 است).}}
 ----------------------------------------
 {{EXERCISE-NUM- }}
 {{EXERCISE-TITLE- }}
@@ -185,98 +185,113 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 ----------------------------------------
 ----------------------------------------
 {{EXERCISE-ANS-1
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include&lt;stdio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;stdio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
-    <span style="color: #333399; font-weight: bold">char</span> name[<span style="color: #0000DD; font-weight: bold">64</span>];
-    puts(<span style="background-color: #fff0f0">&quot;Enter your name:&quot;</span>);
-    scanf(<span style="background-color: #fff0f0">&quot;%s&quot;</span>,name);
-    printf(<span style="background-color: #fff0f0">&quot;Hello %s&quot;</span>,name);
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #B00040">char</span> name[<span style="color: #666666">64</span>];
+    puts(<span style="color: #BA2121">&quot;Enter your name:&quot;</span>);
+    scanf(<span style="color: #BA2121">&quot;%s&quot;</span>,name);
+    printf(<span style="color: #BA2121">&quot;Hello %s&quot;</span>,name);
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
 {{EXERCISE-ANS-2 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include&lt;conio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;conio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     getch();
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
 {{EXERCISE-ANS-3 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
-    <span style="color: #333399; font-weight: bold">float</span> n1,n2,ans<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
-    <span style="color: #333399; font-weight: bold">char</span> f;
-    scanf(<span style="background-color: #fff0f0">&quot;%f%c%f&quot;</span>,<span style="color: #333333">&amp;</span>n1,<span style="color: #333333">&amp;</span>f,<span style="color: #333333">&amp;</span>n2);
-    <span style="color: #008800; font-weight: bold">switch</span> (f)
+    <span style="color: #B00040">float</span> n1,n2,ans<span style="color: #666666">=0</span>;
+    <span style="color: #B00040">char</span> f;
+    scanf(<span style="color: #BA2121">&quot;%f%c%f&quot;</span>,<span style="color: #666666">&amp;</span>n1,<span style="color: #666666">&amp;</span>f,<span style="color: #666666">&amp;</span>n2);
+    <span style="color: #008000; font-weight: bold">switch</span> (f)
     {
-        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;+&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">+</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
-        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;-&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">-</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
-        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;*&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">*</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
-        <span style="color: #008800; font-weight: bold">case</span> <span style="color: #0044DD">&#39;/&#39;</span>:ans<span style="color: #333333">=</span>n1<span style="color: #333333">/</span>n2;<span style="color: #008800; font-weight: bold">break</span>;
+        <span style="color: #008000; font-weight: bold">case</span> <span style="color: #BA2121">&#39;+&#39;</span>:ans<span style="color: #666666">=</span>n1<span style="color: #666666">+</span>n2;<span style="color: #008000; font-weight: bold">break</span>;
+        <span style="color: #008000; font-weight: bold">case</span> <span style="color: #BA2121">&#39;-&#39;</span>:ans<span style="color: #666666">=</span>n1<span style="color: #666666">-</span>n2;<span style="color: #008000; font-weight: bold">break</span>;
+        <span style="color: #008000; font-weight: bold">case</span> <span style="color: #BA2121">&#39;*&#39;</span>:ans<span style="color: #666666">=</span>n1<span style="color: #666666">*</span>n2;<span style="color: #008000; font-weight: bold">break</span>;
+        <span style="color: #008000; font-weight: bold">case</span> <span style="color: #BA2121">&#39;/&#39;</span>:ans<span style="color: #666666">=</span>n1<span style="color: #666666">/</span>n2;<span style="color: #008000; font-weight: bold">break</span>;
     }
-    printf(<span style="background-color: #fff0f0">&quot;%f</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\r\n</span><span style="background-color: #fff0f0">&quot;</span>,ans);
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    printf(<span style="color: #BA2121">&quot;%f</span><span style="color: #BB6622; font-weight: bold">\r\n</span><span style="color: #BA2121">&quot;</span>,ans);
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
 {{EXERCISE-ANS-4 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
-    <span style="color: #333399; font-weight: bold">int</span> n<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
-    printf(<span style="background-color: #fff0f0">&quot;Enter Number:&quot;</span>);
-    scanf(<span style="background-color: #fff0f0">&quot;%d&quot;</span>,<span style="color: #333333">&amp;</span>n);
-    <span style="color: #008800; font-weight: bold">while</span> (n<span style="color: #333333">--</span>)
-        putchar(<span style="color: #0044DD">&#39;*&#39;</span>);
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #B00040">int</span> n<span style="color: #666666">=0</span>;
+    printf(<span style="color: #BA2121">&quot;Enter Number:&quot;</span>);
+    scanf(<span style="color: #BA2121">&quot;%d&quot;</span>,<span style="color: #666666">&amp;</span>n);
+    <span style="color: #008000; font-weight: bold">while</span> (n<span style="color: #666666">--</span>)
+        putchar(<span style="color: #BA2121">&#39;*&#39;</span>);
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
 {{EXERCISE-ANS-5 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-<span style="color: #557799">#include &lt;conio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
-    <span style="color: #333399; font-weight: bold">char</span> ch,buffer[<span style="color: #0000DD; font-weight: bold">11</span>];
-    <span style="color: #333399; font-weight: bold">int</span> index<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">0</span>;
-    <span style="color: #008800; font-weight: bold">while</span>(index<span style="color: #333333">&lt;</span><span style="color: #0000DD; font-weight: bold">10</span>)
+    <span style="color: #B00040">char</span> ch,buffer[<span style="color: #666666">11</span>];
+    <span style="color: #B00040">int</span> index<span style="color: #666666">=0</span>;
+    <span style="color: #008000; font-weight: bold">while</span>(index<span style="color: #666666">&lt;10</span>)
     {
-        ch<span style="color: #333333">=</span>getch();
-        <span style="color: #008800; font-weight: bold">if</span>(ch<span style="color: #333333">&gt;=</span><span style="color: #0044DD">&#39;A&#39;</span><span style="color: #333333">&amp;&amp;</span>ch<span style="color: #333333">&lt;=</span><span style="color: #0044DD">&#39;Z&#39;</span>)
-            buffer[index<span style="color: #333333">++</span>]<span style="color: #333333">=</span>ch;
+        ch<span style="color: #666666">=</span>getch();
+        <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">&gt;=</span><span style="color: #BA2121">&#39;A&#39;</span><span style="color: #666666">&amp;&amp;</span>ch<span style="color: #666666">&lt;=</span><span style="color: #BA2121">&#39;Z&#39;</span>)
+            buffer[index<span style="color: #666666">++</span>]<span style="color: #666666">=</span>ch;
     }
-    buffer[<span style="color: #0000DD; font-weight: bold">10</span>]<span style="color: #333333">=</span><span style="color: #0044DD">&#39;\0&#39;</span>;
+    buffer[<span style="color: #666666">10</span>]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;\0&#39;</span>;
     puts(buffer);
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
 {{EXERCISE-ANS-6 
-<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #557799">#include &lt;stdio.h&gt;</span>
-<span style="color: #333399; font-weight: bold">int</span> <span style="color: #0066BB; font-weight: bold">main</span>()
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
-    <span style="color: #333399; font-weight: bold">int</span> i,j;
-    <span style="color: #008800; font-weight: bold">for</span>(i<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">1</span>;i<span style="color: #333333">&lt;=</span><span style="color: #0000DD; font-weight: bold">10</span>;i<span style="color: #333333">++</span>)
+    <span style="color: #B00040">int</span> i,j;
+    <span style="color: #008000; font-weight: bold">for</span>(i<span style="color: #666666">=1</span>;i<span style="color: #666666">&lt;=10</span>;i<span style="color: #666666">++</span>)
     {
-        <span style="color: #008800; font-weight: bold">for</span>(j<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">1</span>;j<span style="color: #333333">&lt;=</span><span style="color: #0000DD; font-weight: bold">10</span>;j<span style="color: #333333">++</span>)
-            printf(<span style="background-color: #fff0f0">&quot;%2dx%-2d=%-2d &quot;</span>,j,i,i<span style="color: #333333">*</span>j);
-        printf(<span style="background-color: #fff0f0">&quot;</span><span style="color: #666666; font-weight: bold; background-color: #fff0f0">\r\n</span><span style="background-color: #fff0f0">&quot;</span>);
+        <span style="color: #008000; font-weight: bold">for</span>(j<span style="color: #666666">=1</span>;j<span style="color: #666666">&lt;=10</span>;j<span style="color: #666666">++</span>)
+            printf(<span style="color: #BA2121">&quot;%2dx%-2d=%-2d &quot;</span>,j,i,i<span style="color: #666666">*</span>j);
+        printf(<span style="color: #BA2121">&quot;</span><span style="color: #BB6622; font-weight: bold">\r\n</span><span style="color: #BA2121">&quot;</span>);
     }
-    <span style="color: #008800; font-weight: bold">return</span> <span style="color: #0000DD; font-weight: bold">0</span>;
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
+{{EXERCISE-ANS-7 
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
+{
+    <span style="color: #B00040">char</span> ch;
+    <span style="color: #008000; font-weight: bold">while</span> (ch<span style="color: #666666">!=27</span>)
+    {
+        ch<span style="color: #666666">=</span>getch();
+        printf(<span style="color: #BA2121">&quot;%d &quot;</span>,ch);
+    }
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+</pre></div>
+}}
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
