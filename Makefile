@@ -46,6 +46,7 @@ generate :
 
 # Copy Doc css and other files
 	cp -r $(theme)/css $(generate-dir)
+	cp -r $(theme)/js $(generate-dir)
 	cp -r $(theme)/fonts $(generate-dir)
 	cp -r $(theme)/img $(generate-dir)
 	cp -r doc/blog/upload $(generate-dir)/blog

@@ -9,20 +9,15 @@
 		<p>{{FOOTER-CC}}</p>
     </div>
 
-	<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+	<script src="{{HOME-DIR}}/js/lozad.min.js"></script>
 	<script>
 		const observer = lozad();
 		observer.observe();
 	</script>
-	<script>
-		function toggleShowNav() {
-			var Nav = document.getElementById("Nav");
-			if (Nav.className.indexOf("w3-show") == -1) {
-			Nav.className += " w3-show";
-			} else {
-			Nav.className = Nav.className.replace(" w3-show", "");
-			}
-		}
-	</script>
+
+	<!-- my custom script -->
+	<script src="{{HOME-DIR}}/js/my.js"></script>
+
 </body>
 </html>
