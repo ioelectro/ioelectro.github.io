@@ -4,7 +4,7 @@
 {{FOOTER-IMG-4 {{HOME-DIR}}/img/inestagram.png}}
 ----------------------------------------
 {{FOOTER-LINK-1 https://github.com/ioelectro}}
-{{FOOTER-LINK-2 https://www.youtube.com/channel/UCpCUSG_ILFt0p39DzhhV3JA}}
+{{FOOTER-LINK-2 https://www.youtube.com/@ioelectro}}
 {{FOOTER-LINK-3 https://www.aparat.com/ioelectro}}
 {{FOOTER-LINK-4 https://www.instagram.com/ioelectro}}
 ----------------------------------------
