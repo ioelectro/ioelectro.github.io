@@ -19,6 +19,14 @@
                 </div>
             </div>
             }}
-            {{POST-REF}}
+            {{EXERCISE-BODY}}
+            {{FOR(1,3)
+                <p>
+                    {{EXERCISE-NUM}}: {{EXERCISE-TITLE}}  <i class="link" onclick="openDiv('{{EXERCISE-NUM}}')">پاسخ</i>
+                </p>
+                <div class="w3-row w3-hide en" id="{{EXERCISE-NUM}}">
+                    {{EXERCISE-ANS}}
+                </div>
+            }}
         </div>
     </div>
