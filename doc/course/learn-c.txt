@@ -106,11 +106,18 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 متناظر با حروف و اعداد را نمایش دهد.
 }}
 ----------------------------------------
+{{EXERCISE-NUM-9 9}}
+{{EXERCISE-TITLE-9 
+برنامه ای بنویسید که کد مورس را دریافت کند و به حروف و اعداد معادل آن ترجمه کند.
+}}
+----------------------------------------
 {{EXERCISE-NUM- }}
 {{EXERCISE-TITLE- }}
 {{EXERCISE-ANS- }}
 ----------------------------------------
-----------------------------------------
+{{EXERCISE-NUM- }}
+{{EXERCISE-TITLE- }}
+{{EXERCISE-ANS- }}
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
@@ -314,14 +321,18 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
         ch<span style="color: #666666">=</span>toupper(ch);
         <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">&gt;=</span><span style="color: #BA2121">&#39;0&#39;</span><span style="color: #666666">&amp;&amp;</span>ch<span style="color: #666666">&lt;=</span><span style="color: #BA2121">&#39;9&#39;</span>)printf(<span style="color: #BA2121">&quot;%s &quot;</span>,morseNum[ch<span style="color: #666666">-</span><span style="color: #BA2121">&#39;0&#39;</span>]);
         <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">&gt;=</span><span style="color: #BA2121">&#39;A&#39;</span><span style="color: #666666">&amp;&amp;</span>ch<span style="color: #666666">&lt;=</span><span style="color: #BA2121">&#39;Z&#39;</span>)printf(<span style="color: #BA2121">&quot;%s &quot;</span>,morse[ch<span style="color: #666666">-</span><span style="color: #BA2121">&#39;A&#39;</span>]);
+        <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">==</span><span style="color: #BA2121">&#39; &#39;</span>)printf(<span style="color: #BA2121">&quot;/ &quot;</span>);
         <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(ch<span style="color: #666666">==</span><span style="color: #BA2121">&#39;\r&#39;</span>)printf(<span style="color: #BA2121">&quot;</span><span style="color: #BB6622; font-weight: bold">\r\n</span><span style="color: #BA2121">&quot;</span>);
-        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">continue</span>;
     }
     <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
 }
 </pre></div>
 }}
 ----------------------------------------
+{{EXERCISE-ANS-9 
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">// Soon!</span>
+</pre></div>
+}}
 ----------------------------------------
 ----------------------------------------
 ----------------------------------------
