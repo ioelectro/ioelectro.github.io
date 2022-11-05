@@ -7,7 +7,7 @@
 {{DESCRIPTION وبلاگ}}
 {{READ-MORE ادامه مطلب}}
 ----------------------------------------
-{{BLOG-POST-NUM 15}}
+{{BLOG-POST-NUM 16}}
 ----------------------------------------
 {{BLOG-POST-TITLE-1
     برنامه نویسی و دیباگ STM32 در VSCode
@@ -157,5 +157,16 @@ SMT Notes}}
 {{BLOG-POST-BTN-15     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-15
 آموزش کالیبراسیون ترازو و باسکول هایی که نمایشگر محک در آنها استفاده شده است.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-16 چالش دیکد کد مورس به زبان C}}
+{{BLOG-POST-LINK-16    {{HOME-DIR}}/blog/morse-decoder/}}
+{{BLOG-POST-IMG-16     {{UPLOAD-DIR}}/code.jpg}}
+{{BLOG-POST-BTN-16     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-16
+در این قسمت پاسخ های شرکت کنندگان در چالش برنامه نویسی با موضوع نوشتن دیکدر
+<a class="link" href="https://en.wikipedia.org/wiki/Morse_code">کد مورس</a>
+به زبان C 
+را مشاهده کنید.
 }}
 ----------------------------------------

@@ -108,7 +108,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 ----------------------------------------
 {{EXERCISE-NUM-9 9}}
 {{EXERCISE-TITLE-9 
-برنامه ای بنویسید که کد مورس را دریافت کند و به حروف و اعداد معادل آن ترجمه کند.
+برنامه ای بنویسید که کد مورس را از کیبرد دریافت کند و به حروف و اعداد معادل آن ترجمه کند و نمایش دهد.
 }}
 ----------------------------------------
 {{EXERCISE-NUM- }}
@@ -198,7 +198,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 ----------------------------------------
 ----------------------------------------
 {{EXERCISE-ANS-1
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;stdio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     <span style="color: #B00040">char</span> name[<span style="color: #666666">64</span>];
@@ -211,7 +211,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-2 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;conio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include&lt;conio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     getch();
@@ -221,7 +221,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-3 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     <span style="color: #B00040">float</span> n1,n2,ans<span style="color: #666666">=0</span>;
@@ -241,7 +241,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-4 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     <span style="color: #B00040">int</span> n<span style="color: #666666">=0</span>;
@@ -255,7 +255,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-5 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
@@ -275,7 +275,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-6 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
     <span style="color: #B00040">int</span> i,j;
@@ -291,7 +291,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-7 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
 <span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
 {
@@ -307,7 +307,7 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-8 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<!-- HTML generated using hilite.me --><div class="en" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
 <span style="color: #BC7A00">#include &lt;ctype.h&gt;</span>
 <span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
 <span style="color: #008000; font-weight: bold">const</span> <span style="color: #B00040">char</span> morse[][<span style="color: #666666">5</span>]<span style="color: #666666">=</span>{<span style="color: #BA2121">&quot;.-&quot;</span>,<span style="color: #BA2121">&quot;-...&quot;</span>,<span style="color: #BA2121">&quot;-.-.&quot;</span>,<span style="color: #BA2121">&quot;-..&quot;</span>,<span style="color: #BA2121">&quot;.&quot;</span>,<span style="color: #BA2121">&quot;..-.&quot;</span>,<span style="color: #BA2121">&quot;--.&quot;</span>,<span style="color: #BA2121">&quot;....&quot;</span>,<span style="color: #BA2121">&quot;..&quot;</span>,<span style="color: #BA2121">&quot;.---&quot;</span>,<span style="color: #BA2121">&quot;-.-&quot;</span>,<span style="color: #BA2121">&quot;.-..&quot;</span>,<span style="color: #BA2121">&quot;--&quot;</span>,<span style="color: #BA2121">&quot;-.&quot;</span>,<span style="color: #BA2121">&quot;---&quot;</span>,<span style="color: #BA2121">&quot;.--.&quot;</span>,<span style="color: #BA2121">&quot;--.-&quot;</span>,<span style="color: #BA2121">&quot;.-.&quot;</span>,<span style="color: #BA2121">&quot;...&quot;</span>,<span style="color: #BA2121">&quot;-&quot;</span>,<span style="color: #BA2121">&quot;..-&quot;</span>,<span style="color: #BA2121">&quot;...-&quot;</span>,<span style="color: #BA2121">&quot;.--&quot;</span>,<span style="color: #BA2121">&quot;-..-&quot;</span>,<span style="color: #BA2121">&quot;-.--&quot;</span>,<span style="color: #BA2121">&quot;--..&quot;</span>};
@@ -330,11 +330,10 @@ C یک زبان کامپایل پذیر است - به این معنی که بر�
 }}
 ----------------------------------------
 {{EXERCISE-ANS-9 
-<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">// Soon!</span>
-</pre></div>
+<li>
+این سوال، یکی از چالش های برنامه نویسی IOElectro بوده است. برای مشاهده پاسخ ها
+<a class="link" href="https://ioelectro.ir/blog/morse-decoder/">اینجا</a>
+کلید کنید.
+</li>
 }}
-----------------------------------------
-----------------------------------------
-----------------------------------------
-----------------------------------------
 ----------------------------------------

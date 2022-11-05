@@ -1,0 +1,460 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE Morse Decoder}}
+{{PAGE-DESCRIPTION دیکدر کد مورس به زبان C}}
+----------------------------------------
+{{POST-TITLE چالش دیکد کد مورس به زبان C}}
+{{POST-DATE 1401/8/14}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/morse-decoder.txt}}
+----------------------------------------
+{{POST-BODY
+
+<p>
+در این قسمت پاسخ های شرکت کنندگان در چالش برنامه نویسی با موضوع نوشتن دیکدر
+<a class="link" href="https://en.wikipedia.org/wiki/Morse_code">کد مورس</a>
+به زبان C 
+را مشاهده کنید.
+</p>
+
+<p>کد شماره 1 :</p>
+<p class="en">main.c</p>
+<div class="en">{{CODE-1-1}}</div>
+<p class="en">main.h</p>
+<div class="en">{{CODE-1-2}}</div>
+<br>
+<p>کد شماره 2 :</p>
+<div class="en">{{CODE-2}}</div>
+<p>کد شماره 3 :</p>
+<div class="en">{{CODE-3}}</div>
+<p>کد شماره 4 :</p>
+<div class="en">{{CODE-4}}</div>
+}}
+----------------------------------------
+{{CODE-1-1
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">/**</span>
+<span style="color: #408080; font-style: italic"> * Morse Decoder</span>
+<span style="color: #408080; font-style: italic"> * By @vdarioush</span>
+<span style="color: #408080; font-style: italic"> * Sponsored by IOElectro</span>
+<span style="color: #408080; font-style: italic"> * 1401/08/13</span>
+<span style="color: #408080; font-style: italic"> */</span>
+
+<span style="color: #BC7A00">#include &quot;main.h&quot;</span>
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>(<span style="color: #B00040">int</span> argc, <span style="color: #B00040">char</span> <span style="color: #666666">*</span>argv[]) {
+    <span style="color: #B00040">char</span> code[<span style="color: #666666">500</span>];
+    <span style="color: #B00040">char</span> result[<span style="color: #666666">100</span>];
+    <span style="color: #B00040">int</span> i<span style="color: #666666">=0</span>, counter <span style="color: #666666">=</span> <span style="color: #666666">0</span>;
+    <span style="color: #B00040">int</span> index<span style="color: #666666">=1</span>;
+    <span style="color: #B00040">int</span> whitespace <span style="color: #666666">=</span> <span style="color: #666666">0</span>;    <span style="color: #408080; font-style: italic">//Whitespace and &quot; / &quot; flag</span>
+    scanf(<span style="color: #BA2121">&quot;%[^</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BA2121">]s&quot;</span>, code);
+    <span style="color: #008000; font-weight: bold">do</span>
+    {
+        <span style="color: #008000; font-weight: bold">if</span>(code[i]<span style="color: #666666">!=</span><span style="color: #BA2121">&#39; &#39;</span> <span style="color: #666666">&amp;&amp;</span> code[i]<span style="color: #666666">!=</span><span style="color: #BA2121">&#39;/&#39;</span>)
+        {
+            whitespace <span style="color: #666666">=</span> <span style="color: #666666">0</span>;
+            <span style="color: #008000; font-weight: bold">if</span>(code[i] <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;.&#39;</span>)
+                index <span style="color: #666666">=</span> index <span style="color: #666666">*</span> <span style="color: #666666">2</span>;
+            <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span> (code[i] <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;-&#39;</span>)
+                index <span style="color: #666666">=</span> index<span style="color: #666666">*2</span> <span style="color: #666666">+</span> <span style="color: #666666">1</span>;
+            <span style="color: #008000; font-weight: bold">else</span>
+                <span style="color: #008000; font-weight: bold">break</span>;
+        }
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(code[i]<span style="color: #666666">==</span><span style="color: #BA2121">&#39; &#39;</span>)
+        {
+            <span style="color: #008000; font-weight: bold">if</span>(<span style="color: #666666">!</span>whitespace)
+            {
+                result[counter] <span style="color: #666666">=</span> morse_tree[index];
+                counter<span style="color: #666666">++</span>;
+                index<span style="color: #666666">=1</span>;
+            }
+            whitespace <span style="color: #666666">=</span> <span style="color: #666666">1</span>;
+            
+        }
+        <span style="color: #008000; font-weight: bold">else</span>
+        {
+            <span style="color: #008000; font-weight: bold">if</span>(<span style="color: #666666">!</span>whitespace)
+            {
+                result[counter] <span style="color: #666666">=</span> morse_tree[index];
+                counter<span style="color: #666666">++</span>;
+                index<span style="color: #666666">=1</span>;
+            }
+            result[counter] <span style="color: #666666">=</span> <span style="color: #BA2121">&#39; &#39;</span>;
+            counter<span style="color: #666666">++</span>;
+            whitespace <span style="color: #666666">=</span> <span style="color: #666666">1</span>;         
+        }
+        i<span style="color: #666666">++</span>;
+    }<span style="color: #008000; font-weight: bold">while</span>(code[i]);
+    <span style="color: #008000; font-weight: bold">if</span>(index<span style="color: #666666">!=1</span>)
+        result[counter] <span style="color: #666666">=</span> morse_tree[index];    <span style="color: #408080; font-style: italic">//Last character</span>
+    counter<span style="color: #666666">++</span>;
+    result[counter] <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;\0&#39;</span>;
+    printf(<span style="color: #BA2121">&quot;%s&quot;</span>,result);
+}
+</pre></div>
+}}
+----------------------------------------
+{{CODE-1-2
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">/**</span>
+<span style="color: #408080; font-style: italic"> * Morse Decoder</span>
+<span style="color: #408080; font-style: italic"> * By @vdarioush</span>
+<span style="color: #408080; font-style: italic"> * Sponsored by IOElectro</span>
+<span style="color: #408080; font-style: italic"> * 1401/08/13</span>
+<span style="color: #408080; font-style: italic"> */</span>
+
+<span style="color: #BC7A00">#ifndef _MAIN_H_</span>
+<span style="color: #BC7A00">#define _MAIN_H_</span>
+
+<span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;stdlib.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;ctype.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;string.h&gt;</span>
+
+<span style="color: #008000; font-weight: bold">const</span> <span style="color: #B00040">char</span> morse_tree[<span style="color: #666666">64</span>] <span style="color: #666666">=</span> 
+{
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;E&#39;</span>,
+    <span style="color: #BA2121">&#39;T&#39;</span>,
+    <span style="color: #BA2121">&#39;I&#39;</span>,
+    <span style="color: #BA2121">&#39;A&#39;</span>,
+    <span style="color: #BA2121">&#39;N&#39;</span>,
+    <span style="color: #BA2121">&#39;M&#39;</span>,
+    <span style="color: #BA2121">&#39;S&#39;</span>,
+    <span style="color: #BA2121">&#39;U&#39;</span>,
+    <span style="color: #BA2121">&#39;R&#39;</span>,
+    <span style="color: #BA2121">&#39;W&#39;</span>,
+    <span style="color: #BA2121">&#39;D&#39;</span>,
+    <span style="color: #BA2121">&#39;K&#39;</span>,
+    <span style="color: #BA2121">&#39;G&#39;</span>,
+    <span style="color: #BA2121">&#39;O&#39;</span>,
+    <span style="color: #BA2121">&#39;H&#39;</span>,
+    <span style="color: #BA2121">&#39;V&#39;</span>,
+    <span style="color: #BA2121">&#39;F&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;L&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;P&#39;</span>,
+    <span style="color: #BA2121">&#39;J&#39;</span>,
+    <span style="color: #BA2121">&#39;B&#39;</span>,
+    <span style="color: #BA2121">&#39;X&#39;</span>,
+    <span style="color: #BA2121">&#39;C&#39;</span>,
+    <span style="color: #BA2121">&#39;Y&#39;</span>,
+    <span style="color: #BA2121">&#39;Z&#39;</span>,
+    <span style="color: #BA2121">&#39;Q&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;5&#39;</span>,
+    <span style="color: #BA2121">&#39;4&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;3&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;2&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;+&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;1&#39;</span>,
+    <span style="color: #BA2121">&#39;6&#39;</span>,
+    <span style="color: #BA2121">&#39;=&#39;</span>,
+    <span style="color: #BA2121">&#39;/&#39;</span>,    <span style="color: #408080; font-style: italic">//Slash is going to be the word dividers</span>
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;7&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;8&#39;</span>,
+    <span style="color: #BA2121">&#39;?&#39;</span>,
+    <span style="color: #BA2121">&#39;9&#39;</span>,
+    <span style="color: #BA2121">&#39;0&#39;</span>
+};
+
+
+<span style="color: #BC7A00">#endif</span>
+</pre></div>
+}}
+----------------------------------------
+{{CODE-2 
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">/**</span>
+<span style="color: #408080; font-style: italic"> * Morse Decoder</span>
+<span style="color: #408080; font-style: italic"> * By @rezabakhshi_98</span>
+<span style="color: #408080; font-style: italic"> * Sponsored by IOElectro</span>
+<span style="color: #408080; font-style: italic"> * 1401/08/13</span>
+<span style="color: #408080; font-style: italic"> */</span>
+
+<span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;string.h&gt;</span>
+
+<span style="color: #B00040">char</span> input[<span style="color: #666666">300</span>];
+<span style="color: #B00040">char</span> output[<span style="color: #666666">100</span>];
+<span style="color: #B00040">char</span> <span style="color: #666666">*</span>morseAlphabet[] <span style="color: #666666">=</span> {<span style="color: #BA2121">&quot;.-&quot;</span>, <span style="color: #BA2121">&quot;-...&quot;</span>, <span style="color: #BA2121">&quot;-.-.&quot;</span>, <span style="color: #BA2121">&quot;-..&quot;</span>, <span style="color: #BA2121">&quot;.&quot;</span>, <span style="color: #BA2121">&quot;..-.&quot;</span>,
+                         <span style="color: #BA2121">&quot;--.&quot;</span>, <span style="color: #BA2121">&quot;....&quot;</span>, <span style="color: #BA2121">&quot;..&quot;</span>, <span style="color: #BA2121">&quot;.---&quot;</span>, <span style="color: #BA2121">&quot;-.-&quot;</span>, <span style="color: #BA2121">&quot;.-..&quot;</span>, <span style="color: #BA2121">&quot;--&quot;</span>, <span style="color: #BA2121">&quot;-.&quot;</span>, <span style="color: #BA2121">&quot;---&quot;</span>, <span style="color: #BA2121">&quot;.--.&quot;</span>, <span style="color: #BA2121">&quot;--.-&quot;</span>,
+                         <span style="color: #BA2121">&quot;.-.&quot;</span>, <span style="color: #BA2121">&quot;...&quot;</span>, <span style="color: #BA2121">&quot;-&quot;</span>, <span style="color: #BA2121">&quot;..-&quot;</span>, <span style="color: #BA2121">&quot;...-&quot;</span>, <span style="color: #BA2121">&quot;.--&quot;</span>, <span style="color: #BA2121">&quot;-..-&quot;</span>, <span style="color: #BA2121">&quot;-.--&quot;</span>, <span style="color: #BA2121">&quot;--..&quot;</span>}; <span style="color: #408080; font-style: italic">// a-z</span>
+<span style="color: #B00040">char</span> <span style="color: #666666">*</span>morseNumber[] <span style="color: #666666">=</span> {<span style="color: #BA2121">&quot;-----&quot;</span>, <span style="color: #BA2121">&quot;.----&quot;</span>, <span style="color: #BA2121">&quot;..---&quot;</span>, <span style="color: #BA2121">&quot;...--&quot;</span>, <span style="color: #BA2121">&quot;....-&quot;</span>,
+                       <span style="color: #BA2121">&quot;.....&quot;</span>, <span style="color: #BA2121">&quot;-....&quot;</span>, <span style="color: #BA2121">&quot;--...&quot;</span>, <span style="color: #BA2121">&quot;---..&quot;</span>, <span style="color: #BA2121">&quot;----.&quot;</span>}; <span style="color: #408080; font-style: italic">// 0-9</span>
+<span style="color: #B00040">char</span> buffer[<span style="color: #666666">50</span>];
+<span style="color: #B00040">unsigned</span> <span style="color: #B00040">char</span> counter <span style="color: #666666">=</span> <span style="color: #666666">0</span>, outputCounter <span style="color: #666666">=</span> <span style="color: #666666">0</span>;
+
+<span style="color: #B00040">char</span> <span style="color: #0000FF">findCharacter</span>(<span style="color: #B00040">char</span> in[])
+{
+    <span style="color: #008000; font-weight: bold">if</span> (strlen(in) <span style="color: #666666">&lt;</span> <span style="color: #666666">5</span>)
+    {
+        <span style="color: #008000; font-weight: bold">for</span> (<span style="color: #B00040">int</span> a <span style="color: #666666">=</span> <span style="color: #666666">0</span>; a <span style="color: #666666">&lt;</span> <span style="color: #666666">26</span>; a<span style="color: #666666">++</span>)
+        {
+            <span style="color: #008000; font-weight: bold">if</span> (strcmp(in, morseAlphabet[a]) <span style="color: #666666">==</span> <span style="color: #666666">0</span>)
+            {
+               <span style="color: #008000; font-weight: bold">return</span> <span style="color: #BA2121">&#39;A&#39;</span> <span style="color: #666666">+</span> a;
+            }
+        }
+    }
+    <span style="color: #008000; font-weight: bold">else</span>
+    {
+        <span style="color: #008000; font-weight: bold">for</span> (<span style="color: #B00040">int</span> a <span style="color: #666666">=</span> <span style="color: #666666">0</span>; a <span style="color: #666666">&lt;</span> <span style="color: #666666">10</span>; a<span style="color: #666666">++</span>)
+        {
+            <span style="color: #008000; font-weight: bold">if</span> (strcmp(in, morseNumber[a]) <span style="color: #666666">==</span> <span style="color: #666666">0</span>)
+            {
+                <span style="color: #008000; font-weight: bold">return</span> <span style="color: #BA2121">&#39;0&#39;</span> <span style="color: #666666">+</span> a;
+            }
+ 
+        }
+    }
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #BA2121">&#39;?&#39;</span>;
+}
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
+{
+    printf(<span style="color: #BA2121">&quot;Enter morse code: &quot;</span>);
+    scanf(<span style="color: #BA2121">&quot;%[^</span><span style="color: #BB6622; font-weight: bold">\n</span><span style="color: #BA2121">]&quot;</span>, input);
+    <span style="color: #008000; font-weight: bold">for</span> (<span style="color: #B00040">int</span> a <span style="color: #666666">=</span> <span style="color: #666666">0</span>; a <span style="color: #666666">&lt;</span> strlen(input)<span style="color: #666666">+1</span>; a<span style="color: #666666">++</span>)
+    {
+        <span style="color: #008000; font-weight: bold">if</span> ((input[a] <span style="color: #666666">==</span> <span style="color: #666666">32</span>))
+        {
+            output[outputCounter<span style="color: #666666">++</span>] <span style="color: #666666">=</span> findCharacter(buffer);
+
+            memset(buffer, <span style="color: #BA2121">&#39;\0&#39;</span>, <span style="color: #666666">50</span>);
+            counter <span style="color: #666666">=</span> <span style="color: #666666">0</span>;
+        }
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span> (input[a] <span style="color: #666666">==</span> <span style="color: #BA2121">&#39;/&#39;</span>)
+        {
+            output[outputCounter<span style="color: #666666">++</span>] <span style="color: #666666">=</span> <span style="color: #BA2121">&#39; &#39;</span>;
+            a<span style="color: #666666">++</span>;
+        }
+        <span style="color: #008000; font-weight: bold">else</span>
+        {
+            buffer[counter] <span style="color: #666666">=</span> input[a];
+            counter<span style="color: #666666">++</span>;
+        }
+    }
+    <span style="color: #008000; font-weight: bold">if</span>(counter<span style="color: #666666">&gt;1</span>)
+    {
+     output[outputCounter<span style="color: #666666">++</span>]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;?&#39;</span>;
+     counter<span style="color: #666666">=0</span>;  
+    }
+    printf(<span style="color: #BA2121">&quot;your text: %s&quot;</span>, output);
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+</pre></div>
+}}
+----------------------------------------
+{{CODE-3 <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">/**</span>
+<span style="color: #408080; font-style: italic"> * Morse Decoder</span>
+<span style="color: #408080; font-style: italic"> * By @theghaffarzadeh</span>
+<span style="color: #408080; font-style: italic"> * Sponsored by IOElectro</span>
+<span style="color: #408080; font-style: italic"> * 1401/08/13</span>
+<span style="color: #408080; font-style: italic"> */</span>
+
+<span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;conio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;string.h&gt;</span>
+
+<span style="color: #BC7A00">#define mors_A	&quot;.-&quot;</span>
+<span style="color: #BC7A00">#define mors_B	&quot;-...&quot;</span>
+<span style="color: #BC7A00">#define mors_C	&quot;-.-.&quot;</span>
+<span style="color: #BC7A00">#define mors_D	&quot;-..&quot;</span>
+<span style="color: #BC7A00">#define mors_E	&quot;.&quot;</span>
+<span style="color: #BC7A00">#define mors_F	&quot;..-.&quot;</span>
+<span style="color: #BC7A00">#define mors_G	&quot;--.&quot;</span>
+<span style="color: #BC7A00">#define mors_H	&quot;....&quot;</span>
+<span style="color: #BC7A00">#define mors_I	&quot;..&quot;</span>
+<span style="color: #BC7A00">#define mors_J	&quot;.---&quot;</span>
+<span style="color: #BC7A00">#define mors_K	&quot;-.-&quot;</span>
+<span style="color: #BC7A00">#define mors_L	&quot;.-..&quot;</span>
+<span style="color: #BC7A00">#define mors_M	&quot;--&quot;</span>
+<span style="color: #BC7A00">#define mors_N	&quot;-.&quot;</span>
+<span style="color: #BC7A00">#define mors_O	&quot;---&quot;</span>
+<span style="color: #BC7A00">#define mors_P	&quot;.--.&quot;</span>
+<span style="color: #BC7A00">#define mors_Q	&quot;--.-&quot;</span>
+<span style="color: #BC7A00">#define mors_R	&quot;.-.&quot;</span>
+<span style="color: #BC7A00">#define mors_S	&quot;...&quot;</span>
+<span style="color: #BC7A00">#define mors_T	&quot;-&quot;</span>
+<span style="color: #BC7A00">#define mors_U	&quot;..-&quot;</span>
+<span style="color: #BC7A00">#define mors_V	&quot;...-&quot;</span>
+<span style="color: #BC7A00">#define mors_W	&quot;.--&quot;</span>
+<span style="color: #BC7A00">#define mors_X	&quot;-..-&quot;</span>
+<span style="color: #BC7A00">#define mors_Y	&quot;-.--&quot;</span>
+<span style="color: #BC7A00">#define mors_Z	&quot;--..&quot;</span>
+<span style="color: #BC7A00">#define mors_1	&quot;.----&quot;</span>
+<span style="color: #BC7A00">#define mors_2	&quot;..---&quot;</span>
+<span style="color: #BC7A00">#define mors_3	&quot;...--&quot;</span>
+<span style="color: #BC7A00">#define mors_4	&quot;....-&quot;</span>
+<span style="color: #BC7A00">#define mors_5	&quot;.....&quot;</span>
+<span style="color: #BC7A00">#define mors_6	&quot;-....&quot;</span>
+<span style="color: #BC7A00">#define mors_7	&quot;--...&quot;</span>
+<span style="color: #BC7A00">#define mors_8	&quot;---..&quot;</span>
+<span style="color: #BC7A00">#define mors_9	&quot;----.&quot;</span>
+<span style="color: #BC7A00">#define mors_0	&quot;-----&quot;</span>
+
+<span style="color: #B00040">char</span> str[<span style="color: #666666">100</span>];
+<span style="color: #B00040">char</span> mors[<span style="color: #666666">7</span>];
+<span style="color: #B00040">char</span> c;
+<span style="color: #B00040">int</span> i<span style="color: #666666">=0</span>,j<span style="color: #666666">=0</span>;
+
+<span style="color: #B00040">void</span> <span style="color: #0000FF">clear</span>(<span style="color: #B00040">void</span>)
+{
+	<span style="color: #008000; font-weight: bold">for</span>(<span style="color: #B00040">int</span> a<span style="color: #666666">=0</span>;a<span style="color: #666666">&lt;6</span>;a<span style="color: #666666">++</span>)
+	{
+		mors[a]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;\0&#39;</span>;
+	}
+    j<span style="color: #666666">=0</span>;
+}
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">mors_dec</span>()
+{
+
+    <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_A)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;A&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_B)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;B&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_C)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;C&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_D)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;D&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_E)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;E&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_F)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;F&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_G)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;G&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_H)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;H&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_I)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;I&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_J)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;J&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_K)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;K&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_L)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;L&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_M)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;M&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_N)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;N&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_O)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;O&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_P)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;P&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_Q)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;Q&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_R)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;R&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_S)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;S&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_T)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;T&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_U)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;U&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_V)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;V&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_W)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;W&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_X)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;X&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_Y)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;Y&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_Z)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;Z&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_1)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;1&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_2)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;2&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_3)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;3&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_4)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;4&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_5)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;5&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_6)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;6&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_7)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;7&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_8)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;8&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_9)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;9&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(strcmp(mors,mors_0)<span style="color: #666666">==0</span>)str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;0&#39;</span>;
+    <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">-1</span>;
+	i<span style="color: #666666">++</span>;
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span> (<span style="color: #B00040">void</span>)
+{
+    <span style="color: #008000; font-weight: bold">while</span>(c<span style="color: #666666">!=</span><span style="color: #BA2121">&#39;\r&#39;</span>)
+    {
+        c<span style="color: #666666">=</span>getch();
+        putchar(c);
+        <span style="color: #008000; font-weight: bold">if</span>((c<span style="color: #666666">==</span><span style="color: #BA2121">&#39;.&#39;</span>) <span style="color: #666666">||</span> (c<span style="color: #666666">==</span><span style="color: #BA2121">&#39;-&#39;</span>))
+        {
+            <span style="color: #008000; font-weight: bold">if</span>(j<span style="color: #666666">&lt;6</span>)mors[j<span style="color: #666666">++</span>]<span style="color: #666666">=</span>c;
+        }
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(c<span style="color: #666666">==</span><span style="color: #BA2121">&#39; &#39;</span>)
+        {
+            mors[j]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;\0&#39;</span>;
+            <span style="color: #008000; font-weight: bold">if</span>(mors_dec())<span style="color: #008000; font-weight: bold">if</span>(j)str[i<span style="color: #666666">++</span>]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;?&#39;</span>;
+            clear();
+        }
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(c<span style="color: #666666">==</span><span style="color: #BA2121">&#39;/&#39;</span>)str[i<span style="color: #666666">++</span>]<span style="color: #666666">=</span><span style="color: #BA2121">&#39; &#39;</span>;
+    }
+    str[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;\0&#39;</span>;
+    printf(<span style="color: #BA2121">&quot;</span><span style="color: #BB6622; font-weight: bold">\r\n</span><span style="color: #BA2121">&quot;</span>);
+    puts(str);
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+</pre></div>
+}}
+----------------------------------------
+{{CODE-4 <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">/**</span>
+<span style="color: #408080; font-style: italic"> * Morse Decoder</span>
+<span style="color: #408080; font-style: italic"> * By IOElectro</span>
+<span style="color: #408080; font-style: italic"> * 1401/08/13</span>
+<span style="color: #408080; font-style: italic"> */</span>
+
+<span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;ctype.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;string.h&gt;</span>
+
+<span style="color: #BC7A00">#define BUFFER_SIZE 256</span>
+
+<span style="color: #408080; font-style: italic">// 26 Code + 10 Num</span>
+<span style="color: #008000; font-weight: bold">const</span> <span style="color: #B00040">char</span> morse[][<span style="color: #666666">6</span>]<span style="color: #666666">=</span>{<span style="color: #BA2121">&quot;.-&quot;</span>,<span style="color: #BA2121">&quot;-...&quot;</span>,<span style="color: #BA2121">&quot;-.-.&quot;</span>,<span style="color: #BA2121">&quot;-..&quot;</span>,<span style="color: #BA2121">&quot;.&quot;</span>,<span style="color: #BA2121">&quot;..-.&quot;</span>,<span style="color: #BA2121">&quot;--.&quot;</span>,<span style="color: #BA2121">&quot;....&quot;</span>,<span style="color: #BA2121">&quot;..&quot;</span>,<span style="color: #BA2121">&quot;.---&quot;</span>,<span style="color: #BA2121">&quot;-.-&quot;</span>,<span style="color: #BA2121">&quot;.-..&quot;</span>,<span style="color: #BA2121">&quot;--&quot;</span>,<span style="color: #BA2121">&quot;-.&quot;</span>,<span style="color: #BA2121">&quot;---&quot;</span>,<span style="color: #BA2121">&quot;.--.&quot;</span>,<span style="color: #BA2121">&quot;--.-&quot;</span>,<span style="color: #BA2121">&quot;.-.&quot;</span>,<span style="color: #BA2121">&quot;...&quot;</span>,<span style="color: #BA2121">&quot;-&quot;</span>,<span style="color: #BA2121">&quot;..-&quot;</span>,<span style="color: #BA2121">&quot;...-&quot;</span>,<span style="color: #BA2121">&quot;.--&quot;</span>,<span style="color: #BA2121">&quot;-..-&quot;</span>,<span style="color: #BA2121">&quot;-.--&quot;</span>,<span style="color: #BA2121">&quot;--..&quot;</span>,<span style="color: #BA2121">&quot;-----&quot;</span>,<span style="color: #BA2121">&quot;.----&quot;</span>,<span style="color: #BA2121">&quot;..---&quot;</span>,<span style="color: #BA2121">&quot;...--&quot;</span>,<span style="color: #BA2121">&quot;....-&quot;</span>,<span style="color: #BA2121">&quot;.....&quot;</span>,<span style="color: #BA2121">&quot;-....&quot;</span>,<span style="color: #BA2121">&quot;--...&quot;</span>,<span style="color: #BA2121">&quot;---..&quot;</span>,<span style="color: #BA2121">&quot;----.&quot;</span>};
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">serchMorse</span>(<span style="color: #B00040">char</span> sign[])
+{
+    <span style="color: #B00040">int</span> i,s;
+    s<span style="color: #666666">=</span><span style="color: #008000; font-weight: bold">sizeof</span>(morse)<span style="color: #666666">/</span><span style="color: #008000; font-weight: bold">sizeof</span>(morse[<span style="color: #666666">0</span>]);
+    <span style="color: #008000; font-weight: bold">for</span>(i<span style="color: #666666">=0</span>;i<span style="color: #666666">&lt;</span>s;i<span style="color: #666666">++</span>)<span style="color: #008000; font-weight: bold">if</span>(<span style="color: #666666">!</span>strncmp(sign,morse[i],<span style="color: #666666">6</span>))<span style="color: #008000; font-weight: bold">return</span> i;
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">-1</span>;
+}
+
+<span style="color: #B00040">int</span> <span style="color: #0000FF">main</span>()
+{
+    <span style="color: #B00040">int</span> j<span style="color: #666666">=0</span>,i<span style="color: #666666">=0</span>;
+    <span style="color: #B00040">char</span> buf[BUFFER_SIZE],mBuf[<span style="color: #666666">6</span>];
+    gets(buf);
+    <span style="color: #008000; font-weight: bold">while</span>(<span style="color: #666666">1</span>)
+    {
+        <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;.&#39;</span><span style="color: #666666">||</span>buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;-&#39;</span>)
+        {
+            <span style="color: #008000; font-weight: bold">if</span>(i<span style="color: #666666">&lt;6</span>)mBuf[i<span style="color: #666666">++</span>]<span style="color: #666666">=</span>buf[j];
+        }
+        <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39; &#39;</span><span style="color: #666666">||</span>buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;\0&#39;</span><span style="color: #666666">||</span>buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;/&#39;</span>)
+        {
+            <span style="color: #008000; font-weight: bold">if</span>(<span style="color: #666666">!</span>i)
+            {
+                <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;/&#39;</span>)putchar(<span style="color: #BA2121">&#39; &#39;</span>);
+                <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">!=</span><span style="color: #BA2121">&#39;\0&#39;</span>)j<span style="color: #666666">++</span>;
+                <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">break</span>;
+                <span style="color: #008000; font-weight: bold">continue</span>;
+            }
+            mBuf[i]<span style="color: #666666">=</span><span style="color: #BA2121">&#39;\0&#39;</span>;
+            i<span style="color: #666666">=</span>serchMorse(mBuf);
+            <span style="color: #008000; font-weight: bold">if</span>(i<span style="color: #666666">&lt;0</span>)putchar(<span style="color: #BA2121">&#39;?&#39;</span>);
+            <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(i<span style="color: #666666">&lt;26</span>)putchar(<span style="color: #BA2121">&#39;A&#39;</span><span style="color: #666666">+</span>i);
+            <span style="color: #008000; font-weight: bold">else</span> putchar(<span style="color: #BA2121">&#39;0&#39;</span><span style="color: #666666">+</span>i<span style="color: #666666">-26</span>);
+            <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;/&#39;</span>)putchar(<span style="color: #BA2121">&#39; &#39;</span>);
+            <span style="color: #008000; font-weight: bold">else</span> <span style="color: #008000; font-weight: bold">if</span>(buf[j]<span style="color: #666666">==</span><span style="color: #BA2121">&#39;\0&#39;</span>)<span style="color: #008000; font-weight: bold">break</span>;
+            i<span style="color: #666666">=0</span>;
+        }
+        <span style="color: #008000; font-weight: bold">else</span> i<span style="color: #666666">=0</span>;
+        j<span style="color: #666666">++</span>;
+    }
+    <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">0</span>;
+}
+</pre></div>
+}}
+----------------------------------------
