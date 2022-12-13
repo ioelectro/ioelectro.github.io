@@ -21,8 +21,8 @@
             }}
             {{EXERCISE-BODY}}
             {{FOR(1,10)
-                <p>
-                    {{EXERCISE-NUM}}: {{EXERCISE-TITLE}}  <i class="link" onclick="openDiv('ex{{EXERCISE-NUM}}')">پاسخ</i>
+                <p id="qs{{EXERCISE-NUM}}">
+                    {{EXERCISE-NUM}}: {{EXERCISE-TITLE}}  <a class="link" href="#qs{{EXERCISE-NUM}}" onclick="openDiv('ex{{EXERCISE-NUM}}')">پاسخ</a>
                 </p>
                 <div class="w3-row w3-hide" id="ex{{EXERCISE-NUM}}">
                     {{EXERCISE-ANS}}
