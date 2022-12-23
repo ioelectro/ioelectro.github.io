@@ -7,7 +7,7 @@
 {{DESCRIPTION وبلاگ}}
 {{READ-MORE ادامه مطلب}}
 ----------------------------------------
-{{BLOG-POST-NUM 16}}
+{{BLOG-POST-NUM 17}}
 ----------------------------------------
 {{BLOG-POST-TITLE-1
     برنامه نویسی و دیباگ STM32 در VSCode
@@ -168,5 +168,13 @@ SMT Notes}}
 <a class="link" href="https://en.wikipedia.org/wiki/Morse_code">کد مورس</a>
 به زبان C 
 را مشاهده کنید.
+}}
+----------------------------------------
+{{BLOG-POST-TITLE-17 آموزش کار با اسیلوسکپ آنالوگ}}
+{{BLOG-POST-LINK-17    {{UPLOAD-DIR}}/oscop/oscop.pdf}}
+{{BLOG-POST-IMG-17     {{UPLOAD-DIR}}/oscop/oscop.jpg}}
+{{BLOG-POST-BTN-17     دانلود مستقیم PDF 1MB}}
+{{BLOG-POST-DESCRIPTION-17
+در ابن مقاله با کابرد اسیلوسکپ و نحوه استفاده از اسیلوسکپ آنالوگ آشنا بشید. 
 }}
 ----------------------------------------
