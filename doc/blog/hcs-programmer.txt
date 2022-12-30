@@ -1,0 +1,96 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload/hcs-programmer}}
+----------------------------------------
+{{PAGE-TITLE  پروگرام کردن HCS301}}
+{{PAGE-DESCRIPTION آموزش پروگرام کردن کلید رمزنگاری KeeLoq روی آیسی HCS301}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1401/10/9}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/hcs-programmer.txt}}
+----------------------------------------
+{{POST-BODY
+
+<p>
+HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت شرکت Microchip است که برای رمزنگاری از الگوریتم 
+<a href="https://en.wikipedia.org/wiki/KeeLoq" class="link">KeeLoq</a>
+ استفاده میکند.
+در این قسمت ما به نحوه پروگرام کردن کلید رمز و سایر اطلاعات، روی این آیسی میپردازیم.
+</p>
+
+<div class="w3-center">
+<img class="w3-image w3-round" src="{{UPLOAD-DIR}}/hcs301-pinout.jpg">
+<!-- <p class="img-text">hcs301 pinout</p> -->
+</div>
+
+<p>
+همان طور که در جدول زیر نشان داده شده است، برای پروگرام کردن این آیسی
+علاوه بر پایه های VDD و VSS به پایه های Clock و Data احتیاج داریم که برای
+تشخیص اونها باید به دیتاشیت مراجعه کرد.<br>
+معمولا پایه Data همون پایه PWM است و پایه S2 یا S3 به عنوان پایه Clock استفاده میشود.
+</p>
+
+<div class="w3-center">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/hcs301-pin-descriptions.jpg">
+    <!-- <p class="img-text">hcs301 pin descriptions</p> -->
+</div>
+
+<p>
+    سخت افزار مورد استفاده برای پروگرام کردن این آیسی، برد 
+    <a href="https://en.wikipedia.org/wiki/Arduino_Uno" class="link">Arduino Uno</a>
+    است.<br>
+    برنامه مربوط به این برد را از 
+    <a href="https://github.com/ioelectro/arduino-hcs-programmer/blob/main/hcs-programmer.ino" class="link">این لینک</a>
+     دریافت کنید و روی برد آرداینو پروگرام کنید.<br>
+    بعد از پروگرام کردن برد آرداینو، در واقع سخت افزار پروگرامر شما برای آیسی HCS301 آماده است.
+</p>
+
+<p>
+    مطابق تصویر زیر آیسی HCS301 را به برد آرداینو متصل کنید.
+</p>
+
+<div class="w3-center">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/pinout.jpg">
+    <p class="img-text">Schematic</p>
+</div>
+<br>
+<div class="w3-center">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/arduino-hcs-programmer.jpg">
+    <!-- <p class="img-text">Example</p> -->
+</div>
+<br>
+
+<p>
+    حالا نوبت به نرم افزار سمت کامپیوتر است. ما برای این منظور از ابزار متن باز
+    <a href="https://github.com/ioelectro/hcs-programmer-soft" class="link">HCS Programmer</a> استفاده میکنیم
+    که به زبان C# نوشته شده و نسخه قابل اجرا برای Windows از
+    <a href="https://github.com/ioelectro/hcs-programmer-soft/releases" class="link"> اینجا</a>
+    قابل دانلود است.
+</p>
+
+<p>
+    برد آرداینو را به کامپیوتر متصل کنید. کامپیوتر برد آرداینو را به صورت پورت COM شناسایی میکند و یک عدد به آن اختصاص میدهد.<br>
+    نرم افزار HCS Programmer که در مرحله قبل دانلود کردید را اجرا کنید.<br>
+    محیط نرم افزار در تصویر زیر قابل مشاهده است.
+</p>
+
+<div class="w3-center">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/hcs-Programmer-Soft.jpg">
+    <p class="img-text">HCS Programmer</p>
+</div>
+
+<p>
+    نحوه کار با ابزار بسیار ساده است.
+    از قسمت Port پورت COM مربوط به برد آرداینو را انتخاب کنید و کلید Connect را فشار دهید.<br>
+    پارامترها را تنظیم کنید و در نهایت روی کلید Write کلیک کنید.
+</p>
+
+<p>
+لینک های مفید:<br>
+<ul>
+<li><a href="{{UPLOAD-DIR}}/hcs301.pdf" class="link">دیتاشیت HCS301</a></li>
+</ul>
+</p>
+
+}}
+----------------------------------------
