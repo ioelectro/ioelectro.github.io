@@ -8,7 +8,7 @@
     <!-- Main -->
     <div class="persian w3-animate-opacity">
         {{FOR({{BLOG-POST-NUM}},0,-1)
-            <div class="w3-row">
+            <div class="w3-row" id="p{{BLOG-POST-NUM}}">
                 <div class="w3-panel">
                     <div class=" w3-white w3-card-4 w3-round">
                         <div class="w3-row ">
@@ -21,6 +21,7 @@
                             </div>
                             <div class="w3-container w3-threequarter">
                                 <h3>
+                                    <a href="#p{{BLOG-POST-NUM}}">&#128279;</a>
                                     {{BLOG-POST-TITLE}}
                                 </h3>
                                 <hr>
