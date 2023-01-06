@@ -9,7 +9,7 @@ theme        = default-theme
 
 site         = ioelectro.ir
 
-default : generate map
+default : generate cp map
 ##################################### GENARATE ########################################
 # Use 'htmixer' for mix 'Doc' and 'Var' files.
 # for Example: htmixer OUTPUT_FILR -d DOC1 DOC2 -v VAR1 VAR2 VAR3
@@ -31,7 +31,6 @@ course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*.txt)))
 
 # Start Generate Static Web Pages
 generate :
-
 # Home
 	$(htmixer) ./$(generate-dir)/index.html \
 	-d ./$(theme)/header.html ./$(theme)/home.html ./$(theme)/footer.html \
@@ -80,6 +79,8 @@ generate :
 	-d ./$(theme)/header.html ./$(theme)/course-$$post.html ./$(theme)/footer.html \
 	-v ./doc/course/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
+################################### COPY FILES #######################################
+cp:
 # Copy Doc css and other files
 	cp -r $(theme)/css $(generate-dir)
 	cp -r $(theme)/js $(generate-dir)
@@ -89,6 +90,9 @@ generate :
 # cp -r doc/shop/upload $(generate-dir)/shop
 	cp -r doc/course/upload $(generate-dir)/course
 
+##################################### CLEAN ##########################################
+clean:
+	rm -rf $(generate-dir)
 #################################### SITEMAP ##########################################
 map:
 	$(smg) -s https://$(site) -n $(generate-dir)/sitemap.xml \
