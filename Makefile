@@ -82,13 +82,13 @@ generate :
 ################################### COPY FILES #######################################
 cp:
 # Copy Doc css and other files
-	cp -r $(theme)/css $(generate-dir)
-	cp -r $(theme)/js $(generate-dir)
-	cp -r $(theme)/fonts $(generate-dir)
-	cp -r $(theme)/img $(generate-dir)
-	cp -r doc/blog/upload $(generate-dir)/blog
+	cp -nr $(theme)/css $(generate-dir)
+	cp -nr $(theme)/js $(generate-dir)
+	cp -nr $(theme)/fonts $(generate-dir)
+	cp -nr $(theme)/img $(generate-dir)
+	cp -nr doc/blog/upload $(generate-dir)/blog
 # cp -r doc/shop/upload $(generate-dir)/shop
-	cp -r doc/course/upload $(generate-dir)/course
+	cp -nr doc/course/upload $(generate-dir)/course
 
 ##################################### CLEAN ##########################################
 clean:
