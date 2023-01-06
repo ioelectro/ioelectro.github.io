@@ -31,27 +31,6 @@ course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*.txt)))
 
 # Start Generate Static Web Pages
 generate :
-	rm -rf $(generate-dir)
-	mkdir $(generate-dir)
-
-# Make Dir
-	mkdir $(generate-dir)/blog
-# mkdir $(generate-dir)/shop
-	mkdir $(generate-dir)/about
-	mkdir $(generate-dir)/contacts
-	mkdir $(generate-dir)/course
-	mkdir $(foreach dir,$(blog-post-name),./$(generate-dir)/blog/$(dir))
-# mkdir $(foreach dir,$(shop-post-name),./$(generate-dir)/shop/$(dir))
-	mkdir $(foreach dir,$(course-post-name),./$(generate-dir)/course/$(dir))
-
-# Copy Doc css and other files
-	cp -r $(theme)/css $(generate-dir)
-	cp -r $(theme)/js $(generate-dir)
-	cp -r $(theme)/fonts $(generate-dir)
-	cp -r $(theme)/img $(generate-dir)
-	cp -r doc/blog/upload $(generate-dir)/blog
-# cp -r doc/shop/upload $(generate-dir)/shop
-	cp -r doc/course/upload $(generate-dir)/course
 
 # Home
 	$(htmixer) ./$(generate-dir)/index.html \
@@ -100,6 +79,15 @@ generate :
 	$(htmixer) ./$(generate-dir)/course/$$post/index.html \
 	-d ./$(theme)/header.html ./$(theme)/course-$$post.html ./$(theme)/footer.html \
 	-v ./doc/course/$$post.txt ./doc/com.txt ./doc/footer.txt;done
+
+# Copy Doc css and other files
+	cp -r $(theme)/css $(generate-dir)
+	cp -r $(theme)/js $(generate-dir)
+	cp -r $(theme)/fonts $(generate-dir)
+	cp -r $(theme)/img $(generate-dir)
+	cp -r doc/blog/upload $(generate-dir)/blog
+# cp -r doc/shop/upload $(generate-dir)/shop
+	cp -r doc/course/upload $(generate-dir)/course
 
 #################################### SITEMAP ##########################################
 map:
