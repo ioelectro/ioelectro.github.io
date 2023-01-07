@@ -9,6 +9,8 @@ theme        = default-theme
 
 site         = ioelectro.ir
 
+HTMFlags     = -l1
+
 default : generate cp map
 ##################################### GENARATE ########################################
 # Use 'htmixer' for mix 'Doc' and 'Var' files.
@@ -32,50 +34,50 @@ course-post-name = $(patsubst %.txt,%,$(notdir $(wildcard ./doc/course/*.txt)))
 # Start Generate Static Web Pages
 generate :
 # Home
-	$(htmixer) ./$(generate-dir)/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/index.html \
 	-d ./$(theme)/header.html ./$(theme)/home.html ./$(theme)/footer.html \
 	-v ./doc/home.txt ./doc/com.txt ./doc/footer.txt
 
 # About
-	$(htmixer) ./$(generate-dir)/about/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/about/index.html \
 	-d ./$(theme)/header.html ./$(theme)/about.html ./$(theme)/footer.html \
 	-v ./doc/about.txt ./doc/com.txt ./doc/footer.txt
 
 # Contacts
-	$(htmixer) ./$(generate-dir)/contacts/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/contacts/index.html \
 	-d ./$(theme)/header.html ./$(theme)/contacts.html ./$(theme)/footer.html \
 	-v ./doc/contacts.txt ./doc/com.txt ./doc/footer.txt
 
 # Blog
-	$(htmixer) ./$(generate-dir)/blog/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/blog/index.html \
 	-d ./$(theme)/header.html ./$(theme)/blog.html ./$(theme)/footer.html \
 	-v ./doc/blog.txt ./doc/com.txt ./doc/footer.txt
 
 # Blog post
 	for post in $(blog-post-name);do \
-	$(htmixer) ./$(generate-dir)/blog/$$post/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/blog/$$post/index.html \
 	-d ./$(theme)/header.html ./$(theme)/post.html ./$(theme)/footer.html \
 	-v ./doc/blog/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Shop
-# $(htmixer) ./$(generate-dir)/shop/index.html \
+# $(htmixer) $(HTMFlags) ./$(generate-dir)/shop/index.html \
 # -d ./$(theme)/header.html ./$(theme)/shop.html ./$(theme)/footer.html \
 # -v ./doc/shop.txt ./doc/com.txt ./doc/footer.txt
 
 # Shop post (product)
 # for post in $(shop-post-name);do \
-# $(htmixer) ./$(generate-dir)/shop/$$post/index.html \
+# $(htmixer) $(HTMFlags) ./$(generate-dir)/shop/$$post/index.html \
 # -d ./$(theme)/header.html ./$(theme)/product.html ./$(theme)/footer.html \
 # -v ./doc/shop/$$post.txt ./doc/product-ex.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Course
-	$(htmixer) ./$(generate-dir)/course/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/course/index.html \
 	-d ./$(theme)/header.html ./$(theme)/course.html ./$(theme)/footer.html \
 	-v ./doc/course.txt ./doc/com.txt ./doc/footer.txt
 
 # Course post
 	for post in $(course-post-name);do \
-	$(htmixer) ./$(generate-dir)/course/$$post/index.html \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/course/$$post/index.html \
 	-d ./$(theme)/header.html ./$(theme)/course-$$post.html ./$(theme)/footer.html \
 	-v ./doc/course/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
