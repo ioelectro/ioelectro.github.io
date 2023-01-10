@@ -1,8 +1,8 @@
 # Makefile Template for HTMixer
 # by liyanboy74
 
-htmixer		="C:/Program Files (x86)/htmixer/bin/htmixer.exe"
-smg         ="C:/Program Files (x86)/smg/bin/smg.exe"
+htmixer		 = htmixer
+smg          = smg
 
 generate-dir = gh-pages
 theme        = default-theme
