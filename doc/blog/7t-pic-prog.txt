@@ -76,7 +76,7 @@ Timing Delay Factor
 
 <p>هشدار: هرگونه اتصال تغذیه و اعمال ولتاژ بیش از 5 ولت و یا جریان بیش از 100 میلی آمپر به درگاه موازی موجب آسیب دیدن رایانه میشود!</p>
 
-<p><a href="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.pdf" class="link">
+<p><a href="{{UPLOAD-DIR}}/7t-pic-prog/7-transistor-pic-programmer.PDF" class="link">
 دریافت شماتیک به صورت فایل PDF
 </a></p>
 

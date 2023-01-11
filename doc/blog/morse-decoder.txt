@@ -72,7 +72,7 @@
 </p>
 
 <div class="w3-center">
-    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/3.jpg">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/3.JPG">
 </div>
 
 <p>چون درخت کد مورس، برگ‌هایی در راست‌ترین و چپ‌ترین قسمت خودش داره، مجبوریم کل درخت رو با در نظر گرفتن گره‌های خالی پیاده سازی کنیم. همون آرایه کاراکتری morse_tree. اندیس ۱ میشه گره start و به ترتیب  ۲ میشه گره E ، ۳ گره T  و ...
@@ -81,7 +81,7 @@
 </p>
 
 <div class="w3-center">
-    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/4.jpg">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/4.JPG">
 </div>
 
 <p>
