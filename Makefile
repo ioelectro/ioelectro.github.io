@@ -1,7 +1,7 @@
 # Makefile Template for HTMixer
 # by liyanboy74
 
-htmixer		 = htmixer
+htmixer      = htmixer
 smg          = smg
 
 generate-dir = gh-pages
