@@ -42,7 +42,7 @@ Just load in Home page
 }}
 ----------------------------------------
 {{HOME-POST-TXT-1
-<h2>Open source</h2>
+<h2>پروژه های ما</h2>
 <p>
     پروژه های متن باز ما به نشانی
     <a href="https://github.com/ioelectro" class="link"> https://github.com/ioelectro </a>
