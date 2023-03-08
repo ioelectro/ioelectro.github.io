@@ -6,7 +6,7 @@
 {{TXT-HOME  خانه}}
 {{TXT-ABOUT درباره ما}}
 {{TXT-CONTACTS  تماس با ما}}
-{{TXT-COURSE دوره های آموزشی}}
+{{TXT-COURSE آموزشی}}
 ----------------------------------------
 {{SITE-DEPLOY-LOC https://github.com/ioelectro/ioelectro.github.io/blob/main/doc}}
 ----------------------------------------
