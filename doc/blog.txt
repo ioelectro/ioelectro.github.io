@@ -7,7 +7,7 @@
 {{DESCRIPTION وبلاگ}}
 {{READ-MORE ادامه مطلب}}
 ----------------------------------------
-{{BLOG-POST-NUM 20}}
+{{BLOG-POST-NUM 19}}
 ----------------------------------------
 {{BLOG-POST-NUM-1 1}}
 {{BLOG-POST-TITLE-1
@@ -207,23 +207,23 @@ HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت �
 در این قسمت ما به نحوه پروگرام کردن کلید رمز و سایر اطلاعات، روی این آیسی میپردازیم.
 }}
 ----------------------------------------
-{{BLOG-POST-NUM-19 19}}
-{{BLOG-POST-TITLE-19 لیبل کیبورد روسی}}
-{{BLOG-POST-LINK-19    https://github.com/liyanboy74/english-russian-persian-keyboard-label}}
-{{BLOG-POST-IMG-19     {{UPLOAD-DIR}}/erp-keyboard-label.jpg}}
-{{BLOG-POST-BTN-19     پرش به منبع}}
-{{BLOG-POST-DESCRIPTION-19
+{{BLOG-POST-NUM-19-Hiden 19}}
+{{BLOG-POST-TITLE-19-Hiden لیبل کیبورد روسی}}
+{{BLOG-POST-LINK-19-Hiden    https://github.com/liyanboy74/english-russian-persian-keyboard-label}}
+{{BLOG-POST-IMG-19-Hiden     {{UPLOAD-DIR}}/erp-keyboard-label.jpg}}
+{{BLOG-POST-BTN-19-Hiden     پرش به منبع}}
+{{BLOG-POST-DESCRIPTION-19-Hiden
  دریافت فایل لایه باز لیبل کیبورد زبان روسی به همراه فارسی و انگلیسی.
 به سادگی با پرینت این فایل روی یک لیبل میشه یه کیبورد اختصاصی داشت.
 فایل به صورت لایه باز است و به سادگی قابلیت کاستوم کردن دارد.
 }}
 ----------------------------------------
-{{BLOG-POST-NUM-20 20}}
-{{BLOG-POST-TITLE-20 اتصال مستقیم دوربین به تلویزیون}}
-{{BLOG-POST-LINK-20    {{HOME-DIR}}/blog/cctotv/}}
-{{BLOG-POST-IMG-20     {{UPLOAD-DIR}}/cctotv/cctotv.jpg}}
-{{BLOG-POST-BTN-20     {{READ-MORE}}}}
-{{BLOG-POST-DESCRIPTION-20
+{{BLOG-POST-NUM-19 19}}
+{{BLOG-POST-TITLE-19 اتصال مستقیم دوربین به تلویزیون}}
+{{BLOG-POST-LINK-19    {{HOME-DIR}}/blog/cctotv/}}
+{{BLOG-POST-IMG-19     {{UPLOAD-DIR}}/cctotv/cctotv.jpg}}
+{{BLOG-POST-BTN-19     {{READ-MORE}}}}
+{{BLOG-POST-DESCRIPTION-19
 گاهی اوقات لازمه که یه دوربین رو مستقیما 
 به تلویزیون متصل کنید، زمانی که میخواید به صورت زنده تصویر رو دریافت کنید و
 نیازی به ذخیره تصاویر ندارید، اگر میخوای بدونی چطور!؟ پس ادامه رو بخون.
