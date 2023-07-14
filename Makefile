@@ -60,15 +60,15 @@ generate :
 	-v ./doc/blog/$$post.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Shop
-# $(htmixer) $(HTMFlags) ./$(generate-dir)/shop/index.html \
-# -d ./$(theme)/header.html ./$(theme)/shop.html ./$(theme)/footer.html \
-# -v ./doc/shop.txt ./doc/com.txt ./doc/footer.txt
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/shop/index.html \
+	-d ./$(theme)/header.html ./$(theme)/shop.html ./$(theme)/footer.html \
+	-v ./doc/shop.txt ./doc/com.txt ./doc/footer.txt
 
 # Shop post (product)
-# for post in $(shop-post-name);do \
-# $(htmixer) $(HTMFlags) ./$(generate-dir)/shop/$$post/index.html \
-# -d ./$(theme)/header.html ./$(theme)/product.html ./$(theme)/footer.html \
-# -v ./doc/shop/$$post.txt ./doc/product-ex.txt ./doc/com.txt ./doc/footer.txt;done
+	for post in $(shop-post-name);do \
+	$(htmixer) $(HTMFlags) ./$(generate-dir)/shop/$$post/index.html \
+	-d ./$(theme)/header.html ./$(theme)/product.html ./$(theme)/footer.html \
+	-v ./doc/shop/$$post.txt ./doc/product-ex.txt ./doc/com.txt ./doc/footer.txt;done
 
 # Course
 	$(htmixer) $(HTMFlags) ./$(generate-dir)/course/index.html \
@@ -89,7 +89,7 @@ cp:
 	cp -nr $(theme)/fonts $(generate-dir)
 	cp -nr $(theme)/img $(generate-dir)
 	cp -nr doc/blog/upload $(generate-dir)/blog
-# cp -r doc/shop/upload $(generate-dir)/shop
+	cp -r doc/shop/upload $(generate-dir)/shop
 	cp -nr doc/course/upload $(generate-dir)/course
 
 ##################################### CLEAN ##########################################
@@ -100,8 +100,8 @@ map:
 	$(smg) -s https://$(site) -n $(generate-dir)/sitemap.xml \
 	-d contacts -d about \
 	-d course $(addprefix -p,$(course-post-name)) \
-	-d blog $(addprefix -p,$(blog-post-name))
-# -d shop $(addprefix -p,$(shop-post-name))
+	-d blog $(addprefix -p,$(blog-post-name)) \
+	-d shop $(addprefix -p,$(shop-post-name))
 
 
 ##################################### DEPLOY ##########################################

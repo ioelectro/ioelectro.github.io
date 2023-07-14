@@ -1,7 +1,7 @@
 {{SITE-NAME IOElectro}}
 {{SITE-LANG fa}}
 ----------------------------------------
-{{TXT-SHOP  فروشگاه}}
+{{TXT-SHOP  محصولات}}
 {{TXT-BLOG  بلاگ}}
 {{TXT-HOME  خانه}}
 {{TXT-ABOUT درباره ما}}
