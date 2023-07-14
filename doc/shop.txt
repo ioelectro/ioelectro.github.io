@@ -49,7 +49,7 @@ IOESO
 اسیلوسکپ ساده و کم هزینه
 }}
 {{SHOP-POST-LINK-3    {{HOME-DIR}}/shop/ioeso/}}
-{{SHOP-POST-IMG-3     {{HOME-DIR}}/img/no-img.jpg}}
+{{SHOP-POST-IMG-3      {{UPLOAD-DIR}}/ioeso/img/1-web-m.jpg}}
 {{SHOP-POST-BTN-3     {{READ-MORE}}}}
 {{SHOP-POST-DESCRIPTION-3
 IOESO 

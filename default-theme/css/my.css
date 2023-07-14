@@ -128,3 +128,8 @@ a:hover{
     margin-bottom: 30px;
     width: 100%;
 }
+.product-ex-img{
+    height: 100;
+    object-fit: cover;
+    width: 90;
+}

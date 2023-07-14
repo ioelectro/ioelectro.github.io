@@ -1,58 +1,117 @@
 {{HOME-DIR ../..}}
-{{UPLOAD-DIR {{HOME-DIR}}/shop/upload/water-pump-timer}}
+{{UPLOAD-DIR {{HOME-DIR}}/shop/upload/ioeso}}
 ----------------------------------------
 {{PRODUCT-PRICE-UNIT تومان}}
 {{PRODUCT-PRICE-TXT قیمت}}
-{{PRODUCT-OPTIONS-TXT قابلیت ها}}
+{{PRODUCT-OPTIONS-TXT مشخصات}}
 {{PRODUCT-STATUS-TXT وضعیت}}
 {{PRODUCT-INFO-TXT اطلاعات}}
 {{PRODUCT-MORE-INFO-TXT اطلاعات بیشتر}}
 {{PRODUCT-CALL-BTN-TXT اطلاعات تماس}}
 ----------------------------------------
-{{PAGE-TITLE تایمر آبیاری}}
+{{PAGE-TITLE IOESO - اسیلوسکپ}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
 ----------------------------------------
-{{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/big.jpg}}
-{{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/medium.jpg}}
-{{PRODUCT-IMG-SMALL {{UPLOAD-DIR}}/img/small.jpg}}
+{{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/0-web-b.jpg}}
+{{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/0-web-m.jpg}}
 {{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
 ----------------------------------------
+{{PRODUCT-IMG-EX-NUM 4}}
+
+{{PRODUCT-IMG-EX-S-1 {{UPLOAD-DIR}}/img/1-web-s.jpg}}
+{{PRODUCT-IMG-EX-B-1 {{UPLOAD-DIR}}/img/1-web-b.jpg}}
+
+{{PRODUCT-IMG-EX-S-2 {{UPLOAD-DIR}}/img/2-web-s.jpg}}
+{{PRODUCT-IMG-EX-B-2 {{UPLOAD-DIR}}/img/2-web-b.jpg}}
+
+{{PRODUCT-IMG-EX-S-3 {{UPLOAD-DIR}}/img/3-web-s.jpg}}
+{{PRODUCT-IMG-EX-B-3 {{UPLOAD-DIR}}/img/3-web-b.jpg}}
+
+{{PRODUCT-IMG-EX-S-4 {{UPLOAD-DIR}}/img/4-web-s.jpg}}
+{{PRODUCT-IMG-EX-B-4 {{UPLOAD-DIR}}/img/4-web-b.jpg}}
+----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
-{{PRODUCT-PRICE 0}}
-{{PRODUCT-STATUS ناموجود}}
+{{PRODUCT-PRICE 500,000}}
+{{PRODUCT-STATUS سفارشی}}
 
 {{PRODUCT-TINY-INFO
- تایمر آبیاری هوشمند IOE با قابلیت کنترل پمپ و شیر برقی بر اساس برنامه زمانی متناسب با ماه های شمسی و ایام هفته و ساعات روز که میتوان با اتصال به رایانه به سادگی آن را برنامه ریزی کرد تا برای سالها در ساعات و دفعات و روزهای مختلف برای هر یک ماه پمپ و شیر برقی را کنترل کند.
+IOESO 
+یک کارت 
+<a class="link" href="https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%DB%8C%D9%84%D9%88%D8%B3%DA%A9%D9%88%D9%BE">اسیلوسکپ </a>
+و لاجیک ویور ساده، ارزان و غیر حرفه ای است که بر پایه اسیلوسکپ معروف 
+<a class="link" href="https://jyetech.com/dso-138-oscilloscope-diy-kit/">DSO138</a>
+طراحی و ساخته شده است، با این تفاوت که سرعت نمونه برداری بیشتر، لاجیک ویور 6 کانال و قابلیت های دیگری به آن افزوده شده است.
 }}
 
 {{PRODUCT-OPTIONS
-<li>قابلیت برنامه ریزی مجزا برای هر ماه</li>
-<li>آبیاری 5 بار در ساعات مختلف یک روز</li>
-<li>قابلیت تعریف مدت آبیاری به صورت مجزا برای هر بار آبیاری</li>
-<li>قابلیت فعال و غیر فعال کردن آبیاری در روز های خاصی از هفته</li>
-<li>سیستم محافظت از شیر برقی </li>
-<li>امکان کنترل دستی</li>
-<li>قابلیت نصب روی ریل تابلو برق</li>
-<li>دستگاه دارای یک سال ضمانت و خدمات پس از فروش است</li>
+<li>حداکثر سرعت نمونه برداری آنالوگ: 1.2Msps</li>
+<li>محدوده فرکانس آنالوگ قابل اندازه گیری:  0 - 200 KHz</li>
+<li>تفکیک پذیری محور ولتاژ : 8bit</li>
+<li>حد اکثر ولتاژ قابل اندازه گیری: 50Vpk</li>
+<li>امپدانس ورودی: 1M ohm</li>
+<li>حالت های تریگر: دستی، لبه بالا یا پایین رونده، آزاد</li>
+<li>حداکثر سرعت نمونه برداری دیجیتال: 1.7Msps</li>
+<li>منطق ولتاژ دیجیتال: 3.3 - 5 ولت</li>
+<li>تعداد کانال های دیجیتال: 6</li>
+<li>تعداد نمونه برداری در هر فریم: 2000</li>
+<li>فرکانس سیگنال تست داخلی : (پیشفرض) 100Hz</li>
+<li>کوپلینگ: DC, AC, GND</li>
 }}
 
 {{PRODUCT-BTN-INFO
-<a href="{{UPLOAD-DIR}}/files/SmartTimer.pdf"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود کاتالوگ محصول</button></a>
-<a href="{{UPLOAD-DIR}}/files/SmartTimer.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود نرم افزار ویندوز</button></a>
-<a href="{{UPLOAD-DIR}}/files/PL2303_Prolific_DriverInstaller_v1200.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود درایور</button></a>
+<a href="https://github.com/ioeso/ioeso-hardware"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود مدار اسیلوسکپ</button></a>
+<a href="https://github.com/ioeso/ioeso-software/releases"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود نرم افزار ویندوز</button></a>
+<a href="{{UPLOAD-DIR}}/file/CH341SER.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود درایور</button></a>
 }}
 
 {{PRODUCT-MORE-INFO
 <p>
-    به ازای هر یک ماه سال میتوان برنامه زمانبندی متفاوتی داشت که با انتخاب سربرگ های 1 تا 12 ماه های شمسی قابل ویرایش است.
-    <br>
-    برای کنترل پمپ و شیر برقی از رله 30 آمپری استفاده شده است که در صورت استفاده از تیغه NO حد اکثر جریان 30 آمپر، و برای تیغه NC حد اکثر جریان 20 آمپر مورد قبول میباشد.
-    <br>
-    به عنوان شیر برقی میتوان از شیر سلونوئید NO و NC  استفاده کرد ، ولی به دلیل کوتاه بودن زمان روشن بودن نسبت به زمان خاموش بودن توصیه میشود که از شیری استفاده شود که در حالت عادی بسته (NC) باشد.
+IOESO
+در واقع یک کارت اسیلوسکپ تک کاناله برای نمایش سیگنال آنالوگ
+و 6 کانال ورودی دیجیتال است.
+IOESO
+برای نمایش سیگنال های دیجیتال و آنالوگ احتیاج به اتصال به یک کامپیوتر یا لپتاب دارد، این اتصال از طریق درگاه USB انجام میشود.<br><br>
+تنظیمات اسیلوسکپ به دو بخش اصلی تقسیم میشوند:
+<li> الف- تنظیمات مربوط به ولتاژ ورودی و نحوه کوپلینگ.</li>
+<li> ب- تنظیمات مربوط به محور زمان و تریگر.</li>
+<br>
+ تنظیمات بخش الف از طریق کلید های روی اسیلوسکپ انجام میشود ولی تنظیمات مربوط به بخش ب از طریق نرم افزار سمت کامپیوتر تنظیم میشود.
 </p>
-<h3>نمای نرم افزار</h3>
+
+<h3>سخت افزار</h3>
+<p>
+در طراحی و ساخت سخت افزار اسیلوسکپ به دو عامل تکیه شده، اول کیفیت و دوم قیمت. برد مدار چاپی با بهترین کیفیت ممکن چاپ شده است
+  و استفاده از قطعات مناسب و مرغوب دلیل دیگری بر کیفیت خوب این ابزار دارد. همچنین جزعیات کامل مدار این اسیلوسکپ به همراه مدل سه بعدی به صورت رایگان از کلید های بالا قابل دریافت است.
 <div class="w3-center">
-    <a href="{{UPLOAD-DIR}}/files/SmartTimerApp.jpg"><img src="{{UPLOAD-DIR}}/files/SmartTimerApp.jpg" class="w3-image" alt="نمای نرم افزار"></a>
+    <a href="{{UPLOAD-DIR}}/img/main.jpg"><img src="{{UPLOAD-DIR}}/img/main.jpg" class="w3-image" ></a>
 </div>
+</p>
+
+<h3>درایور</h3>
+<p>
+پس از اتصال کارت اسیلوسکپ به کامپیوتر، کامپیوتر کارت اسیلوسکپ را به صورت یک پورت COM شناسایی میکند و به آن یک عدد اختصاص میدهد. 
+اگر کامپیوتر به صورت خودکار درایور را شناسایی نکرد، آنگاه احتیاج است که درایور مربوطه را از طریق کلید بالا دانلود و نصب کنید.
+اگر درایور را با موفقیت نصب کنید، با مراجعه به تنظیمات کامپیوتر در بخش 
+Device Manager --> Ports پورت متصل شده با نام CH340 به این شکل قابل مشاهده خواهد بود.
+<div class="w3-center">
+    <a href="{{UPLOAD-DIR}}/img/driver.png"><img src="{{UPLOAD-DIR}}/img/driver.png" class="w3-image"></a>
+</div>
+</p>
+
+<h3>نرم افزار</h3>
+<p>
+نرم افزار مربوطه را میتوانید از کلید های بالا دانلود کنید. نرم افزار به گونه ای طراحی شده است که قابلیت بروز رسانی خود و دستگاه را
+به ساده ترین شکل ممکن به کاربر بدهد. نسخه آزمایشی نرم افزار به زودی در دسترس قرار خواهد گرفت .
+</p>
+<p>
+نحوه اتصال به سخت افزار به سادگی و از طریق انتخاپ پورت در بخش Port و فشردن کلید Connect انجام میگیرد.<br>
+در بخش Mode میتوان حالت اسیلوسکپ یا لاجیک را انتخاب کرد. 
+در بخش Control میتوان سرعت نمونه گیری را تنظیم کرد و فرایند را آغاز کرد. همچنین در این بخش میتوان کنترل کاملی روی 
+تریگر داشت.
+<div class="w3-center">
+    <a href="{{UPLOAD-DIR}}/img/s1.png"><img src="{{UPLOAD-DIR}}/img/s1.png" class="w3-image" alt="نمای نرم افزار"></a>
+</div>
+</p>
+
 }}
 ----------------------------------------

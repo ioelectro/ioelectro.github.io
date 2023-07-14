@@ -10,6 +10,14 @@
                             <img class="w3-image max-width w3-round" src="{{PRODUCT-IMG-MEDIUM}}" alt="{{PRODUCT-IMG-ALT}}">
                         </a>
                     </div>
+                    <br>
+                    <div>
+                        {{FOR({{PRODUCT-IMG-EX-NUM}},0,-1)
+                            <a href="{{PRODUCT-IMG-EX-B}}" class="w3-hover-opacity ">
+                                <img class="product-ex-img w3-image w3-round" src="{{PRODUCT-IMG-EX-S}}">
+                            </a>
+                        }}
+                    </div>
                 </div>
                 <div class="w3-container w3-twothird">
                     <h3>{{PRODUCT-PRICE-TXT}}: {{PRODUCT-PRICE}} {{PRODUCT-PRICE-UNIT}}</h3>
