@@ -24,8 +24,8 @@ T01
 -
 تایمر آبیاری
 }}
-{{SHOP-POST-LINK-1    {{HOME-DIR}}/shop/water-pump-timer/}}
-{{SHOP-POST-IMG-1     {{UPLOAD-DIR}}/water-pump-timer/img/medium.jpg}}
+{{SHOP-POST-LINK-1    {{HOME-DIR}}/shop/t01/}}
+{{SHOP-POST-IMG-1     {{UPLOAD-DIR}}/t01/img/medium.jpg}}
 {{SHOP-POST-BTN-1     {{READ-MORE}}}}
 {{SHOP-POST-DESCRIPTION-1
 تایمر آبیاری IOE با قابلیت کنترل پمپ و شیر برقی بر اساس برنامه زمانی متناسب با ماه های شمسی و ایام هفته و ساعات روز که میتوان برای سالها در ساعات و دفعات و روزهای مختلف برای هر یک ماه پمپ و شیر برقی را کنترل کند. 

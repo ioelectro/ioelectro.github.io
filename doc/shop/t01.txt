@@ -1,5 +1,5 @@
 {{HOME-DIR ../..}}
-{{UPLOAD-DIR {{HOME-DIR}}/shop/upload/water-pump-timer}}
+{{UPLOAD-DIR {{HOME-DIR}}/shop/upload/t01}}
 ----------------------------------------
 {{PRODUCT-PRICE-UNIT تومان}}
 {{PRODUCT-PRICE-TXT قیمت}}
