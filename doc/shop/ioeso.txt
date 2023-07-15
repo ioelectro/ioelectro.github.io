@@ -59,8 +59,8 @@ IOESO
 }}
 
 {{PRODUCT-BTN-INFO
-<a href="https://github.com/ioeso/ioeso-hardware"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود مدار اسیلوسکپ</button></a>
-<a href="https://github.com/ioeso/ioeso-software/releases"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود نرم افزار</button></a>
+<a href="https://github.com/ioeso/ioeso-hardware/archive/refs/tags/v0.6.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود مدار اسیلوسکپ</button></a>
+<a href="https://github.com/ioeso/ioeso-software/releases/download/v0.0.4/IOESO-Install-v0.0.4.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود نرم افزار</button></a>
 <a href="{{UPLOAD-DIR}}/file/CH341SER.zip"><button class="w3-button w3-small w3-white w3-border w3-round">دانلود درایور</button></a>
 }}
 
