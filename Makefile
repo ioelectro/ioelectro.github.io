@@ -89,7 +89,7 @@ cp:
 	cp -nr $(theme)/fonts $(generate-dir)
 	cp -nr $(theme)/img $(generate-dir)
 	cp -nr doc/blog/upload $(generate-dir)/blog
-	cp -r doc/shop/upload $(generate-dir)/shop
+	cp -nr doc/shop/upload $(generate-dir)/shop
 	cp -nr doc/course/upload $(generate-dir)/course
 
 ##################################### CLEAN ##########################################
