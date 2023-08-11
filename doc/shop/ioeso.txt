@@ -153,6 +153,17 @@ Device Manager > Ports پورت متصل شده با نام CH340 به
 </div>
 </p>
 
+<h4>آموزش کار با نرم افزار IOESO</h4>
+<p>
+    <ul>
+        <li><a class="link" href="https://aparat.com/v/tNUya">اصلاح موقعیت سیگنال GND</a></li>
+        <li><a class="link" href="https://aparat.com/v/0Jck3">تغیر مقیاس نمایش زمان</a></li>
+        <li><a class="link" href="https://aparat.com/v/M0xmD">Sample Time</a></li>
+        <li><a class="link" href="https://aparat.com/v/1kSC9">تنظیم دامنه ولتاژ سیگنال ورودی</a></li>
+        <li><a class="link" href="https://aparat.com/v/1nSXz">کاربرد کلید f(x)</a></li>
+    </ul>
+</p>
+
 <h3>اقلام همراه محصول</h3>
 <p>
     <ul>
