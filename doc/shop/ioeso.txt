@@ -149,7 +149,7 @@ Device Manager > Ports پورت متصل شده با نام CH340 به
 </div>
 </p>
 
-<h4>آموزش کار با نرم افزار IOESO</h4>
+<h4>ویدیو آموزش کار با نرم افزار IOESO</h4>
 <p>
     <ul>
         <li><a class="link" href="https://aparat.com/v/tNUya">اصلاح موقعیت سیگنال GND</a></li>
