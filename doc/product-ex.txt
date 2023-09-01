@@ -32,6 +32,11 @@
           "@type": "Person",
           "name": "Esmaeill"
         }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{REVIEW-RATING-EX}},
+        "reviewCount": 1
       }
     }
     </script>
