@@ -19,7 +19,7 @@
         "priceCurrency": "{{PRODUCT-PRICE-UNIT-EX}}",
         "price": {{PRODUCT-PRICE-EX}},
         "priceValidUntil": "2025-11-20",
-        "availability": "https://schema.org/InStock"
+        "availability": "{{PRODUCT-EX-AVAILABILITY}}"
       },
       "review": {
         "@type": "Review",
@@ -36,3 +36,10 @@
     }
     </script>
 }}
+---------------------------------
+{{PRODUCT-EX-AVAILABILITY-OutOfStock https://schema.org/OutOfStock}}
+{{PRODUCT-EX-AVAILABILITY-LimitedAvailability https://schema.org/LimitedAvailability}}
+{{PRODUCT-EX-AVAILABILITY-PreSale https://schema.org/PreSale}}
+{{PRODUCT-EX-AVAILABILITY-InStock https://schema.org/InStock}}
+{{PRODUCT-EX-AVAILABILITY-Discontinued https://schema.org/Discontinued}}
+---------------------------------

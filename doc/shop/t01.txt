@@ -24,6 +24,7 @@
 {{PRODUCT-PRICE-EX 0}}
 {{PRODUCT-PRICE-UNIT-EX IRR}}
 {{REVIEW-RATING-EX 1}}
+{{PRODUCT-EX-AVAILABILITY {{PRODUCT-EX-AVAILABILITY-Discontinued}}}}
 ----------------------------------------
 
 {{PRODUCT-TINY-INFO
