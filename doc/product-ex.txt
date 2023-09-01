@@ -16,8 +16,22 @@
       },
       "offers": {
         "@type": "Offer",
-        "priceCurrency": "{{PRODUCT-PRICE-UNIT}}",
-        "price": "{{PRODUCT-PRICE}}"
+        "priceCurrency": "{{PRODUCT-PRICE-UNIT-EX}}",
+        "price": {{PRODUCT-PRICE-EX}},
+        "priceValidUntil": "2025-11-20",
+        "availability": "https://schema.org/InStock"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": {{REVIEW-RATING-EX}},
+          "bestRating": 5
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Esmaeill"
+        }
       }
     }
     </script>

@@ -14,6 +14,7 @@
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/0-web-b.jpg}}
 {{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/0-web-m.jpg}}
+{{PRODUCT-IMG-SMALL {{UPLOAD-DIR}}/img/4-web-b.jpg}}
 {{PRODUCT-IMG-ALT {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-IMG-EX-NUM 4}}
@@ -36,6 +37,10 @@
 ----------------------------------------
 {{PRODUCT-OLD-PRICE 680,000}}
 {{PRODUCT-OLD-PRICE-UNIT تومان}}
+----------------------------------------
+{{PRODUCT-PRICE-EX 6800000}}
+{{PRODUCT-PRICE-UNIT-EX IRR}}
+{{REVIEW-RATING-EX 3}}
 ----------------------------------------
 
 {{PRODUCT-TINY-INFO
