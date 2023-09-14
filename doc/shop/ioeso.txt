@@ -32,11 +32,12 @@
 {{PRODUCT-IMG-EX-B-4 {{UPLOAD-DIR}}/img/4-web-b.jpg}}
 ----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
-{{PRODUCT-PRICE 540,000}}
+{{!PRODUCT-PRICE 540,000}}
+{{PRODUCT-PRICE 680,000}}
 {{PRODUCT-STATUS سفارشی}}
 ----------------------------------------
-{{PRODUCT-OLD-PRICE 680,000}}
-{{PRODUCT-OLD-PRICE-UNIT تومان}}
+{{!PRODUCT-OLD-PRICE 680,000}}
+{{!PRODUCT-OLD-PRICE-UNIT تومان}}
 ----------------------------------------
 {{PRODUCT-PRICE-EX 6800000}}
 {{PRODUCT-PRICE-UNIT-EX IRR}}
