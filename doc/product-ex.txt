@@ -19,7 +19,15 @@
         "priceCurrency": "{{PRODUCT-PRICE-UNIT-EX}}",
         "price": {{PRODUCT-PRICE-EX}},
         "priceValidUntil": "2025-11-20",
-        "availability": "{{PRODUCT-EX-AVAILABILITY}}"
+        "availability": "{{PRODUCT-EX-AVAILABILITY}}",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IR",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       },
       "review": {
         "@type": "Review",
