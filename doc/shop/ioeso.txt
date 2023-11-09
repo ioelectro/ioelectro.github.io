@@ -9,7 +9,7 @@
 {{PRODUCT-MORE-INFO-TXT اطلاعات بیشتر}}
 {{PRODUCT-CALL-BTN-TXT اطلاعات تماس}}
 ----------------------------------------
-{{PAGE-TITLE IOESO - اسیلوسکوپ }}
+{{PAGE-TITLE کارت اسیلوسکوپ IOESO }}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/0-web-b.jpg}}

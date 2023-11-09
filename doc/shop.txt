@@ -44,9 +44,7 @@ H01
 }}
 ----------------------------------------
 {{SHOP-POST-TITLE-3
-IOESO
--
-اسیلوسکپ ساده
+کارت اسیلوسکوپ IOESO
 }}
 {{SHOP-POST-LINK-3    {{HOME-DIR}}/shop/ioeso/}}
 {{SHOP-POST-IMG-3      {{UPLOAD-DIR}}/ioeso/img/1-web-m.jpg}}
