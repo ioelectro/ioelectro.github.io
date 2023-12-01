@@ -84,7 +84,7 @@ generate :
 ################################### COPY FILES #######################################
 cp:
 # Copy Doc css and other files
-	cp -nr $(theme)/css $(generate-dir)
+	cp -r  $(theme)/css $(generate-dir)
 	cp -nr $(theme)/js $(generate-dir)
 	cp -nr $(theme)/fonts $(generate-dir)
 	cp -nr $(theme)/img $(generate-dir)
