@@ -23,7 +23,7 @@
 }}
 ----------------------------------------
 {{FONT-AWESOME
-<script src="https://kit.fontawesome.com/a5e077fccb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a5e077fccb.js" crossorigin="anonymous"></script>
 }}
 ----------------------------------------
 {{FA-CARET-LEFT <i class="fa-solid fa-caret-left"></i>}}

@@ -110,7 +110,7 @@ a:hover{
 .time-small-icon{
     height: 16px;
 }
-.dir-text,.edit-page-text,.img-text,.time-text,.time-text:hover{
+.gray,.dir-text,.edit-page-text,.img-text,.time-text,.time-text:hover{
     color:#757575!important;
 }
 .edit-page-text:hover{
