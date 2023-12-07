@@ -20,9 +20,7 @@
 }}
 ----------------------------------------
 {{SHOP-POST-TITLE-1
-T01
--
-تایمر آبیاری
+تایمر آبیاری T01
 }}
 {{SHOP-POST-LINK-1    {{HOME-DIR}}/shop/t01/}}
 {{SHOP-POST-IMG-1     {{UPLOAD-DIR}}/t01/img/medium.jpg}}
@@ -32,9 +30,7 @@ T01
 }}
 ----------------------------------------
 {{SHOP-POST-TITLE-2
-H01
--
-هویه قلمی
+هویه قلمی H01
 }}
 {{SHOP-POST-LINK-2    {{HOME-DIR}}/shop/h01/}}
 {{SHOP-POST-IMG-2     {{UPLOAD-DIR}}/h01/img/medium.jpg}}

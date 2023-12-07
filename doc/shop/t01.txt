@@ -9,7 +9,7 @@
 {{PRODUCT-MORE-INFO-TXT اطلاعات بیشتر}}
 {{PRODUCT-CALL-BTN-TXT اطلاعات تماس}}
 ----------------------------------------
-{{PAGE-TITLE تایمر آبیاری}}
+{{PAGE-TITLE تایمر آبیاری T01}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/big.jpg}}
