@@ -81,7 +81,7 @@
     <ul>
         <li><a href="https://www.arazsilicon.com/fa/" class="link">صنایع سیلیکون آراز</a></li>
         <li><a href="https://castco.ir/" class="link">Castco</a></li>
-
+        <li><a href="http://af.ferroalloys-saf.com/submerged-arc-furnace/silicon-metal-furnace.html" class="link">ferroalloys-saf.com</a>
     </ul>
 </p>
 
