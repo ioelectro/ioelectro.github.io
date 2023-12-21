@@ -108,8 +108,9 @@ map:
 # Deploy on Github Pages, branch [gh-pages]
 # more on : https://pypi.org/project/ghp-import/
 # Add CNAME by '-c SITENAME' command
-deploy:
-	ghp-import -c $(site) -p $(generate-dir)
+#
+# deploy:
+# 	ghp-import -c $(site) -p $(generate-dir)
 
 
 #######################################################################################
