@@ -28,52 +28,52 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v3
-      
+
       - name: get htmixer
         run: git clone https://github.com/liyanboy74/htmixer.git
-        
+
       - name: build & install htmixer
         run: |
          cd htmixer
-         mkdir build 
-         cd build 
-         cmake .. 
-         make 
-         make install 
+         mkdir build
+         cd build
+         cmake ..
+         make
+         make install
          cd ..
-         
+
       - name: get smg
         run: git clone https://github.com/liyanboy74/smg.git
-        
+
       - name: build & install smg
         run: |
-         cd smg 
-         mkdir build 
-         cd build 
-         cmake .. 
-         make 
-         make install 
+         cd smg
+         mkdir build
+         cd build
+         cmake ..
+         make
+         make install
          cd ..
-         
+
       - name: make
         run: make
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
             # Upload entire repository
             path: './gh-pages'
-  
+
     # Deploy job
     deploy:
       # Add a dependency to the build job
       needs: build
-      
+
       # Specify runner + deployment step
       runs-on: ubuntu-latest
-  
+
       steps:
         - name: Deploy to GitHub Pages
           id: deployment
           uses: actions/deploy-pages@v3
-          
+
