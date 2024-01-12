@@ -90,7 +90,7 @@ HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت �
 <p>
 لینک های مفید:<br>
 <ul>
-<li><a href="https://github.com/liyanboy74/KeeLoq" class="link">دیکد الگوریتم KeeLoq</a></li>
+<li><a href="https://ioelectro.ir/blog/keeloq/" class="link">دیکد الگوریتم KeeLoq</a></li>
 <li><a href="{{UPLOAD-DIR}}/hcs301.pdf" class="link">دیتاشیت HCS301</a></li>
 <li><a href="{{HOME-DIR}}/blog/#p2" class="link">پورت سریال در C#</a></li>
 </ul>
