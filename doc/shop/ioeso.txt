@@ -34,7 +34,7 @@
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
 {{!PRODUCT-PRICE 540,000}}
 {{PRODUCT-PRICE 680,000}}
-{{PRODUCT-STATUS سفارشی}}
+{{PRODUCT-STATUS ناموجود}}
 ----------------------------------------
 {{!PRODUCT-OLD-PRICE 680,000}}
 {{!PRODUCT-OLD-PRICE-UNIT تومان}}
