@@ -22,13 +22,10 @@
     </script>
 }}
 ----------------------------------------
-{{FONT-AWESOME }}
-<!-- <script src="https://kit.fontawesome.com/a5e077fccb.js" crossorigin="anonymous"></script> -->
+{{FONT-AWESOME <script src="https://kit.fontawesome.com/a5e077fccb.js" crossorigin="anonymous"></script>}}
 ----------------------------------------
 {{FA-CARET-LEFT >}}
 <!-- <i class="fa-solid fa-caret-left"></i> -->
 {{FA-HOUSE }}
 <!-- <i class="fa-solid fa-house"></i> -->
-{{FA_LINK }}
-<!-- <i class="fa-solid fa-link gray"></i> -->
 ----------------------------------------
