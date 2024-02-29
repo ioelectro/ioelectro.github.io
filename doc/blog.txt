@@ -248,7 +248,7 @@ HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت �
 {{BLOG-POST-NUM-21 21}}
 {{BLOG-POST-TITLE-21 دیکد الگوریتم keeloq}}
 {{BLOG-POST-LINK-21    {{HOME-DIR}}/blog/keeloq/}}
-{{BLOG-POST-IMG-21     {{UPLOAD-DIR}}/keeloq.jpg}}
+{{BLOG-POST-IMG-21     {{UPLOAD-DIR}}/keeloq/keeloq.jpg}}
 {{BLOG-POST-BTN-21     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-21
 ریموت های هاپینگ از الگوریتم keeloq برای رمزگذاری اطلاعات ارسالی استفاده میکنند. ما در این بخش به نحوه رمزگشایی سیگنال دریافتی میپردازیم

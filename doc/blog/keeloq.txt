@@ -1,5 +1,5 @@
 {{HOME-DIR ../..}}
-{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload/keeloq}}
 ----------------------------------------
 {{PAGE-TITLE دیکد الگوریتم keeloq}}
 {{PAGE-DESCRIPTION
@@ -51,17 +51,34 @@
     <br>
     پیاده سازی  انکد و دیکد کی‌لاک به زبان سی از لینک زیر قابل دریافته:
     <br>
-    <a href="https://github.com/hadipourh/KeeLoq" class="link">https://github.com/hadipourh/KeeLoq</a>
-    <br>
-    <br>
-    ولی معمولا ما از یک کامپیوتر برای دریافت کد و دیکد اون استفاده نمیکنیم، بلکه نیاز بود که الگوریتم انکد و دیکد رو بشه روی یک میکرو کنترلر ارزون پیاده کرد، به همین دلیل کد رو فورک کردم و کمی تغیر دادم:
-    <br>
     <a href="https://github.com/liyanboy74/KeeLoq" class="link">https://github.com/liyanboy74/KeeLoq</a>
 
 </p>
 <p>
     در هر کدوم از لینک‌ها میتونید اطلاعات کاملتری رو پیدا کنید.
 </p>
+
+<h3>پروژه عملی</h3>
+
+<p>
+توی این پروژه ما از یک گیرنده رادیویی استاندارد 433 مگاهرتز و برد آرداینو برای دریافت و دیکد اطلاعات استفاده میکنیم. 
+</p>
+<p>
+مطابق شمای زیر مدار را میبندیم و برد آرداینو رو به کامپیوتر متصل میکنیم. 
+</p>
+
+<div class="w3-center">
+<img class="w3-image w3-round" src="{{UPLOAD-DIR}}/pin-out.jpg">
+</div>
+
+<p>
+برنامه برد آرداینو رو از 
+<a class="link" href="https://github.com/liyanboy74/arduino-rf-rolling-code-keeloq-receiver/archive/refs/heads/main.zip"> این لینک </a>
+دریافت کنید و روی آرداینو پروگرام کنید. 
+</p>
+<p>
+ترمینال سریال برد آرداینو را فعال کنید و مقادیر دریافت شده رو برسی کنید. 
+<p>
 
 }}
 ----------------------------------------
