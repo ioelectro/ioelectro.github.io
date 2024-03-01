@@ -72,9 +72,11 @@
 </div>
 
 <p>
-برنامه برد آرداینو رو از 
-<a class="link" href="https://github.com/liyanboy74/arduino-rf-rolling-code-keeloq-receiver/archive/refs/heads/main.zip"> این لینک </a>
-دریافت کنید و روی آرداینو پروگرام کنید. 
+برنامه برد آرداینو رو میتونید 
+<a class="link" href="https://github.com/liyanboy74/arduino-rf-rolling-code-keeloq-receiver"> اینجا </a>
+پیدا کنید، برنامه رو  
+<a class="link" href="https://github.com/liyanboy74/arduino-rf-rolling-code-keeloq-receiver/archive/refs/heads/main.zip"> دانلود </a>
+کنید و روی آرداینو پروگرام کنید. 
 </p>
 <p>
 ترمینال سریال برد آرداینو را فعال کنید و مقادیر دریافت شده رو برسی کنید. 
