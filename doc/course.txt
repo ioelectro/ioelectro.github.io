@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE {{TXT-COURSE}}}}
 {{PAGE-DESCRIPTION دوره های آموزشی}}
+{{PAGE-KEYWORDS {{PAGE-TITLE}}}}
 ----------------------------------------
 {{DESCRIPTION در این قسمت میتوانید به ویدیو های آموزشی
  IOElectro

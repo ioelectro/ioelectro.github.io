@@ -2,6 +2,7 @@
 ----------------------------------------
 {{PAGE-TITLE {{TXT-CONTACTS}}}}
 {{PAGE-DESCRIPTION اطلاعات تماس با IOElectro}}
+{{PAGE-KEYWORDS {{PAGE-TITLE}}}}
 ----------------------------------------
 {{CONTACTS-BODY
     <h1>تماس با ما</h1>

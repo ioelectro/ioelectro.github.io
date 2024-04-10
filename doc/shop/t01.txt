@@ -11,6 +11,7 @@
 ----------------------------------------
 {{PAGE-TITLE تایمر آبیاری T01}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS {{PAGE-TITLE}}}}
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/big.jpg}}
 {{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/medium.jpg}}

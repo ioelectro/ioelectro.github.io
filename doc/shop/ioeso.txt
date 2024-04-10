@@ -11,6 +11,7 @@
 ----------------------------------------
 {{PAGE-TITLE کارت اسیلوسکوپ IOESO }}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS ioeso,{{PAGE-TITLE}},IOESO}}
 ----------------------------------------
 {{PRODUCT-IMG-BIG {{UPLOAD-DIR}}/img/0-web-b.jpg}}
 {{PRODUCT-IMG-MEDIUM {{UPLOAD-DIR}}/img/0-web-m.jpg}}
