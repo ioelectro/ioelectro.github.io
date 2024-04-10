@@ -4,6 +4,7 @@
 {{PAGE-DESCRIPTION
 با روش های مختلف کامپایل پروژه C آشنا بشید
 }}
+{{PAGE-KEYWORDS avr,make,cmake,c,build}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/20}}

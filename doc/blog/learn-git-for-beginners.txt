@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE آموزش git برای افراد مبتدی}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS git,github}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/8/6}}

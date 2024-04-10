@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE ساخت پروگرامر PIC با 7 ترانزیستور}}
 {{PAGE-DESCRIPTION ساخت یک پروگرامر ساده و ارزان برای پروگرام میکروکنترل های سری PIC با استفاده از 7 ترانزیستور و درگاه موازی (پرینتری).}}
+{{PAGE-KEYWORDS pic programmer, 7 transistor pic programmer, make simple programmer}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1401/4/22}}

@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE تحلیل مدار مولد ولتاژ منفی}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS negative voltage generator,schematic}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/5/28}}

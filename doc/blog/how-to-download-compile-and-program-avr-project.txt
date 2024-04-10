@@ -2,6 +2,7 @@
 ----------------------------------------
 {{PAGE-TITLE روش های دانلود کامپایل و پروگرام پروژه AVR}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS avr,project,how to download from github}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/4/26}}

@@ -2,6 +2,7 @@
 ----------------------------------------
 {{PAGE-TITLE طراحی نمای 3D قطعات Altium در SolidWorks}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS altium,solidworks,3d,model}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/4}}

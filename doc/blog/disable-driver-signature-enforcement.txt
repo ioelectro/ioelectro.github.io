@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE غیرفعال کردن Driver signature enforcement}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS disable driver signature enforcement,نصب درایور}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/3/17}}

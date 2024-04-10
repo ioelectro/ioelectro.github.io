@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE  پروگرام کردن HCS301}}
 {{PAGE-DESCRIPTION آموزش پروگرام کردن کلید رمزنگاری KeeLoq روی آیسی HCS301}}
+{{PAGE-KEYWORDS hcs programmer,hcs301,keeloq,پروگرامر هاپینگ,normal learn,secure learn}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1401/10/9}}

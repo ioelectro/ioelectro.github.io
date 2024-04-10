@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE برنامه نویسی و دیباگ STM32 در VSCode}}
 {{PAGE-DESCRIPTION {{PAGE-TITLE}}}}
+{{PAGE-KEYWORDS stm32 in vscode,vscode,stm32,gdb}}
 ----------------------------------------
 {{POST-TITLE {{PAGE-TITLE}}}}
 {{POST-DATE 1400/8/25}}

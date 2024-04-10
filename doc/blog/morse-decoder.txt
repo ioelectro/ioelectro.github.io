@@ -3,6 +3,7 @@
 ----------------------------------------
 {{PAGE-TITLE Morse Decoder}}
 {{PAGE-DESCRIPTION دیکدر کد مورس به زبان C}}
+{{PAGE-KEYWORDS morse decoder,c,morse}}
 ----------------------------------------
 {{POST-TITLE چالش دیکد کد مورس به زبان C}}
 {{POST-DATE 1401/8/14}}
