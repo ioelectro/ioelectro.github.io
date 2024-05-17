@@ -1,0 +1,89 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload/passive-bandpass-filter}}
+----------------------------------------
+{{PAGE-TITLE  فیلتر پسیو میانگذر}}
+{{PAGE-DESCRIPTION 
+فیلتر میانگذر به مداری گفته میشود که میتواند محدوده ای از فرکانس خاصی را به خروجی ارسال کند و سایر فرکانس ها را تا حدی بیشتر از
+-3db
+تضعیف کند. در این قسمت ما به برسی و شبیه سازی یک فیلتر پسیو میانگذر با استفاده از ترکیب فیلتر پایین گذر و بالا گذر RC میپردازیم.
+}}
+{{PAGE-KEYWORDS  فیلتر میانگذر, فیلتر پسیو میانگذر, فیلتر RC,PSPice,شبیه سازی ف میانگذر,دانلود پروژه PSPice}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1403/02/28}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/passive-bandpass-filter.txt}}
+----------------------------------------
+{{POST-BODY
+
+<p>
+
+فیلتر میانگذر به مداری گفته میشود که میتواند محدوده ای از فرکانس خاصی را به خروجی ارسال کند و سایر فرکانس ها را تا حدی بیشتر از
+-3db
+تضعیف کند. در این قسمت ما به برسی و شبیه سازی یک فیلتر پسیو میانگذر با استفاده از ترکیب فیلتر پایین گذر و بالا گذر RC میپردازیم.
+
+</p>
+
+<div class="w3-center">
+    <img class="w3-image w3-round" src="{{UPLOAD-DIR}}/passive-bandpass-filter.png" alt="Passive Band Pass Filter">
+    <p class="img-text">Passive Band Pass Filter</p>
+</div>
+
+<p>
+    قسمت چپ این مدار درواقع یک فیلتر بالا گذر است و قسمت راست یک فیلتر پایین گذر است.
+</p>
+
+<p>
+    فرکانس مدار RC از رابطه زیر قابل محاسبه است:
+    <div class="w3-center"><img class="w3-image" src="{{UPLOAD-DIR}}/eq1.gif" alt="RC Freq equ"></div>
+</p>
+
+<p>
+   برای فیلتر بالا گذر، اگر بخواهیم که فرکانس بالاتر از 1KHz عبور کند، مقدار خازن طبق معادله زیر محاسبه میشود:
+    <div class="w3-center"><img class="w3-image" src="{{UPLOAD-DIR}}/eq2.gif" alt="RC Freq equ"></div>
+</p>
+
+<p>
+    همچنین برای فیلتر پایین گذر، اگر بخواهیم که فرکانس کمتر از 30KHz عبور کند، مقدار خازن طبق معادله زیر محاسبه میشود:
+     <div class="w3-center"><img class="w3-image" src="{{UPLOAD-DIR}}/eq3.gif" alt="RC Freq equ"></div>
+ </p>
+
+
+ <p>
+طبق محاسبات بالا، مدار مورد نظر میبایست فرکانس بین 1Khz تا 30KHz را به خوبی عبور دهد و سایر فرکانس ها را تا حد قابل قبولی تضعیف کند.<br>
+قابل ذکر است که نزدیک ترین مقدار خازن موجود به محاسبات انتخاب شده اند.<br>
+دامنه ولتاژ خروجی فیلتر نسبت به فرکانس های مختلف ورودی با استفاده از نرم افزار PSPice شبیه سازی شده است و در نمودار زیر به مقیاس لگاریتمی و خطی قابل مشاهده است:
+
+</p>
+
+<div class="w3-container w3-center">
+    <img class="w3-image w3-half" src="{{UPLOAD-DIR}}/freq-log.png" alt="Passive Band Pass Filter">
+    <img class="w3-image w3-half" src="{{UPLOAD-DIR}}/freq.png" alt="Passive Band Pass Filter">
+</div>
+
+
+<p>
+     فرکانس مرکزی فیلتر از رابطه زیر به دست می آید:
+     <div class="w3-center"><img class="w3-image" src="{{UPLOAD-DIR}}/eq4.gif" alt="RC Freq equ"></div>
+</p>
+
+<p>
+   با جایگزاری مقدار واقعی خازن، فرکانس مرکزی به این شکل محاسبه میشود:
+    <div class="w3-center"><img class="w3-image" src="{{UPLOAD-DIR}}/eq5.gif" alt="RC Freq equ"></div>
+</p>
+
+<p>
+    برای دانلود فایل های شبیه سازی فیلتر پسیو میانگذر در نرم افزار PSPice 
+    <a class="link" href="{{UPLOAD-DIR}}/passive-bandpass-filter.zip">اینجا</a>
+    کلیک کنید.
+</p>
+
+<p>
+منابع:
+    <ul>
+        <li><a href="https://www.electronics-tutorials.ws/filter/filter_4.html" class="link">electronics-tutorials</a></li>
+    </ul>
+</p>
+
+}}
+----------------------------------------
