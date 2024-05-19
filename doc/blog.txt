@@ -259,7 +259,7 @@ HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت �
 {{BLOG-POST-NUM-22 22}}
 {{BLOG-POST-TITLE-22 فیلتر پسیو میانگذر}}
 {{BLOG-POST-LINK-22    {{HOME-DIR}}/blog/passive-bandpass-filter/}}
-{{BLOG-POST-IMG-22     {{UPLOAD-DIR}}/passive-bandpass-filter/schema.jpg}}
+{{BLOG-POST-IMG-22     {{UPLOAD-DIR}}/filter.jpg}}
 {{BLOG-POST-BTN-22     {{READ-MORE}}}}
 {{BLOG-POST-DESCRIPTION-22
 فیلتر میانگذر به مداری گفته میشود که میتواند محدوده ای از فرکانس خاصی را به خروجی ارسال کند و سایر فرکانس ها را تا حدی بیشتر از
