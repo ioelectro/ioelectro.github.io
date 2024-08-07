@@ -33,8 +33,8 @@
 {{PRODUCT-IMG-EX-B-4 {{UPLOAD-DIR}}/img/4-web-b.jpg}}
 ----------------------------------------
 {{PRODUCT-TITLE {{PAGE-TITLE}}}}
-{{!PRODUCT-PRICE 540,000}}
-{{PRODUCT-PRICE 680,000}}
+{{!PRODUCT-PRICE 680,000}}
+{{PRODUCT-PRICE 0}}
 {{PRODUCT-STATUS ناموجود}}
 ----------------------------------------
 {{!PRODUCT-OLD-PRICE 680,000}}
@@ -43,7 +43,7 @@
 {{PRODUCT-PRICE-EX 6800000}}
 {{PRODUCT-PRICE-UNIT-EX IRR}}
 {{REVIEW-RATING-EX 3}}
-{{PRODUCT-EX-AVAILABILITY {{PRODUCT-EX-AVAILABILITY-InStock}}}}
+{{PRODUCT-EX-AVAILABILITY {{PRODUCT-EX-AVAILABILITY-OutOfStock}}}}
 ----------------------------------------
 
 {{PRODUCT-TINY-INFO
