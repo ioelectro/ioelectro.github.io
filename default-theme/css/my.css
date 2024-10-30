@@ -133,3 +133,6 @@ a:hover{
     object-fit: cover;
     max-width: 88;
 }
+.clickable {
+cursor: pointer;
+}
