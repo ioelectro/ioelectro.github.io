@@ -268,7 +268,7 @@ HCS301 در واقع انکودر کد هاپینگ یا رولینگ ساخت �
 }}
 ----------------------------------------
 {{BLOG-POST-NUM-23 23}}
-{{BLOG-POST-TITLE-23 IDE برای میکروکنترلرهای فوجیتسو}}
+{{BLOG-POST-TITLE-23 IDE برای میکروکنترلرهای Fujitsu}}
 {{BLOG-POST-LINK-23    {{HOME-DIR}}/blog/fujitsu-dev/}}
 {{BLOG-POST-IMG-23     {{UPLOAD-DIR}}/fujitsu.jpg}}
 {{BLOG-POST-BTN-23     {{READ-MORE}}}}
