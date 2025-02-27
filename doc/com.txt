@@ -10,18 +10,6 @@
 ----------------------------------------
 {{SITE-DEPLOY-LOC https://github.com/ioelectro/ioelectro.github.io/blob/main/doc}}
 ----------------------------------------
-{{GOOGLE-TAG
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR461M9WRC"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WR461M9WRC');
-    </script>
-}}
-----------------------------------------
 {{FONT-AWESOME }}
 <!-- <script src="https://kit.fontawesome.com/a5e077fccb.js" crossorigin="anonymous"></script> -->
 ----------------------------------------
