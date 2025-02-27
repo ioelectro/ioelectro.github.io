@@ -1,0 +1,78 @@
+{{HOME-DIR ../..}}
+{{UPLOAD-DIR {{HOME-DIR}}/blog/upload}}
+----------------------------------------
+{{PAGE-TITLE  محیط توسعه نرم افزار یکپارچه برای میکروکنترلرهای فوجیتسو}}
+{{PAGE-DESCRIPTION
+فوجیتسو طیف کاملی از ابزارهای نرم افزاری از جمله کامپایلر ANSI C با کد بسیار بهینه، ماکرو اسمبلر، شبیه ساز و غیره را ارائه می دهد.
+ برای تسهیل کار، این محصولات در یک مجموعه واحد به نام "Softune" ترکیب می شوند که به شما امکان تولید کامپایل خودکار، شامل قابلیت های اشکال زدایی فراوان و سیستم کمک داخلی را می دهد
+}}
+{{PAGE-KEYWORDS  Softune,Fujitsu}}
+----------------------------------------
+{{POST-TITLE {{PAGE-TITLE}}}}
+{{POST-DATE 1403/12/09}}
+{{EDIT-TXT [ویرایش]}}
+{{EDIT-LINK {{SITE-DEPLOY-LOC}}/blog/fujitsu-dev.txt}}
+----------------------------------------
+{{POST-BODY
+
+<p>
+    فوجیتسو طیف کاملی از ابزارهای نرم افزاری از جمله کامپایلر ANSI C با کد بسیار بهینه، ماکرو اسمبلر، شبیه ساز و غیره را ارائه می دهد.<br>
+    برای تسهیل کار، این محصولات در یک مجموعه واحد به نام "Softune" ترکیب می شوند که به شما امکان تولید کامپایل خودکار، شامل قابلیت های اشکال زدایی فراوان و سیستم کمک داخلی را می دهد.<br>
+    مجموعه اصلی نرم افزار برای میکروکنترلرهای F 2 MC-8L/16L/16LX شامل عملکردهای زیر است:
+</p>
+
+<ul class="en">
+    <li>Simple menu system with "mouse" management</li>
+    <li>Support for collaboration on a multi-user project</li>
+    <li>Automatic start of the editor, compiler, assembler, and debugger</li>
+    <li>Moving to Error by Simply Pressing a Mouse</li>
+    <li>Using a built-in editor with spelling check, or external editor</li>
+    <li>Built-in guide to the compiler and assembler</li>
+    <li>Configuring the user's working environment</li>
+    <li>Preservation/rest recovery of the working environment </li>
+</ul>
+
+<p>امکانات دیباگر:</p>
+
+<ul class="en">
+    <li>Debugging in source texts (C, Assembler or mixed)</li>
+    <li>Navigation Features: Go, Go to line, Step out, Step over, Call function, Reset</li>
+    <li>Browsing Variables: Automatic Update (x Sec), formatting (Hex, Bin, etc.), structures</li>
+    <li>View Global and Local Variables</li>
+    <li>Memory Window : Formatting, Symbolic Debugging, Code Debugging, ASCII</li>
+    <li>Disassembler Window</li>
+    <li>Simulator : debugging of I/O operations with data storage, interrupt simulation</li>
+    <li>Service functions: log files and command files. </li>
+</ul>
+
+<p>امکانات شبیه ساز:</p>
+<ul class="en">
+    <li>Support for low-energy microcontrollers</li>
+    <li>Debugging in real time</li>
+    <li>Multi-level event controller</li>
+    <li>Viewing the contents of memory "on the fly"</li>
+    <li>Additional cables for connection in the debuggable system</li>
+</ul>
+
+<p>لیست دانلود:</p>
+<table class="en w3-table w3-border w3-bordered">
+    <th>File Name</th><th>Description</th>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/Fujitsu.zip">Fujitsu.zip</a></td><td>Example of schema, description and program for intrasystem programming of microcontrollers of the family F2MC16LX (MB90Fxx) (1400 Kb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/08STAPACK300012FME01.exe">08STAPACK300012FME01.exe</a></td><td>The freshest Integrated Development Environment, version 3.6, for 8-bit MB89 family (30 Mb) </td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/16STAPACK300018FME01.exe">16STAPACK300018FME01.exe</a></td><td>The most recent Integrated Development Environment, version 3.6, for 16-bit MB90 family (24 Mb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/FRSTAPACK600005FME01.exe">FRSTAPACK600005FME01.exe</a></td><td>The most recent Integrated Development Environment, Version 3.6, for 32-bit MB91 (30 Mb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/16bitstapack300017fme01.exe">16bitstapack300017fme01.exe</a></td><td>Integrated development environment, version 3.5, for 16-bit MB90 family (20 Mb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/frstapack600004fme01.exe">frstapack600004fme01.exe</a></td><td>Integrated development environment, version 3.5, for 32 bit family MB91 (16 Mb)</td></tr>
+<!---
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/stapack8_300010fme02.exe">stapack8_300010fme02.exe</a></td><td>Integrated development environment, version 3.4, for 8-bit family MB89 (40 Mb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/stapack300014fme02.exe">stapack300014fme02.exe</a></td><td>Integrated development environment, version 3.4, for 16 bit family MB90 (40 Mb)</td></tr>
+    <tr><td><a class="link" href="https://github.com/ioelectro/fujitsu-dev/raw/refs/heads/main/stapack32_300008fme01.exe">stapack32_300008fme01.exe</a></td><td>Integrated development environment, version 3.4, for 32-bit family MB91 (36 Mb)</td></tr>
+-->
+</table>
+<p class="en">Password: <b>Stdscd36</b> or <b>Stdscd35</b></p>
+
+
+
+
+}}
+----------------------------------------
